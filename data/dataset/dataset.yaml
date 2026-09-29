@@ -1,0 +1,9 @@
+path: 'C:/Users/shiva/OneDrive/Desktop/SIH project/data/dataset'
+train: images/train
+val: images/val
+
+names:
+  0: car
+  1: motorcycle
+  2: bus
+  3: truck

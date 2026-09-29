@@ -1,0 +1,32 @@
+# =============================================================================
+# AI Engine Python Dependencies
+# AI-Powered Smart Curb & Parking Intelligence Platform
+# =============================================================================
+
+# ─── Computer Vision / AI ────────────────────────────────────────────────────
+ultralytics==8.2.60              # YOLO v8/v9/v10/v11 (includes ByteTrack integration)
+opencv-python-headless==4.10.0.84 # OpenCV without GUI (for server/container use)
+numpy==1.26.4
+
+# ─── Data Processing ─────────────────────────────────────────────────────────
+pandas==2.2.2
+shapely==2.0.5                   # polygon intersection / overlap computation
+
+# ─── HTTP Client (push events to backend) ────────────────────────────────────
+httpx==0.27.0
+
+# ─── Configuration ────────────────────────────────────────────────────────────
+pydantic==2.7.4
+pydantic-settings==2.3.4
+python-dotenv==1.0.1
+
+# ─── Logging ──────────────────────────────────────────────────────────────────
+structlog==24.2.0
+
+# ─── Testing ──────────────────────────────────────────────────────────────────
+pytest==8.2.2
+
+# NOTE: PyTorch is a large dependency — install separately for your hardware:
+#   CPU only:  pip install torch torchvision --index-url https://download.pytorch.org/whl/cpu
+#   CUDA 12.1: pip install torch torchvision --index-url https://download.pytorch.org/whl/cu121 
+# ultralytics will pull torch automatically if not present; pin explicitly for reproducibility.

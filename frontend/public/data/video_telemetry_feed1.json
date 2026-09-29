@@ -1,0 +1,7402 @@
+{
+  "feed_id": "CAM-001",
+  "floor": "B1",
+  "video_file": "data/videos/car_video_02.mp4",
+  "resolution": "768x432",
+  "fps": 29.97002997002997,
+  "total_frames": 450,
+  "total_bays": 12,
+  "peak_vehicles": 12,
+  "keyframes": [
+    {
+      "frame_index": 0,
+      "timestamp_sec": 0.0,
+      "total_vehicles": 9,
+      "cars": 8,
+      "trucks": 1,
+      "motorcycles": 0,
+      "total_bays": 12,
+      "occupied_bays": 9,
+      "available_bays": 3,
+      "occupancy_percentage": 75.0,
+      "violations_count": 2,
+      "detections": [
+        {
+          "id": "det-0-0",
+          "track_id": 4000,
+          "class": "car",
+          "confidence": 0.724,
+          "xyxy": [
+            517.3,
+            293.7,
+            650.6,
+            378.3
+          ],
+          "css_rect": {
+            "left": "67.4%",
+            "top": "68.0%",
+            "width": "17.4%",
+            "height": "19.6%"
+          }
+        },
+        {
+          "id": "det-0-1",
+          "track_id": 4001,
+          "class": "car",
+          "confidence": 0.639,
+          "xyxy": [
+            389.3,
+            218.0,
+            434.7,
+            239.5
+          ],
+          "css_rect": {
+            "left": "50.7%",
+            "top": "50.5%",
+            "width": "5.9%",
+            "height": "5.0%"
+          }
+        },
+        {
+          "id": "det-0-2",
+          "track_id": 4002,
+          "class": "car",
+          "confidence": 0.609,
+          "xyxy": [
+            569.0,
+            218.3,
+            644.6,
+            249.1
+          ],
+          "css_rect": {
+            "left": "74.1%",
+            "top": "50.5%",
+            "width": "9.9%",
+            "height": "7.1%"
+          }
+        },
+        {
+          "id": "det-0-3",
+          "track_id": 4003,
+          "class": "car",
+          "confidence": 0.569,
+          "xyxy": [
+            302.4,
+            218.6,
+            353.5,
+            253.9
+          ],
+          "css_rect": {
+            "left": "39.4%",
+            "top": "50.6%",
+            "width": "6.7%",
+            "height": "8.2%"
+          }
+        },
+        {
+          "id": "det-0-4",
+          "track_id": 4004,
+          "class": "car",
+          "confidence": 0.524,
+          "xyxy": [
+            573.0,
+            261.5,
+            674.0,
+            314.3
+          ],
+          "css_rect": {
+            "left": "74.6%",
+            "top": "60.5%",
+            "width": "13.1%",
+            "height": "12.2%"
+          }
+        },
+        {
+          "id": "det-0-5",
+          "track_id": 4005,
+          "class": "car",
+          "confidence": 0.508,
+          "xyxy": [
+            494.5,
+            247.0,
+            583.9,
+            281.8
+          ],
+          "css_rect": {
+            "left": "64.4%",
+            "top": "57.2%",
+            "width": "11.6%",
+            "height": "8.1%"
+          }
+        },
+        {
+          "id": "det-0-6",
+          "track_id": 4006,
+          "class": "car",
+          "confidence": 0.394,
+          "xyxy": [
+            638.8,
+            194.7,
+            704.3,
+            244.2
+          ],
+          "css_rect": {
+            "left": "83.2%",
+            "top": "45.1%",
+            "width": "8.5%",
+            "height": "11.5%"
+          }
+        },
+        {
+          "id": "det-0-7",
+          "track_id": 4007,
+          "class": "truck",
+          "confidence": 0.386,
+          "xyxy": [
+            639.7,
+            195.1,
+            704.6,
+            244.2
+          ],
+          "css_rect": {
+            "left": "83.3%",
+            "top": "45.2%",
+            "width": "8.5%",
+            "height": "11.4%"
+          }
+        },
+        {
+          "id": "det-0-8",
+          "track_id": 4008,
+          "class": "car",
+          "confidence": 0.36,
+          "xyxy": [
+            28.9,
+            220.5,
+            67.3,
+            248.6
+          ],
+          "css_rect": {
+            "left": "3.8%",
+            "top": "51.0%",
+            "width": "5.0%",
+            "height": "6.5%"
+          }
+        }
+      ],
+      "vacant_slots": [
+        {
+          "slot_id": "BAY-B1-03",
+          "pillar": "PILLAR A-03",
+          "css_rect": {
+            "left": "19.5%",
+            "top": "50.5%",
+            "width": "9.5%",
+            "height": "16.0%"
+          },
+          "type": "VACANT"
+        },
+        {
+          "slot_id": "BAY-B1-07",
+          "pillar": "PILLAR A-07",
+          "css_rect": {
+            "left": "44.5%",
+            "top": "50.5%",
+            "width": "8.5%",
+            "height": "14.5%"
+          },
+          "type": "VACANT"
+        },
+        {
+          "slot_id": "BAY-B1-11",
+          "pillar": "PILLAR A-11",
+          "css_rect": {
+            "left": "12.0%",
+            "top": "51.0%",
+            "width": "8.0%",
+            "height": "14.0%"
+          },
+          "type": "VACANT"
+        }
+      ],
+      "violations": [
+        {
+          "id": "viol-1",
+          "code": "C12355-6890",
+          "type": "DOUBLE_PARKING",
+          "title": "Double Parking",
+          "pillar": "PILLAR A-05",
+          "confidence": 0.724,
+          "track_id": 4000,
+          "vehicle_type": "car",
+          "css_rect": {
+            "left": "67.4%",
+            "top": "68.0%",
+            "width": "17.4%",
+            "height": "19.6%"
+          },
+          "time_ago": "2m ago",
+          "severity": "CRITICAL",
+          "description": "Vehicle double parked obstructing stall egress"
+        },
+        {
+          "id": "viol-2",
+          "code": "U2E55-8758",
+          "type": "UNAUTHORIZED_STOPPAGE",
+          "title": "Unauthorized Aisle Stoppage",
+          "pillar": "PILLAR A-08",
+          "confidence": 0.639,
+          "track_id": 4001,
+          "vehicle_type": "car",
+          "css_rect": {
+            "left": "50.7%",
+            "top": "50.5%",
+            "width": "5.9%",
+            "height": "5.0%"
+          },
+          "time_ago": "4m ago",
+          "severity": "HIGH",
+          "description": "Commercial SUV halted in main circulation thoroughfare"
+        }
+      ]
+    },
+    {
+      "frame_index": 15,
+      "timestamp_sec": 0.5,
+      "total_vehicles": 9,
+      "cars": 8,
+      "trucks": 1,
+      "motorcycles": 0,
+      "total_bays": 12,
+      "occupied_bays": 9,
+      "available_bays": 3,
+      "occupancy_percentage": 75.0,
+      "violations_count": 2,
+      "detections": [
+        {
+          "id": "det-15-0",
+          "track_id": 4000,
+          "class": "car",
+          "confidence": 0.748,
+          "xyxy": [
+            518.4,
+            294.2,
+            651.0,
+            378.8
+          ],
+          "css_rect": {
+            "left": "67.5%",
+            "top": "68.1%",
+            "width": "17.3%",
+            "height": "19.6%"
+          }
+        },
+        {
+          "id": "det-15-1",
+          "track_id": 4001,
+          "class": "car",
+          "confidence": 0.636,
+          "xyxy": [
+            572.2,
+            217.2,
+            648.3,
+            249.0
+          ],
+          "css_rect": {
+            "left": "74.5%",
+            "top": "50.3%",
+            "width": "9.9%",
+            "height": "7.3%"
+          }
+        },
+        {
+          "id": "det-15-2",
+          "track_id": 4002,
+          "class": "car",
+          "confidence": 0.575,
+          "xyxy": [
+            390.4,
+            218.5,
+            436.3,
+            240.1
+          ],
+          "css_rect": {
+            "left": "50.8%",
+            "top": "50.6%",
+            "width": "6.0%",
+            "height": "5.0%"
+          }
+        },
+        {
+          "id": "det-15-3",
+          "track_id": 4003,
+          "class": "car",
+          "confidence": 0.541,
+          "xyxy": [
+            573.7,
+            262.4,
+            675.8,
+            316.6
+          ],
+          "css_rect": {
+            "left": "74.7%",
+            "top": "60.7%",
+            "width": "13.3%",
+            "height": "12.6%"
+          }
+        },
+        {
+          "id": "det-15-4",
+          "track_id": 4004,
+          "class": "car",
+          "confidence": 0.518,
+          "xyxy": [
+            641.3,
+            194.8,
+            705.8,
+            245.4
+          ],
+          "css_rect": {
+            "left": "83.5%",
+            "top": "45.1%",
+            "width": "8.4%",
+            "height": "11.7%"
+          }
+        },
+        {
+          "id": "det-15-5",
+          "track_id": 4005,
+          "class": "car",
+          "confidence": 0.516,
+          "xyxy": [
+            302.6,
+            220.2,
+            352.8,
+            254.0
+          ],
+          "css_rect": {
+            "left": "39.4%",
+            "top": "51.0%",
+            "width": "6.5%",
+            "height": "7.8%"
+          }
+        },
+        {
+          "id": "det-15-6",
+          "track_id": 4006,
+          "class": "car",
+          "confidence": 0.508,
+          "xyxy": [
+            494.6,
+            247.6,
+            583.2,
+            282.1
+          ],
+          "css_rect": {
+            "left": "64.4%",
+            "top": "57.3%",
+            "width": "11.5%",
+            "height": "8.0%"
+          }
+        },
+        {
+          "id": "det-15-7",
+          "track_id": 4007,
+          "class": "truck",
+          "confidence": 0.383,
+          "xyxy": [
+            641.2,
+            194.2,
+            705.9,
+            245.7
+          ],
+          "css_rect": {
+            "left": "83.5%",
+            "top": "45.0%",
+            "width": "8.4%",
+            "height": "11.9%"
+          }
+        },
+        {
+          "id": "det-15-8",
+          "track_id": 4008,
+          "class": "car",
+          "confidence": 0.351,
+          "xyxy": [
+            307.3,
+            280.2,
+            456.6,
+            364.6
+          ],
+          "css_rect": {
+            "left": "40.0%",
+            "top": "64.9%",
+            "width": "19.4%",
+            "height": "19.5%"
+          }
+        }
+      ],
+      "vacant_slots": [
+        {
+          "slot_id": "BAY-B1-03",
+          "pillar": "PILLAR A-03",
+          "css_rect": {
+            "left": "19.5%",
+            "top": "50.5%",
+            "width": "9.5%",
+            "height": "16.0%"
+          },
+          "type": "VACANT"
+        },
+        {
+          "slot_id": "BAY-B1-07",
+          "pillar": "PILLAR A-07",
+          "css_rect": {
+            "left": "44.5%",
+            "top": "50.5%",
+            "width": "8.5%",
+            "height": "14.5%"
+          },
+          "type": "VACANT"
+        },
+        {
+          "slot_id": "BAY-B1-11",
+          "pillar": "PILLAR A-11",
+          "css_rect": {
+            "left": "12.0%",
+            "top": "51.0%",
+            "width": "8.0%",
+            "height": "14.0%"
+          },
+          "type": "VACANT"
+        }
+      ],
+      "violations": [
+        {
+          "id": "viol-1",
+          "code": "C12355-6890",
+          "type": "DOUBLE_PARKING",
+          "title": "Double Parking",
+          "pillar": "PILLAR A-05",
+          "confidence": 0.748,
+          "track_id": 4000,
+          "vehicle_type": "car",
+          "css_rect": {
+            "left": "67.5%",
+            "top": "68.1%",
+            "width": "17.3%",
+            "height": "19.6%"
+          },
+          "time_ago": "2m ago",
+          "severity": "CRITICAL",
+          "description": "Vehicle double parked obstructing stall egress"
+        },
+        {
+          "id": "viol-2",
+          "code": "U2E55-8758",
+          "type": "UNAUTHORIZED_STOPPAGE",
+          "title": "Unauthorized Aisle Stoppage",
+          "pillar": "PILLAR A-08",
+          "confidence": 0.575,
+          "track_id": 4002,
+          "vehicle_type": "car",
+          "css_rect": {
+            "left": "50.8%",
+            "top": "50.6%",
+            "width": "6.0%",
+            "height": "5.0%"
+          },
+          "time_ago": "4m ago",
+          "severity": "HIGH",
+          "description": "Commercial SUV halted in main circulation thoroughfare"
+        }
+      ]
+    },
+    {
+      "frame_index": 30,
+      "timestamp_sec": 1.0,
+      "total_vehicles": 9,
+      "cars": 8,
+      "trucks": 1,
+      "motorcycles": 0,
+      "total_bays": 12,
+      "occupied_bays": 9,
+      "available_bays": 3,
+      "occupancy_percentage": 75.0,
+      "violations_count": 2,
+      "detections": [
+        {
+          "id": "det-30-0",
+          "track_id": 4000,
+          "class": "car",
+          "confidence": 0.697,
+          "xyxy": [
+            519.4,
+            295.9,
+            652.8,
+            382.4
+          ],
+          "css_rect": {
+            "left": "67.6%",
+            "top": "68.5%",
+            "width": "17.4%",
+            "height": "20.0%"
+          }
+        },
+        {
+          "id": "det-30-1",
+          "track_id": 4001,
+          "class": "car",
+          "confidence": 0.652,
+          "xyxy": [
+            392.5,
+            217.3,
+            438.7,
+            241.5
+          ],
+          "css_rect": {
+            "left": "51.1%",
+            "top": "50.3%",
+            "width": "6.0%",
+            "height": "5.6%"
+          }
+        },
+        {
+          "id": "det-30-2",
+          "track_id": 4002,
+          "class": "car",
+          "confidence": 0.518,
+          "xyxy": [
+            573.9,
+            218.0,
+            649.3,
+            250.4
+          ],
+          "css_rect": {
+            "left": "74.7%",
+            "top": "50.5%",
+            "width": "9.8%",
+            "height": "7.5%"
+          }
+        },
+        {
+          "id": "det-30-3",
+          "track_id": 4003,
+          "class": "car",
+          "confidence": 0.513,
+          "xyxy": [
+            576.2,
+            264.7,
+            680.6,
+            317.6
+          ],
+          "css_rect": {
+            "left": "75.0%",
+            "top": "61.3%",
+            "width": "13.6%",
+            "height": "12.3%"
+          }
+        },
+        {
+          "id": "det-30-4",
+          "track_id": 4004,
+          "class": "car",
+          "confidence": 0.424,
+          "xyxy": [
+            303.2,
+            220.7,
+            356.2,
+            255.5
+          ],
+          "css_rect": {
+            "left": "39.5%",
+            "top": "51.1%",
+            "width": "6.9%",
+            "height": "8.1%"
+          }
+        },
+        {
+          "id": "det-30-5",
+          "track_id": 4005,
+          "class": "truck",
+          "confidence": 0.388,
+          "xyxy": [
+            642.2,
+            196.0,
+            708.8,
+            247.3
+          ],
+          "css_rect": {
+            "left": "83.6%",
+            "top": "45.4%",
+            "width": "8.7%",
+            "height": "11.9%"
+          }
+        },
+        {
+          "id": "det-30-6",
+          "track_id": 4006,
+          "class": "car",
+          "confidence": 0.386,
+          "xyxy": [
+            316.0,
+            284.0,
+            458.2,
+            366.4
+          ],
+          "css_rect": {
+            "left": "41.1%",
+            "top": "65.7%",
+            "width": "18.5%",
+            "height": "19.1%"
+          }
+        },
+        {
+          "id": "det-30-7",
+          "track_id": 4007,
+          "class": "car",
+          "confidence": 0.378,
+          "xyxy": [
+            641.9,
+            196.3,
+            709.1,
+            248.0
+          ],
+          "css_rect": {
+            "left": "83.6%",
+            "top": "45.4%",
+            "width": "8.8%",
+            "height": "12.0%"
+          }
+        },
+        {
+          "id": "det-30-8",
+          "track_id": 4008,
+          "class": "car",
+          "confidence": 0.352,
+          "xyxy": [
+            495.7,
+            247.1,
+            586.6,
+            283.0
+          ],
+          "css_rect": {
+            "left": "64.5%",
+            "top": "57.2%",
+            "width": "11.8%",
+            "height": "8.3%"
+          }
+        }
+      ],
+      "vacant_slots": [
+        {
+          "slot_id": "BAY-B1-03",
+          "pillar": "PILLAR A-03",
+          "css_rect": {
+            "left": "19.5%",
+            "top": "50.5%",
+            "width": "9.5%",
+            "height": "16.0%"
+          },
+          "type": "VACANT"
+        },
+        {
+          "slot_id": "BAY-B1-07",
+          "pillar": "PILLAR A-07",
+          "css_rect": {
+            "left": "44.5%",
+            "top": "50.5%",
+            "width": "8.5%",
+            "height": "14.5%"
+          },
+          "type": "VACANT"
+        },
+        {
+          "slot_id": "BAY-B1-11",
+          "pillar": "PILLAR A-11",
+          "css_rect": {
+            "left": "12.0%",
+            "top": "51.0%",
+            "width": "8.0%",
+            "height": "14.0%"
+          },
+          "type": "VACANT"
+        }
+      ],
+      "violations": [
+        {
+          "id": "viol-1",
+          "code": "C12355-6890",
+          "type": "DOUBLE_PARKING",
+          "title": "Double Parking",
+          "pillar": "PILLAR A-05",
+          "confidence": 0.697,
+          "track_id": 4000,
+          "vehicle_type": "car",
+          "css_rect": {
+            "left": "67.6%",
+            "top": "68.5%",
+            "width": "17.4%",
+            "height": "20.0%"
+          },
+          "time_ago": "2m ago",
+          "severity": "CRITICAL",
+          "description": "Vehicle double parked obstructing stall egress"
+        },
+        {
+          "id": "viol-2",
+          "code": "U2E55-8758",
+          "type": "UNAUTHORIZED_STOPPAGE",
+          "title": "Unauthorized Aisle Stoppage",
+          "pillar": "PILLAR A-08",
+          "confidence": 0.652,
+          "track_id": 4001,
+          "vehicle_type": "car",
+          "css_rect": {
+            "left": "51.1%",
+            "top": "50.3%",
+            "width": "6.0%",
+            "height": "5.6%"
+          },
+          "time_ago": "4m ago",
+          "severity": "HIGH",
+          "description": "Commercial SUV halted in main circulation thoroughfare"
+        }
+      ]
+    },
+    {
+      "frame_index": 45,
+      "timestamp_sec": 1.5,
+      "total_vehicles": 9,
+      "cars": 8,
+      "trucks": 1,
+      "motorcycles": 0,
+      "total_bays": 12,
+      "occupied_bays": 9,
+      "available_bays": 3,
+      "occupancy_percentage": 75.0,
+      "violations_count": 2,
+      "detections": [
+        {
+          "id": "det-45-0",
+          "track_id": 4000,
+          "class": "car",
+          "confidence": 0.74,
+          "xyxy": [
+            498.5,
+            248.2,
+            596.0,
+            286.1
+          ],
+          "css_rect": {
+            "left": "64.9%",
+            "top": "57.5%",
+            "width": "12.7%",
+            "height": "8.8%"
+          }
+        },
+        {
+          "id": "det-45-1",
+          "track_id": 4001,
+          "class": "car",
+          "confidence": 0.689,
+          "xyxy": [
+            524.8,
+            297.5,
+            659.2,
+            383.4
+          ],
+          "css_rect": {
+            "left": "68.3%",
+            "top": "68.9%",
+            "width": "17.5%",
+            "height": "19.9%"
+          }
+        },
+        {
+          "id": "det-45-2",
+          "track_id": 4002,
+          "class": "car",
+          "confidence": 0.674,
+          "xyxy": [
+            581.6,
+            266.3,
+            683.5,
+            319.9
+          ],
+          "css_rect": {
+            "left": "75.7%",
+            "top": "61.7%",
+            "width": "13.3%",
+            "height": "12.4%"
+          }
+        },
+        {
+          "id": "det-45-3",
+          "track_id": 4003,
+          "class": "car",
+          "confidence": 0.646,
+          "xyxy": [
+            396.5,
+            217.8,
+            442.1,
+            242.5
+          ],
+          "css_rect": {
+            "left": "51.6%",
+            "top": "50.4%",
+            "width": "5.9%",
+            "height": "5.7%"
+          }
+        },
+        {
+          "id": "det-45-4",
+          "track_id": 4004,
+          "class": "car",
+          "confidence": 0.55,
+          "xyxy": [
+            578.8,
+            218.7,
+            657.7,
+            252.9
+          ],
+          "css_rect": {
+            "left": "75.4%",
+            "top": "50.6%",
+            "width": "10.3%",
+            "height": "7.9%"
+          }
+        },
+        {
+          "id": "det-45-5",
+          "track_id": 4005,
+          "class": "car",
+          "confidence": 0.496,
+          "xyxy": [
+            307.8,
+            224.7,
+            360.6,
+            257.6
+          ],
+          "css_rect": {
+            "left": "40.1%",
+            "top": "52.0%",
+            "width": "6.9%",
+            "height": "7.6%"
+          }
+        },
+        {
+          "id": "det-45-6",
+          "track_id": 4006,
+          "class": "truck",
+          "confidence": 0.428,
+          "xyxy": [
+            0.0,
+            243.5,
+            29.4,
+            311.5
+          ],
+          "css_rect": {
+            "left": "0.0%",
+            "top": "56.4%",
+            "width": "3.8%",
+            "height": "15.7%"
+          }
+        },
+        {
+          "id": "det-45-7",
+          "track_id": 4007,
+          "class": "car",
+          "confidence": 0.393,
+          "xyxy": [
+            647.2,
+            198.3,
+            715.9,
+            250.0
+          ],
+          "css_rect": {
+            "left": "84.3%",
+            "top": "45.9%",
+            "width": "8.9%",
+            "height": "12.0%"
+          }
+        },
+        {
+          "id": "det-45-8",
+          "track_id": 4008,
+          "class": "car",
+          "confidence": 0.379,
+          "xyxy": [
+            236.3,
+            222.1,
+            271.8,
+            250.8
+          ],
+          "css_rect": {
+            "left": "30.8%",
+            "top": "51.4%",
+            "width": "4.6%",
+            "height": "6.6%"
+          }
+        }
+      ],
+      "vacant_slots": [
+        {
+          "slot_id": "BAY-B1-03",
+          "pillar": "PILLAR A-03",
+          "css_rect": {
+            "left": "19.5%",
+            "top": "50.5%",
+            "width": "9.5%",
+            "height": "16.0%"
+          },
+          "type": "VACANT"
+        },
+        {
+          "slot_id": "BAY-B1-07",
+          "pillar": "PILLAR A-07",
+          "css_rect": {
+            "left": "44.5%",
+            "top": "50.5%",
+            "width": "8.5%",
+            "height": "14.5%"
+          },
+          "type": "VACANT"
+        },
+        {
+          "slot_id": "BAY-B1-11",
+          "pillar": "PILLAR A-11",
+          "css_rect": {
+            "left": "12.0%",
+            "top": "51.0%",
+            "width": "8.0%",
+            "height": "14.0%"
+          },
+          "type": "VACANT"
+        }
+      ],
+      "violations": [
+        {
+          "id": "viol-1",
+          "code": "C12355-6890",
+          "type": "DOUBLE_PARKING",
+          "title": "Double Parking",
+          "pillar": "PILLAR A-05",
+          "confidence": 0.74,
+          "track_id": 4000,
+          "vehicle_type": "car",
+          "css_rect": {
+            "left": "64.9%",
+            "top": "57.5%",
+            "width": "12.7%",
+            "height": "8.8%"
+          },
+          "time_ago": "2m ago",
+          "severity": "CRITICAL",
+          "description": "Vehicle double parked obstructing stall egress"
+        },
+        {
+          "id": "viol-2",
+          "code": "U2E55-8758",
+          "type": "UNAUTHORIZED_STOPPAGE",
+          "title": "Unauthorized Aisle Stoppage",
+          "pillar": "PILLAR A-08",
+          "confidence": 0.646,
+          "track_id": 4003,
+          "vehicle_type": "car",
+          "css_rect": {
+            "left": "51.6%",
+            "top": "50.4%",
+            "width": "5.9%",
+            "height": "5.7%"
+          },
+          "time_ago": "4m ago",
+          "severity": "HIGH",
+          "description": "Commercial SUV halted in main circulation thoroughfare"
+        }
+      ]
+    },
+    {
+      "frame_index": 60,
+      "timestamp_sec": 2.0,
+      "total_vehicles": 10,
+      "cars": 10,
+      "trucks": 0,
+      "motorcycles": 0,
+      "total_bays": 12,
+      "occupied_bays": 10,
+      "available_bays": 2,
+      "occupancy_percentage": 83.3,
+      "violations_count": 2,
+      "detections": [
+        {
+          "id": "det-60-0",
+          "track_id": 4000,
+          "class": "car",
+          "confidence": 0.758,
+          "xyxy": [
+            514.2,
+            251.9,
+            608.9,
+            287.8
+          ],
+          "css_rect": {
+            "left": "67.0%",
+            "top": "58.3%",
+            "width": "12.3%",
+            "height": "8.3%"
+          }
+        },
+        {
+          "id": "det-60-1",
+          "track_id": 4001,
+          "class": "car",
+          "confidence": 0.719,
+          "xyxy": [
+            538.6,
+            300.4,
+            679.6,
+            388.2
+          ],
+          "css_rect": {
+            "left": "70.1%",
+            "top": "69.5%",
+            "width": "18.4%",
+            "height": "20.3%"
+          }
+        },
+        {
+          "id": "det-60-2",
+          "track_id": 4002,
+          "class": "car",
+          "confidence": 0.678,
+          "xyxy": [
+            599.1,
+            222.5,
+            671.0,
+            254.5
+          ],
+          "css_rect": {
+            "left": "78.0%",
+            "top": "51.5%",
+            "width": "9.4%",
+            "height": "7.4%"
+          }
+        },
+        {
+          "id": "det-60-3",
+          "track_id": 4003,
+          "class": "car",
+          "confidence": 0.648,
+          "xyxy": [
+            599.6,
+            268.2,
+            708.0,
+            321.8
+          ],
+          "css_rect": {
+            "left": "78.1%",
+            "top": "62.1%",
+            "width": "14.1%",
+            "height": "12.4%"
+          }
+        },
+        {
+          "id": "det-60-4",
+          "track_id": 4004,
+          "class": "car",
+          "confidence": 0.6,
+          "xyxy": [
+            410.5,
+            216.8,
+            455.4,
+            243.3
+          ],
+          "css_rect": {
+            "left": "53.4%",
+            "top": "50.2%",
+            "width": "5.9%",
+            "height": "6.1%"
+          }
+        },
+        {
+          "id": "det-60-5",
+          "track_id": 4005,
+          "class": "car",
+          "confidence": 0.592,
+          "xyxy": [
+            62.8,
+            220.4,
+            96.4,
+            246.4
+          ],
+          "css_rect": {
+            "left": "8.2%",
+            "top": "51.0%",
+            "width": "4.4%",
+            "height": "6.0%"
+          }
+        },
+        {
+          "id": "det-60-6",
+          "track_id": 4006,
+          "class": "car",
+          "confidence": 0.503,
+          "xyxy": [
+            322.5,
+            223.9,
+            372.9,
+            256.7
+          ],
+          "css_rect": {
+            "left": "42.0%",
+            "top": "51.8%",
+            "width": "6.6%",
+            "height": "7.6%"
+          }
+        },
+        {
+          "id": "det-60-7",
+          "track_id": 4007,
+          "class": "car",
+          "confidence": 0.471,
+          "xyxy": [
+            669.8,
+            199.6,
+            742.5,
+            251.8
+          ],
+          "css_rect": {
+            "left": "87.2%",
+            "top": "46.2%",
+            "width": "9.5%",
+            "height": "12.1%"
+          }
+        },
+        {
+          "id": "det-60-8",
+          "track_id": 4008,
+          "class": "car",
+          "confidence": 0.435,
+          "xyxy": [
+            101.9,
+            224.0,
+            135.1,
+            242.9
+          ],
+          "css_rect": {
+            "left": "13.3%",
+            "top": "51.8%",
+            "width": "4.3%",
+            "height": "4.4%"
+          }
+        },
+        {
+          "id": "det-60-9",
+          "track_id": 4009,
+          "class": "car",
+          "confidence": 0.385,
+          "xyxy": [
+            94.0,
+            373.8,
+            228.0,
+            431.6
+          ],
+          "css_rect": {
+            "left": "12.2%",
+            "top": "86.5%",
+            "width": "17.5%",
+            "height": "13.4%"
+          }
+        }
+      ],
+      "vacant_slots": [
+        {
+          "slot_id": "BAY-B1-03",
+          "pillar": "PILLAR A-03",
+          "css_rect": {
+            "left": "19.5%",
+            "top": "50.5%",
+            "width": "9.5%",
+            "height": "16.0%"
+          },
+          "type": "VACANT"
+        },
+        {
+          "slot_id": "BAY-B1-07",
+          "pillar": "PILLAR A-07",
+          "css_rect": {
+            "left": "44.5%",
+            "top": "50.5%",
+            "width": "8.5%",
+            "height": "14.5%"
+          },
+          "type": "VACANT"
+        },
+        {
+          "slot_id": "BAY-B1-11",
+          "pillar": "PILLAR A-11",
+          "css_rect": {
+            "left": "12.0%",
+            "top": "51.0%",
+            "width": "8.0%",
+            "height": "14.0%"
+          },
+          "type": "VACANT"
+        }
+      ],
+      "violations": [
+        {
+          "id": "viol-1",
+          "code": "C12355-6890",
+          "type": "DOUBLE_PARKING",
+          "title": "Double Parking",
+          "pillar": "PILLAR A-05",
+          "confidence": 0.758,
+          "track_id": 4000,
+          "vehicle_type": "car",
+          "css_rect": {
+            "left": "67.0%",
+            "top": "58.3%",
+            "width": "12.3%",
+            "height": "8.3%"
+          },
+          "time_ago": "2m ago",
+          "severity": "CRITICAL",
+          "description": "Vehicle double parked obstructing stall egress"
+        },
+        {
+          "id": "viol-2",
+          "code": "U2E55-8758",
+          "type": "UNAUTHORIZED_STOPPAGE",
+          "title": "Unauthorized Aisle Stoppage",
+          "pillar": "PILLAR A-08",
+          "confidence": 0.6,
+          "track_id": 4004,
+          "vehicle_type": "car",
+          "css_rect": {
+            "left": "53.4%",
+            "top": "50.2%",
+            "width": "5.9%",
+            "height": "6.1%"
+          },
+          "time_ago": "4m ago",
+          "severity": "HIGH",
+          "description": "Commercial SUV halted in main circulation thoroughfare"
+        }
+      ]
+    },
+    {
+      "frame_index": 75,
+      "timestamp_sec": 2.5,
+      "total_vehicles": 12,
+      "cars": 12,
+      "trucks": 0,
+      "motorcycles": 0,
+      "total_bays": 12,
+      "occupied_bays": 12,
+      "available_bays": 0,
+      "occupancy_percentage": 100.0,
+      "violations_count": 2,
+      "detections": [
+        {
+          "id": "det-75-0",
+          "track_id": 4000,
+          "class": "car",
+          "confidence": 0.731,
+          "xyxy": [
+            6.8,
+            251.2,
+            82.6,
+            308.0
+          ],
+          "css_rect": {
+            "left": "0.9%",
+            "top": "58.1%",
+            "width": "9.9%",
+            "height": "13.2%"
+          }
+        },
+        {
+          "id": "det-75-1",
+          "track_id": 4001,
+          "class": "car",
+          "confidence": 0.711,
+          "xyxy": [
+            432.4,
+            222.1,
+            479.4,
+            243.5
+          ],
+          "css_rect": {
+            "left": "56.3%",
+            "top": "51.4%",
+            "width": "6.1%",
+            "height": "4.9%"
+          }
+        },
+        {
+          "id": "det-75-2",
+          "track_id": 4002,
+          "class": "car",
+          "confidence": 0.657,
+          "xyxy": [
+            541.7,
+            253.9,
+            643.5,
+            291.2
+          ],
+          "css_rect": {
+            "left": "70.5%",
+            "top": "58.8%",
+            "width": "13.2%",
+            "height": "8.6%"
+          }
+        },
+        {
+          "id": "det-75-3",
+          "track_id": 4003,
+          "class": "car",
+          "confidence": 0.587,
+          "xyxy": [
+            631.0,
+            223.9,
+            710.4,
+            258.5
+          ],
+          "css_rect": {
+            "left": "82.2%",
+            "top": "51.8%",
+            "width": "10.3%",
+            "height": "8.0%"
+          }
+        },
+        {
+          "id": "det-75-4",
+          "track_id": 4004,
+          "class": "car",
+          "confidence": 0.549,
+          "xyxy": [
+            0.0,
+            234.1,
+            29.6,
+            279.7
+          ],
+          "css_rect": {
+            "left": "0.0%",
+            "top": "54.2%",
+            "width": "3.8%",
+            "height": "10.6%"
+          }
+        },
+        {
+          "id": "det-75-5",
+          "track_id": 4005,
+          "class": "car",
+          "confidence": 0.531,
+          "xyxy": [
+            566.2,
+            303.1,
+            724.6,
+            419.3
+          ],
+          "css_rect": {
+            "left": "73.7%",
+            "top": "70.2%",
+            "width": "20.6%",
+            "height": "26.9%"
+          }
+        },
+        {
+          "id": "det-75-6",
+          "track_id": 4006,
+          "class": "car",
+          "confidence": 0.524,
+          "xyxy": [
+            632.4,
+            270.9,
+            756.4,
+            338.4
+          ],
+          "css_rect": {
+            "left": "82.3%",
+            "top": "62.7%",
+            "width": "16.1%",
+            "height": "15.6%"
+          }
+        },
+        {
+          "id": "det-75-7",
+          "track_id": 4007,
+          "class": "car",
+          "confidence": 0.493,
+          "xyxy": [
+            344.4,
+            225.3,
+            395.3,
+            256.4
+          ],
+          "css_rect": {
+            "left": "44.8%",
+            "top": "52.2%",
+            "width": "6.6%",
+            "height": "7.2%"
+          }
+        },
+        {
+          "id": "det-75-8",
+          "track_id": 4008,
+          "class": "car",
+          "confidence": 0.443,
+          "xyxy": [
+            709.4,
+            206.6,
+            767.8,
+            256.3
+          ],
+          "css_rect": {
+            "left": "92.4%",
+            "top": "47.8%",
+            "width": "7.6%",
+            "height": "11.5%"
+          }
+        },
+        {
+          "id": "det-75-9",
+          "track_id": 4009,
+          "class": "car",
+          "confidence": 0.443,
+          "xyxy": [
+            134.6,
+            220.9,
+            165.1,
+            240.0
+          ],
+          "css_rect": {
+            "left": "17.5%",
+            "top": "51.1%",
+            "width": "4.0%",
+            "height": "4.4%"
+          }
+        },
+        {
+          "id": "det-75-10",
+          "track_id": 4010,
+          "class": "car",
+          "confidence": 0.422,
+          "xyxy": [
+            43.8,
+            238.3,
+            91.5,
+            276.7
+          ],
+          "css_rect": {
+            "left": "5.7%",
+            "top": "55.2%",
+            "width": "6.2%",
+            "height": "8.9%"
+          }
+        },
+        {
+          "id": "det-75-11",
+          "track_id": 4011,
+          "class": "car",
+          "confidence": 0.415,
+          "xyxy": [
+            100.9,
+            219.3,
+            132.4,
+            242.2
+          ],
+          "css_rect": {
+            "left": "13.1%",
+            "top": "50.8%",
+            "width": "4.1%",
+            "height": "5.3%"
+          }
+        }
+      ],
+      "vacant_slots": [
+        {
+          "slot_id": "BAY-B1-03",
+          "pillar": "PILLAR A-03",
+          "css_rect": {
+            "left": "19.5%",
+            "top": "50.5%",
+            "width": "9.5%",
+            "height": "16.0%"
+          },
+          "type": "VACANT"
+        },
+        {
+          "slot_id": "BAY-B1-07",
+          "pillar": "PILLAR A-07",
+          "css_rect": {
+            "left": "44.5%",
+            "top": "50.5%",
+            "width": "8.5%",
+            "height": "14.5%"
+          },
+          "type": "VACANT"
+        },
+        {
+          "slot_id": "BAY-B1-11",
+          "pillar": "PILLAR A-11",
+          "css_rect": {
+            "left": "12.0%",
+            "top": "51.0%",
+            "width": "8.0%",
+            "height": "14.0%"
+          },
+          "type": "VACANT"
+        }
+      ],
+      "violations": [
+        {
+          "id": "viol-1",
+          "code": "C12355-6890",
+          "type": "DOUBLE_PARKING",
+          "title": "Double Parking",
+          "pillar": "PILLAR A-05",
+          "confidence": 0.657,
+          "track_id": 4002,
+          "vehicle_type": "car",
+          "css_rect": {
+            "left": "70.5%",
+            "top": "58.8%",
+            "width": "13.2%",
+            "height": "8.6%"
+          },
+          "time_ago": "2m ago",
+          "severity": "CRITICAL",
+          "description": "Vehicle double parked obstructing stall egress"
+        },
+        {
+          "id": "viol-2",
+          "code": "U2E55-8758",
+          "type": "UNAUTHORIZED_STOPPAGE",
+          "title": "Unauthorized Aisle Stoppage",
+          "pillar": "PILLAR A-08",
+          "confidence": 0.711,
+          "track_id": 4001,
+          "vehicle_type": "car",
+          "css_rect": {
+            "left": "56.3%",
+            "top": "51.4%",
+            "width": "6.1%",
+            "height": "4.9%"
+          },
+          "time_ago": "4m ago",
+          "severity": "HIGH",
+          "description": "Commercial SUV halted in main circulation thoroughfare"
+        }
+      ]
+    },
+    {
+      "frame_index": 90,
+      "timestamp_sec": 3.0,
+      "total_vehicles": 10,
+      "cars": 10,
+      "trucks": 0,
+      "motorcycles": 0,
+      "total_bays": 12,
+      "occupied_bays": 10,
+      "available_bays": 2,
+      "occupancy_percentage": 83.3,
+      "violations_count": 2,
+      "detections": [
+        {
+          "id": "det-90-0",
+          "track_id": 4000,
+          "class": "car",
+          "confidence": 0.777,
+          "xyxy": [
+            5.4,
+            230.2,
+            77.2,
+            277.2
+          ],
+          "css_rect": {
+            "left": "0.7%",
+            "top": "53.3%",
+            "width": "9.3%",
+            "height": "10.9%"
+          }
+        },
+        {
+          "id": "det-90-1",
+          "track_id": 4001,
+          "class": "car",
+          "confidence": 0.764,
+          "xyxy": [
+            53.4,
+            245.8,
+            124.7,
+            301.3
+          ],
+          "css_rect": {
+            "left": "7.0%",
+            "top": "56.9%",
+            "width": "9.3%",
+            "height": "12.8%"
+          }
+        },
+        {
+          "id": "det-90-2",
+          "track_id": 4002,
+          "class": "car",
+          "confidence": 0.725,
+          "xyxy": [
+            600.1,
+            310.3,
+            767.7,
+            427.6
+          ],
+          "css_rect": {
+            "left": "78.1%",
+            "top": "71.8%",
+            "width": "21.8%",
+            "height": "27.2%"
+          }
+        },
+        {
+          "id": "det-90-3",
+          "track_id": 4003,
+          "class": "car",
+          "confidence": 0.624,
+          "xyxy": [
+            458.4,
+            222.0,
+            508.3,
+            244.5
+          ],
+          "css_rect": {
+            "left": "59.7%",
+            "top": "51.4%",
+            "width": "6.5%",
+            "height": "5.2%"
+          }
+        },
+        {
+          "id": "det-90-4",
+          "track_id": 4004,
+          "class": "car",
+          "confidence": 0.527,
+          "xyxy": [
+            670.2,
+            224.6,
+            767.0,
+            264.1
+          ],
+          "css_rect": {
+            "left": "87.3%",
+            "top": "52.0%",
+            "width": "12.6%",
+            "height": "9.2%"
+          }
+        },
+        {
+          "id": "det-90-5",
+          "track_id": 4005,
+          "class": "car",
+          "confidence": 0.493,
+          "xyxy": [
+            80.5,
+            235.3,
+            129.1,
+            270.6
+          ],
+          "css_rect": {
+            "left": "10.5%",
+            "top": "54.5%",
+            "width": "6.3%",
+            "height": "8.2%"
+          }
+        },
+        {
+          "id": "det-90-6",
+          "track_id": 4006,
+          "class": "car",
+          "confidence": 0.489,
+          "xyxy": [
+            167.9,
+            218.7,
+            197.4,
+            237.9
+          ],
+          "css_rect": {
+            "left": "21.9%",
+            "top": "50.6%",
+            "width": "3.8%",
+            "height": "4.4%"
+          }
+        },
+        {
+          "id": "det-90-7",
+          "track_id": 4007,
+          "class": "car",
+          "confidence": 0.486,
+          "xyxy": [
+            60.3,
+            220.0,
+            93.5,
+            243.9
+          ],
+          "css_rect": {
+            "left": "7.9%",
+            "top": "50.9%",
+            "width": "4.3%",
+            "height": "5.5%"
+          }
+        },
+        {
+          "id": "det-90-8",
+          "track_id": 4008,
+          "class": "car",
+          "confidence": 0.474,
+          "xyxy": [
+            371.9,
+            220.8,
+            421.2,
+            256.3
+          ],
+          "css_rect": {
+            "left": "48.4%",
+            "top": "51.1%",
+            "width": "6.4%",
+            "height": "8.2%"
+          }
+        },
+        {
+          "id": "det-90-9",
+          "track_id": 4009,
+          "class": "car",
+          "confidence": 0.444,
+          "xyxy": [
+            137.6,
+            215.9,
+            164.6,
+            239.9
+          ],
+          "css_rect": {
+            "left": "17.9%",
+            "top": "50.0%",
+            "width": "3.5%",
+            "height": "5.5%"
+          }
+        }
+      ],
+      "vacant_slots": [
+        {
+          "slot_id": "BAY-B1-03",
+          "pillar": "PILLAR A-03",
+          "css_rect": {
+            "left": "19.5%",
+            "top": "50.5%",
+            "width": "9.5%",
+            "height": "16.0%"
+          },
+          "type": "VACANT"
+        },
+        {
+          "slot_id": "BAY-B1-07",
+          "pillar": "PILLAR A-07",
+          "css_rect": {
+            "left": "44.5%",
+            "top": "50.5%",
+            "width": "8.5%",
+            "height": "14.5%"
+          },
+          "type": "VACANT"
+        },
+        {
+          "slot_id": "BAY-B1-11",
+          "pillar": "PILLAR A-11",
+          "css_rect": {
+            "left": "12.0%",
+            "top": "51.0%",
+            "width": "8.0%",
+            "height": "14.0%"
+          },
+          "type": "VACANT"
+        }
+      ],
+      "violations": [
+        {
+          "id": "viol-1",
+          "code": "C12355-6890",
+          "type": "DOUBLE_PARKING",
+          "title": "Double Parking",
+          "pillar": "PILLAR A-05",
+          "confidence": 0.725,
+          "track_id": 4002,
+          "vehicle_type": "car",
+          "css_rect": {
+            "left": "78.1%",
+            "top": "71.8%",
+            "width": "21.8%",
+            "height": "27.2%"
+          },
+          "time_ago": "2m ago",
+          "severity": "CRITICAL",
+          "description": "Vehicle double parked obstructing stall egress"
+        },
+        {
+          "id": "viol-2",
+          "code": "U2E55-8758",
+          "type": "UNAUTHORIZED_STOPPAGE",
+          "title": "Unauthorized Aisle Stoppage",
+          "pillar": "PILLAR A-08",
+          "confidence": 0.624,
+          "track_id": 4003,
+          "vehicle_type": "car",
+          "css_rect": {
+            "left": "59.7%",
+            "top": "51.4%",
+            "width": "6.5%",
+            "height": "5.2%"
+          },
+          "time_ago": "4m ago",
+          "severity": "HIGH",
+          "description": "Commercial SUV halted in main circulation thoroughfare"
+        }
+      ]
+    },
+    {
+      "frame_index": 105,
+      "timestamp_sec": 3.5,
+      "total_vehicles": 10,
+      "cars": 10,
+      "trucks": 0,
+      "motorcycles": 0,
+      "total_bays": 12,
+      "occupied_bays": 10,
+      "available_bays": 2,
+      "occupancy_percentage": 83.3,
+      "violations_count": 2,
+      "detections": [
+        {
+          "id": "det-105-0",
+          "track_id": 4000,
+          "class": "car",
+          "confidence": 0.754,
+          "xyxy": [
+            636.7,
+            318.3,
+            767.5,
+            430.7
+          ],
+          "css_rect": {
+            "left": "82.9%",
+            "top": "73.7%",
+            "width": "17.0%",
+            "height": "26.0%"
+          }
+        },
+        {
+          "id": "det-105-1",
+          "track_id": 4001,
+          "class": "car",
+          "confidence": 0.712,
+          "xyxy": [
+            52.4,
+            226.6,
+            116.6,
+            269.8
+          ],
+          "css_rect": {
+            "left": "6.8%",
+            "top": "52.5%",
+            "width": "8.4%",
+            "height": "10.0%"
+          }
+        },
+        {
+          "id": "det-105-2",
+          "track_id": 4002,
+          "class": "car",
+          "confidence": 0.694,
+          "xyxy": [
+            485.6,
+            218.7,
+            538.0,
+            246.8
+          ],
+          "css_rect": {
+            "left": "63.2%",
+            "top": "50.6%",
+            "width": "6.8%",
+            "height": "6.5%"
+          }
+        },
+        {
+          "id": "det-105-3",
+          "track_id": 4003,
+          "class": "car",
+          "confidence": 0.586,
+          "xyxy": [
+            398.6,
+            221.1,
+            448.5,
+            256.7
+          ],
+          "css_rect": {
+            "left": "51.9%",
+            "top": "51.2%",
+            "width": "6.5%",
+            "height": "8.2%"
+          }
+        },
+        {
+          "id": "det-105-4",
+          "track_id": 4004,
+          "class": "car",
+          "confidence": 0.565,
+          "xyxy": [
+            95.9,
+            243.6,
+            155.6,
+            292.6
+          ],
+          "css_rect": {
+            "left": "12.5%",
+            "top": "56.4%",
+            "width": "7.8%",
+            "height": "11.3%"
+          }
+        },
+        {
+          "id": "det-105-5",
+          "track_id": 4005,
+          "class": "car",
+          "confidence": 0.545,
+          "xyxy": [
+            616.6,
+            264.5,
+            730.6,
+            304.2
+          ],
+          "css_rect": {
+            "left": "80.3%",
+            "top": "61.2%",
+            "width": "14.8%",
+            "height": "9.2%"
+          }
+        },
+        {
+          "id": "det-105-6",
+          "track_id": 4006,
+          "class": "car",
+          "confidence": 0.499,
+          "xyxy": [
+            115.2,
+            231.2,
+            164.0,
+            266.9
+          ],
+          "css_rect": {
+            "left": "15.0%",
+            "top": "53.5%",
+            "width": "6.4%",
+            "height": "8.3%"
+          }
+        },
+        {
+          "id": "det-105-7",
+          "track_id": 4007,
+          "class": "car",
+          "confidence": 0.443,
+          "xyxy": [
+            173.1,
+            212.6,
+            229.9,
+            235.8
+          ],
+          "css_rect": {
+            "left": "22.5%",
+            "top": "49.2%",
+            "width": "7.4%",
+            "height": "5.4%"
+          }
+        },
+        {
+          "id": "det-105-8",
+          "track_id": 4008,
+          "class": "car",
+          "confidence": 0.406,
+          "xyxy": [
+            196.5,
+            363.9,
+            319.1,
+            430.6
+          ],
+          "css_rect": {
+            "left": "25.6%",
+            "top": "84.2%",
+            "width": "16.0%",
+            "height": "15.4%"
+          }
+        },
+        {
+          "id": "det-105-9",
+          "track_id": 4009,
+          "class": "car",
+          "confidence": 0.38,
+          "xyxy": [
+            396.7,
+            266.7,
+            521.8,
+            315.1
+          ],
+          "css_rect": {
+            "left": "51.7%",
+            "top": "61.7%",
+            "width": "16.3%",
+            "height": "11.2%"
+          }
+        }
+      ],
+      "vacant_slots": [
+        {
+          "slot_id": "BAY-B1-03",
+          "pillar": "PILLAR A-03",
+          "css_rect": {
+            "left": "19.5%",
+            "top": "50.5%",
+            "width": "9.5%",
+            "height": "16.0%"
+          },
+          "type": "VACANT"
+        },
+        {
+          "slot_id": "BAY-B1-07",
+          "pillar": "PILLAR A-07",
+          "css_rect": {
+            "left": "44.5%",
+            "top": "50.5%",
+            "width": "8.5%",
+            "height": "14.5%"
+          },
+          "type": "VACANT"
+        },
+        {
+          "slot_id": "BAY-B1-11",
+          "pillar": "PILLAR A-11",
+          "css_rect": {
+            "left": "12.0%",
+            "top": "51.0%",
+            "width": "8.0%",
+            "height": "14.0%"
+          },
+          "type": "VACANT"
+        }
+      ],
+      "violations": [
+        {
+          "id": "viol-1",
+          "code": "C12355-6890",
+          "type": "DOUBLE_PARKING",
+          "title": "Double Parking",
+          "pillar": "PILLAR A-05",
+          "confidence": 0.545,
+          "track_id": 4005,
+          "vehicle_type": "car",
+          "css_rect": {
+            "left": "80.3%",
+            "top": "61.2%",
+            "width": "14.8%",
+            "height": "9.2%"
+          },
+          "time_ago": "2m ago",
+          "severity": "CRITICAL",
+          "description": "Vehicle double parked obstructing stall egress"
+        },
+        {
+          "id": "viol-2",
+          "code": "U2E55-8758",
+          "type": "UNAUTHORIZED_STOPPAGE",
+          "title": "Unauthorized Aisle Stoppage",
+          "pillar": "PILLAR A-08",
+          "confidence": 0.586,
+          "track_id": 4003,
+          "vehicle_type": "car",
+          "css_rect": {
+            "left": "51.9%",
+            "top": "51.2%",
+            "width": "6.5%",
+            "height": "8.2%"
+          },
+          "time_ago": "4m ago",
+          "severity": "HIGH",
+          "description": "Commercial SUV halted in main circulation thoroughfare"
+        }
+      ]
+    },
+    {
+      "frame_index": 120,
+      "timestamp_sec": 4.0,
+      "total_vehicles": 10,
+      "cars": 9,
+      "trucks": 0,
+      "motorcycles": 1,
+      "total_bays": 12,
+      "occupied_bays": 10,
+      "available_bays": 2,
+      "occupancy_percentage": 83.3,
+      "violations_count": 1,
+      "detections": [
+        {
+          "id": "det-120-0",
+          "track_id": 4000,
+          "class": "car",
+          "confidence": 0.684,
+          "xyxy": [
+            93.6,
+            222.1,
+            153.4,
+            263.3
+          ],
+          "css_rect": {
+            "left": "12.2%",
+            "top": "51.4%",
+            "width": "7.8%",
+            "height": "9.5%"
+          }
+        },
+        {
+          "id": "det-120-1",
+          "track_id": 4001,
+          "class": "car",
+          "confidence": 0.665,
+          "xyxy": [
+            676.4,
+            330.8,
+            767.8,
+            429.8
+          ],
+          "css_rect": {
+            "left": "88.1%",
+            "top": "76.6%",
+            "width": "11.9%",
+            "height": "22.9%"
+          }
+        },
+        {
+          "id": "det-120-2",
+          "track_id": 4002,
+          "class": "car",
+          "confidence": 0.643,
+          "xyxy": [
+            515.4,
+            223.4,
+            569.0,
+            249.0
+          ],
+          "css_rect": {
+            "left": "67.1%",
+            "top": "51.7%",
+            "width": "7.0%",
+            "height": "5.9%"
+          }
+        },
+        {
+          "id": "det-120-3",
+          "track_id": 4003,
+          "class": "car",
+          "confidence": 0.579,
+          "xyxy": [
+            132.9,
+            235.3,
+            194.2,
+            287.2
+          ],
+          "css_rect": {
+            "left": "17.3%",
+            "top": "54.5%",
+            "width": "8.0%",
+            "height": "12.0%"
+          }
+        },
+        {
+          "id": "det-120-4",
+          "track_id": 4004,
+          "class": "car",
+          "confidence": 0.567,
+          "xyxy": [
+            203.7,
+            210.3,
+            232.2,
+            234.5
+          ],
+          "css_rect": {
+            "left": "26.5%",
+            "top": "48.7%",
+            "width": "3.7%",
+            "height": "5.6%"
+          }
+        },
+        {
+          "id": "det-120-5",
+          "track_id": 4005,
+          "class": "car",
+          "confidence": 0.504,
+          "xyxy": [
+            424.8,
+            223.0,
+            474.6,
+            257.1
+          ],
+          "css_rect": {
+            "left": "55.3%",
+            "top": "51.6%",
+            "width": "6.5%",
+            "height": "7.9%"
+          }
+        },
+        {
+          "id": "det-120-6",
+          "track_id": 4006,
+          "class": "car",
+          "confidence": 0.415,
+          "xyxy": [
+            0.0,
+            219.0,
+            20.8,
+            271.0
+          ],
+          "css_rect": {
+            "left": "0.0%",
+            "top": "50.7%",
+            "width": "2.7%",
+            "height": "12.0%"
+          }
+        },
+        {
+          "id": "det-120-7",
+          "track_id": 4007,
+          "class": "car",
+          "confidence": 0.403,
+          "xyxy": [
+            211.0,
+            362.8,
+            345.7,
+            431.3
+          ],
+          "css_rect": {
+            "left": "27.5%",
+            "top": "84.0%",
+            "width": "17.5%",
+            "height": "15.9%"
+          }
+        },
+        {
+          "id": "det-120-8",
+          "track_id": 4008,
+          "class": "car",
+          "confidence": 0.398,
+          "xyxy": [
+            702.4,
+            267.4,
+            767.7,
+            313.4
+          ],
+          "css_rect": {
+            "left": "91.5%",
+            "top": "61.9%",
+            "width": "8.5%",
+            "height": "10.6%"
+          }
+        },
+        {
+          "id": "det-120-9",
+          "track_id": 4009,
+          "class": "motorcycle",
+          "confidence": 0.358,
+          "xyxy": [
+            676.0,
+            330.9,
+            767.6,
+            429.1
+          ],
+          "css_rect": {
+            "left": "88.0%",
+            "top": "76.6%",
+            "width": "11.9%",
+            "height": "22.7%"
+          }
+        }
+      ],
+      "vacant_slots": [
+        {
+          "slot_id": "BAY-B1-03",
+          "pillar": "PILLAR A-03",
+          "css_rect": {
+            "left": "19.5%",
+            "top": "50.5%",
+            "width": "9.5%",
+            "height": "16.0%"
+          },
+          "type": "VACANT"
+        },
+        {
+          "slot_id": "BAY-B1-07",
+          "pillar": "PILLAR A-07",
+          "css_rect": {
+            "left": "44.5%",
+            "top": "50.5%",
+            "width": "8.5%",
+            "height": "14.5%"
+          },
+          "type": "VACANT"
+        },
+        {
+          "slot_id": "BAY-B1-11",
+          "pillar": "PILLAR A-11",
+          "css_rect": {
+            "left": "12.0%",
+            "top": "51.0%",
+            "width": "8.0%",
+            "height": "14.0%"
+          },
+          "type": "VACANT"
+        }
+      ],
+      "violations": [
+        {
+          "id": "viol-2",
+          "code": "U2E55-8758",
+          "type": "UNAUTHORIZED_STOPPAGE",
+          "title": "Unauthorized Aisle Stoppage",
+          "pillar": "PILLAR A-08",
+          "confidence": 0.504,
+          "track_id": 4005,
+          "vehicle_type": "car",
+          "css_rect": {
+            "left": "55.3%",
+            "top": "51.6%",
+            "width": "6.5%",
+            "height": "7.9%"
+          },
+          "time_ago": "4m ago",
+          "severity": "HIGH",
+          "description": "Commercial SUV halted in main circulation thoroughfare"
+        }
+      ]
+    },
+    {
+      "frame_index": 135,
+      "timestamp_sec": 4.5,
+      "total_vehicles": 9,
+      "cars": 9,
+      "trucks": 0,
+      "motorcycles": 0,
+      "total_bays": 12,
+      "occupied_bays": 9,
+      "available_bays": 3,
+      "occupancy_percentage": 75.0,
+      "violations_count": 1,
+      "detections": [
+        {
+          "id": "det-135-0",
+          "track_id": 4000,
+          "class": "car",
+          "confidence": 0.791,
+          "xyxy": [
+            134.0,
+            218.2,
+            185.6,
+            256.5
+          ],
+          "css_rect": {
+            "left": "17.5%",
+            "top": "50.5%",
+            "width": "6.7%",
+            "height": "8.8%"
+          }
+        },
+        {
+          "id": "det-135-1",
+          "track_id": 4001,
+          "class": "car",
+          "confidence": 0.748,
+          "xyxy": [
+            168.6,
+            232.8,
+            224.6,
+            279.8
+          ],
+          "css_rect": {
+            "left": "21.9%",
+            "top": "53.9%",
+            "width": "7.3%",
+            "height": "10.9%"
+          }
+        },
+        {
+          "id": "det-135-2",
+          "track_id": 4002,
+          "class": "car",
+          "confidence": 0.737,
+          "xyxy": [
+            545.1,
+            224.3,
+            603.9,
+            251.6
+          ],
+          "css_rect": {
+            "left": "71.0%",
+            "top": "51.9%",
+            "width": "7.6%",
+            "height": "6.3%"
+          }
+        },
+        {
+          "id": "det-135-3",
+          "track_id": 4003,
+          "class": "car",
+          "confidence": 0.684,
+          "xyxy": [
+            719.3,
+            344.0,
+            767.8,
+            430.1
+          ],
+          "css_rect": {
+            "left": "93.7%",
+            "top": "79.6%",
+            "width": "6.3%",
+            "height": "19.9%"
+          }
+        },
+        {
+          "id": "det-135-4",
+          "track_id": 4004,
+          "class": "car",
+          "confidence": 0.639,
+          "xyxy": [
+            4.5,
+            225.3,
+            67.3,
+            260.1
+          ],
+          "css_rect": {
+            "left": "0.6%",
+            "top": "52.2%",
+            "width": "8.2%",
+            "height": "8.1%"
+          }
+        },
+        {
+          "id": "det-135-5",
+          "track_id": 4005,
+          "class": "car",
+          "confidence": 0.506,
+          "xyxy": [
+            236.6,
+            359.2,
+            371.9,
+            431.1
+          ],
+          "css_rect": {
+            "left": "30.8%",
+            "top": "83.1%",
+            "width": "17.6%",
+            "height": "16.6%"
+          }
+        },
+        {
+          "id": "det-135-6",
+          "track_id": 4006,
+          "class": "car",
+          "confidence": 0.5,
+          "xyxy": [
+            261.4,
+            212.0,
+            286.2,
+            229.3
+          ],
+          "css_rect": {
+            "left": "34.0%",
+            "top": "49.1%",
+            "width": "3.2%",
+            "height": "4.0%"
+          }
+        },
+        {
+          "id": "det-135-7",
+          "track_id": 4007,
+          "class": "car",
+          "confidence": 0.395,
+          "xyxy": [
+            451.8,
+            223.4,
+            502.0,
+            258.2
+          ],
+          "css_rect": {
+            "left": "58.8%",
+            "top": "51.7%",
+            "width": "6.5%",
+            "height": "8.1%"
+          }
+        },
+        {
+          "id": "det-135-8",
+          "track_id": 4008,
+          "class": "car",
+          "confidence": 0.355,
+          "xyxy": [
+            584.7,
+            214.2,
+            620.7,
+            234.4
+          ],
+          "css_rect": {
+            "left": "76.1%",
+            "top": "49.6%",
+            "width": "4.7%",
+            "height": "4.7%"
+          }
+        }
+      ],
+      "vacant_slots": [
+        {
+          "slot_id": "BAY-B1-03",
+          "pillar": "PILLAR A-03",
+          "css_rect": {
+            "left": "19.5%",
+            "top": "50.5%",
+            "width": "9.5%",
+            "height": "16.0%"
+          },
+          "type": "VACANT"
+        },
+        {
+          "slot_id": "BAY-B1-07",
+          "pillar": "PILLAR A-07",
+          "css_rect": {
+            "left": "44.5%",
+            "top": "50.5%",
+            "width": "8.5%",
+            "height": "14.5%"
+          },
+          "type": "VACANT"
+        },
+        {
+          "slot_id": "BAY-B1-11",
+          "pillar": "PILLAR A-11",
+          "css_rect": {
+            "left": "12.0%",
+            "top": "51.0%",
+            "width": "8.0%",
+            "height": "14.0%"
+          },
+          "type": "VACANT"
+        }
+      ],
+      "violations": [
+        {
+          "id": "viol-2",
+          "code": "U2E55-8758",
+          "type": "UNAUTHORIZED_STOPPAGE",
+          "title": "Unauthorized Aisle Stoppage",
+          "pillar": "PILLAR A-08",
+          "confidence": 0.5,
+          "track_id": 4006,
+          "vehicle_type": "car",
+          "css_rect": {
+            "left": "34.0%",
+            "top": "49.1%",
+            "width": "3.2%",
+            "height": "4.0%"
+          },
+          "time_ago": "4m ago",
+          "severity": "HIGH",
+          "description": "Commercial SUV halted in main circulation thoroughfare"
+        }
+      ]
+    },
+    {
+      "frame_index": 150,
+      "timestamp_sec": 5.0,
+      "total_vehicles": 8,
+      "cars": 7,
+      "trucks": 1,
+      "motorcycles": 0,
+      "total_bays": 12,
+      "occupied_bays": 8,
+      "available_bays": 4,
+      "occupancy_percentage": 66.7,
+      "violations_count": 1,
+      "detections": [
+        {
+          "id": "det-150-0",
+          "track_id": 4000,
+          "class": "car",
+          "confidence": 0.817,
+          "xyxy": [
+            0.0,
+            219.6,
+            67.0,
+            256.5
+          ],
+          "css_rect": {
+            "left": "0.0%",
+            "top": "50.8%",
+            "width": "8.7%",
+            "height": "8.5%"
+          }
+        },
+        {
+          "id": "det-150-1",
+          "track_id": 4001,
+          "class": "car",
+          "confidence": 0.814,
+          "xyxy": [
+            580.5,
+            224.6,
+            644.3,
+            253.1
+          ],
+          "css_rect": {
+            "left": "75.6%",
+            "top": "52.0%",
+            "width": "8.3%",
+            "height": "6.6%"
+          }
+        },
+        {
+          "id": "det-150-2",
+          "track_id": 4002,
+          "class": "car",
+          "confidence": 0.739,
+          "xyxy": [
+            203.3,
+            226.7,
+            259.5,
+            273.4
+          ],
+          "css_rect": {
+            "left": "26.5%",
+            "top": "52.5%",
+            "width": "7.3%",
+            "height": "10.8%"
+          }
+        },
+        {
+          "id": "det-150-3",
+          "track_id": 4003,
+          "class": "car",
+          "confidence": 0.694,
+          "xyxy": [
+            171.6,
+            213.8,
+            223.3,
+            251.3
+          ],
+          "css_rect": {
+            "left": "22.4%",
+            "top": "49.5%",
+            "width": "6.7%",
+            "height": "8.7%"
+          }
+        },
+        {
+          "id": "det-150-4",
+          "track_id": 4004,
+          "class": "car",
+          "confidence": 0.584,
+          "xyxy": [
+            483.0,
+            219.9,
+            535.1,
+            258.3
+          ],
+          "css_rect": {
+            "left": "62.9%",
+            "top": "50.9%",
+            "width": "6.8%",
+            "height": "8.9%"
+          }
+        },
+        {
+          "id": "det-150-5",
+          "track_id": 4005,
+          "class": "car",
+          "confidence": 0.58,
+          "xyxy": [
+            58.1,
+            212.7,
+            112.3,
+            251.4
+          ],
+          "css_rect": {
+            "left": "7.6%",
+            "top": "49.2%",
+            "width": "7.1%",
+            "height": "9.0%"
+          }
+        },
+        {
+          "id": "det-150-6",
+          "track_id": 4006,
+          "class": "car",
+          "confidence": 0.398,
+          "xyxy": [
+            480.1,
+            259.7,
+            590.3,
+            314.4
+          ],
+          "css_rect": {
+            "left": "62.5%",
+            "top": "60.1%",
+            "width": "14.4%",
+            "height": "12.7%"
+          }
+        },
+        {
+          "id": "det-150-7",
+          "track_id": 4007,
+          "class": "truck",
+          "confidence": 0.377,
+          "xyxy": [
+            4.7,
+            324.4,
+            401.2,
+            428.3
+          ],
+          "css_rect": {
+            "left": "0.6%",
+            "top": "75.1%",
+            "width": "51.6%",
+            "height": "24.1%"
+          }
+        }
+      ],
+      "vacant_slots": [
+        {
+          "slot_id": "BAY-B1-03",
+          "pillar": "PILLAR A-03",
+          "css_rect": {
+            "left": "19.5%",
+            "top": "50.5%",
+            "width": "9.5%",
+            "height": "16.0%"
+          },
+          "type": "VACANT"
+        },
+        {
+          "slot_id": "BAY-B1-07",
+          "pillar": "PILLAR A-07",
+          "css_rect": {
+            "left": "44.5%",
+            "top": "50.5%",
+            "width": "8.5%",
+            "height": "14.5%"
+          },
+          "type": "VACANT"
+        },
+        {
+          "slot_id": "BAY-B1-11",
+          "pillar": "PILLAR A-11",
+          "css_rect": {
+            "left": "12.0%",
+            "top": "51.0%",
+            "width": "8.0%",
+            "height": "14.0%"
+          },
+          "type": "VACANT"
+        }
+      ],
+      "violations": [
+        {
+          "id": "viol-1",
+          "code": "C12355-6890",
+          "type": "DOUBLE_PARKING",
+          "title": "Double Parking",
+          "pillar": "PILLAR A-05",
+          "confidence": 0.398,
+          "track_id": 4006,
+          "vehicle_type": "car",
+          "css_rect": {
+            "left": "62.5%",
+            "top": "60.1%",
+            "width": "14.4%",
+            "height": "12.7%"
+          },
+          "time_ago": "2m ago",
+          "severity": "CRITICAL",
+          "description": "Vehicle double parked obstructing stall egress"
+        }
+      ]
+    },
+    {
+      "frame_index": 165,
+      "timestamp_sec": 5.51,
+      "total_vehicles": 8,
+      "cars": 7,
+      "trucks": 1,
+      "motorcycles": 0,
+      "total_bays": 12,
+      "occupied_bays": 8,
+      "available_bays": 4,
+      "occupancy_percentage": 66.7,
+      "violations_count": 1,
+      "detections": [
+        {
+          "id": "det-165-0",
+          "track_id": 4000,
+          "class": "car",
+          "confidence": 0.819,
+          "xyxy": [
+            618.6,
+            227.0,
+            691.0,
+            257.8
+          ],
+          "css_rect": {
+            "left": "80.5%",
+            "top": "52.6%",
+            "width": "9.4%",
+            "height": "7.1%"
+          }
+        },
+        {
+          "id": "det-165-1",
+          "track_id": 4001,
+          "class": "car",
+          "confidence": 0.782,
+          "xyxy": [
+            209.3,
+            211.6,
+            252.4,
+            245.7
+          ],
+          "css_rect": {
+            "left": "27.3%",
+            "top": "49.0%",
+            "width": "5.6%",
+            "height": "7.9%"
+          }
+        },
+        {
+          "id": "det-165-2",
+          "track_id": 4002,
+          "class": "car",
+          "confidence": 0.781,
+          "xyxy": [
+            48.3,
+            215.3,
+            110.6,
+            249.2
+          ],
+          "css_rect": {
+            "left": "6.3%",
+            "top": "49.8%",
+            "width": "8.1%",
+            "height": "7.8%"
+          }
+        },
+        {
+          "id": "det-165-3",
+          "track_id": 4003,
+          "class": "car",
+          "confidence": 0.628,
+          "xyxy": [
+            515.3,
+            222.2,
+            570.8,
+            260.6
+          ],
+          "css_rect": {
+            "left": "67.1%",
+            "top": "51.4%",
+            "width": "7.2%",
+            "height": "8.9%"
+          }
+        },
+        {
+          "id": "det-165-4",
+          "track_id": 4004,
+          "class": "car",
+          "confidence": 0.583,
+          "xyxy": [
+            237.2,
+            226.1,
+            288.7,
+            270.1
+          ],
+          "css_rect": {
+            "left": "30.9%",
+            "top": "52.3%",
+            "width": "6.7%",
+            "height": "10.2%"
+          }
+        },
+        {
+          "id": "det-165-5",
+          "track_id": 4005,
+          "class": "car",
+          "confidence": 0.494,
+          "xyxy": [
+            510.5,
+            259.8,
+            615.1,
+            319.0
+          ],
+          "css_rect": {
+            "left": "66.5%",
+            "top": "60.1%",
+            "width": "13.6%",
+            "height": "13.7%"
+          }
+        },
+        {
+          "id": "det-165-6",
+          "track_id": 4006,
+          "class": "car",
+          "confidence": 0.45,
+          "xyxy": [
+            105.1,
+            218.5,
+            147.8,
+            244.9
+          ],
+          "css_rect": {
+            "left": "13.7%",
+            "top": "50.6%",
+            "width": "5.6%",
+            "height": "6.1%"
+          }
+        },
+        {
+          "id": "det-165-7",
+          "track_id": 4007,
+          "class": "truck",
+          "confidence": 0.378,
+          "xyxy": [
+            71.2,
+            321.5,
+            430.9,
+            429.1
+          ],
+          "css_rect": {
+            "left": "9.3%",
+            "top": "74.4%",
+            "width": "46.8%",
+            "height": "24.9%"
+          }
+        }
+      ],
+      "vacant_slots": [
+        {
+          "slot_id": "BAY-B1-03",
+          "pillar": "PILLAR A-03",
+          "css_rect": {
+            "left": "19.5%",
+            "top": "50.5%",
+            "width": "9.5%",
+            "height": "16.0%"
+          },
+          "type": "VACANT"
+        },
+        {
+          "slot_id": "BAY-B1-07",
+          "pillar": "PILLAR A-07",
+          "css_rect": {
+            "left": "44.5%",
+            "top": "50.5%",
+            "width": "8.5%",
+            "height": "14.5%"
+          },
+          "type": "VACANT"
+        },
+        {
+          "slot_id": "BAY-B1-11",
+          "pillar": "PILLAR A-11",
+          "css_rect": {
+            "left": "12.0%",
+            "top": "51.0%",
+            "width": "8.0%",
+            "height": "14.0%"
+          },
+          "type": "VACANT"
+        }
+      ],
+      "violations": [
+        {
+          "id": "viol-1",
+          "code": "C12355-6890",
+          "type": "DOUBLE_PARKING",
+          "title": "Double Parking",
+          "pillar": "PILLAR A-05",
+          "confidence": 0.494,
+          "track_id": 4005,
+          "vehicle_type": "car",
+          "css_rect": {
+            "left": "66.5%",
+            "top": "60.1%",
+            "width": "13.6%",
+            "height": "13.7%"
+          },
+          "time_ago": "2m ago",
+          "severity": "CRITICAL",
+          "description": "Vehicle double parked obstructing stall egress"
+        }
+      ]
+    },
+    {
+      "frame_index": 180,
+      "timestamp_sec": 6.01,
+      "total_vehicles": 12,
+      "cars": 12,
+      "trucks": 0,
+      "motorcycles": 0,
+      "total_bays": 12,
+      "occupied_bays": 12,
+      "available_bays": 0,
+      "occupancy_percentage": 100.0,
+      "violations_count": 2,
+      "detections": [
+        {
+          "id": "det-180-0",
+          "track_id": 4000,
+          "class": "car",
+          "confidence": 0.838,
+          "xyxy": [
+            94.2,
+            213.7,
+            152.1,
+            243.9
+          ],
+          "css_rect": {
+            "left": "12.3%",
+            "top": "49.5%",
+            "width": "7.5%",
+            "height": "7.0%"
+          }
+        },
+        {
+          "id": "det-180-1",
+          "track_id": 4001,
+          "class": "car",
+          "confidence": 0.816,
+          "xyxy": [
+            657.5,
+            229.9,
+            739.9,
+            263.9
+          ],
+          "css_rect": {
+            "left": "85.6%",
+            "top": "53.2%",
+            "width": "10.7%",
+            "height": "7.9%"
+          }
+        },
+        {
+          "id": "det-180-2",
+          "track_id": 4002,
+          "class": "car",
+          "confidence": 0.658,
+          "xyxy": [
+            265.8,
+            227.6,
+            314.1,
+            268.4
+          ],
+          "css_rect": {
+            "left": "34.6%",
+            "top": "52.7%",
+            "width": "6.3%",
+            "height": "9.4%"
+          }
+        },
+        {
+          "id": "det-180-3",
+          "track_id": 4003,
+          "class": "car",
+          "confidence": 0.641,
+          "xyxy": [
+            144.7,
+            213.7,
+            188.8,
+            242.7
+          ],
+          "css_rect": {
+            "left": "18.8%",
+            "top": "49.5%",
+            "width": "5.7%",
+            "height": "6.7%"
+          }
+        },
+        {
+          "id": "det-180-4",
+          "track_id": 4004,
+          "class": "car",
+          "confidence": 0.591,
+          "xyxy": [
+            719.1,
+            224.5,
+            767.4,
+            249.2
+          ],
+          "css_rect": {
+            "left": "93.6%",
+            "top": "52.0%",
+            "width": "6.3%",
+            "height": "5.7%"
+          }
+        },
+        {
+          "id": "det-180-5",
+          "track_id": 4005,
+          "class": "car",
+          "confidence": 0.561,
+          "xyxy": [
+            547.7,
+            222.5,
+            606.2,
+            264.5
+          ],
+          "css_rect": {
+            "left": "71.3%",
+            "top": "51.5%",
+            "width": "7.6%",
+            "height": "9.7%"
+          }
+        },
+        {
+          "id": "det-180-6",
+          "track_id": 4006,
+          "class": "car",
+          "confidence": 0.537,
+          "xyxy": [
+            243.8,
+            212.0,
+            281.3,
+            243.4
+          ],
+          "css_rect": {
+            "left": "31.7%",
+            "top": "49.1%",
+            "width": "4.9%",
+            "height": "7.3%"
+          }
+        },
+        {
+          "id": "det-180-7",
+          "track_id": 4007,
+          "class": "car",
+          "confidence": 0.453,
+          "xyxy": [
+            140.5,
+            361.9,
+            273.2,
+            430.4
+          ],
+          "css_rect": {
+            "left": "18.3%",
+            "top": "83.8%",
+            "width": "17.3%",
+            "height": "15.9%"
+          }
+        },
+        {
+          "id": "det-180-8",
+          "track_id": 4008,
+          "class": "car",
+          "confidence": 0.429,
+          "xyxy": [
+            475.6,
+            261.7,
+            634.4,
+            326.6
+          ],
+          "css_rect": {
+            "left": "61.9%",
+            "top": "60.6%",
+            "width": "20.7%",
+            "height": "15.0%"
+          }
+        },
+        {
+          "id": "det-180-9",
+          "track_id": 4009,
+          "class": "car",
+          "confidence": 0.41,
+          "xyxy": [
+            544.6,
+            262.9,
+            633.8,
+            326.6
+          ],
+          "css_rect": {
+            "left": "70.9%",
+            "top": "60.9%",
+            "width": "11.6%",
+            "height": "14.7%"
+          }
+        },
+        {
+          "id": "det-180-10",
+          "track_id": 4010,
+          "class": "car",
+          "confidence": 0.387,
+          "xyxy": [
+            0.1,
+            203.6,
+            23.8,
+            267.3
+          ],
+          "css_rect": {
+            "left": "0.0%",
+            "top": "47.1%",
+            "width": "3.1%",
+            "height": "14.7%"
+          }
+        },
+        {
+          "id": "det-180-11",
+          "track_id": 4011,
+          "class": "car",
+          "confidence": 0.365,
+          "xyxy": [
+            324.6,
+            204.1,
+            346.4,
+            224.0
+          ],
+          "css_rect": {
+            "left": "42.3%",
+            "top": "47.2%",
+            "width": "2.8%",
+            "height": "4.6%"
+          }
+        }
+      ],
+      "vacant_slots": [
+        {
+          "slot_id": "BAY-B1-03",
+          "pillar": "PILLAR A-03",
+          "css_rect": {
+            "left": "19.5%",
+            "top": "50.5%",
+            "width": "9.5%",
+            "height": "16.0%"
+          },
+          "type": "VACANT"
+        },
+        {
+          "slot_id": "BAY-B1-07",
+          "pillar": "PILLAR A-07",
+          "css_rect": {
+            "left": "44.5%",
+            "top": "50.5%",
+            "width": "8.5%",
+            "height": "14.5%"
+          },
+          "type": "VACANT"
+        },
+        {
+          "slot_id": "BAY-B1-11",
+          "pillar": "PILLAR A-11",
+          "css_rect": {
+            "left": "12.0%",
+            "top": "51.0%",
+            "width": "8.0%",
+            "height": "14.0%"
+          },
+          "type": "VACANT"
+        }
+      ],
+      "violations": [
+        {
+          "id": "viol-1",
+          "code": "C12355-6890",
+          "type": "DOUBLE_PARKING",
+          "title": "Double Parking",
+          "pillar": "PILLAR A-05",
+          "confidence": 0.429,
+          "track_id": 4008,
+          "vehicle_type": "car",
+          "css_rect": {
+            "left": "61.9%",
+            "top": "60.6%",
+            "width": "20.7%",
+            "height": "15.0%"
+          },
+          "time_ago": "2m ago",
+          "severity": "CRITICAL",
+          "description": "Vehicle double parked obstructing stall egress"
+        },
+        {
+          "id": "viol-2",
+          "code": "U2E55-8758",
+          "type": "UNAUTHORIZED_STOPPAGE",
+          "title": "Unauthorized Aisle Stoppage",
+          "pillar": "PILLAR A-08",
+          "confidence": 0.658,
+          "track_id": 4002,
+          "vehicle_type": "car",
+          "css_rect": {
+            "left": "34.6%",
+            "top": "52.7%",
+            "width": "6.3%",
+            "height": "9.4%"
+          },
+          "time_ago": "4m ago",
+          "severity": "HIGH",
+          "description": "Commercial SUV halted in main circulation thoroughfare"
+        }
+      ]
+    },
+    {
+      "frame_index": 195,
+      "timestamp_sec": 6.51,
+      "total_vehicles": 9,
+      "cars": 9,
+      "trucks": 0,
+      "motorcycles": 0,
+      "total_bays": 12,
+      "occupied_bays": 9,
+      "available_bays": 3,
+      "occupancy_percentage": 75.0,
+      "violations_count": 2,
+      "detections": [
+        {
+          "id": "det-195-0",
+          "track_id": 4000,
+          "class": "car",
+          "confidence": 0.793,
+          "xyxy": [
+            694.6,
+            230.9,
+            767.4,
+            268.4
+          ],
+          "css_rect": {
+            "left": "90.4%",
+            "top": "53.5%",
+            "width": "9.5%",
+            "height": "8.7%"
+          }
+        },
+        {
+          "id": "det-195-1",
+          "track_id": 4001,
+          "class": "car",
+          "confidence": 0.731,
+          "xyxy": [
+            291.1,
+            226.6,
+            336.6,
+            264.9
+          ],
+          "css_rect": {
+            "left": "37.9%",
+            "top": "52.5%",
+            "width": "5.9%",
+            "height": "8.9%"
+          }
+        },
+        {
+          "id": "det-195-2",
+          "track_id": 4002,
+          "class": "car",
+          "confidence": 0.714,
+          "xyxy": [
+            487.4,
+            256.4,
+            647.1,
+            331.6
+          ],
+          "css_rect": {
+            "left": "63.5%",
+            "top": "59.3%",
+            "width": "20.8%",
+            "height": "17.4%"
+          }
+        },
+        {
+          "id": "det-195-3",
+          "track_id": 4003,
+          "class": "car",
+          "confidence": 0.714,
+          "xyxy": [
+            128.2,
+            211.2,
+            179.8,
+            240.8
+          ],
+          "css_rect": {
+            "left": "16.7%",
+            "top": "48.9%",
+            "width": "6.7%",
+            "height": "6.8%"
+          }
+        },
+        {
+          "id": "det-195-4",
+          "track_id": 4004,
+          "class": "car",
+          "confidence": 0.611,
+          "xyxy": [
+            576.7,
+            225.2,
+            636.5,
+            267.5
+          ],
+          "css_rect": {
+            "left": "75.1%",
+            "top": "52.1%",
+            "width": "7.8%",
+            "height": "9.8%"
+          }
+        },
+        {
+          "id": "det-195-5",
+          "track_id": 4005,
+          "class": "car",
+          "confidence": 0.601,
+          "xyxy": [
+            0.0,
+            222.0,
+            64.3,
+            260.2
+          ],
+          "css_rect": {
+            "left": "0.0%",
+            "top": "51.4%",
+            "width": "8.4%",
+            "height": "8.8%"
+          }
+        },
+        {
+          "id": "det-195-6",
+          "track_id": 4006,
+          "class": "car",
+          "confidence": 0.37,
+          "xyxy": [
+            220.8,
+            310.6,
+            318.5,
+            337.7
+          ],
+          "css_rect": {
+            "left": "28.7%",
+            "top": "71.9%",
+            "width": "12.7%",
+            "height": "6.3%"
+          }
+        },
+        {
+          "id": "det-195-7",
+          "track_id": 4007,
+          "class": "car",
+          "confidence": 0.368,
+          "xyxy": [
+            348.3,
+            202.6,
+            370.7,
+            222.5
+          ],
+          "css_rect": {
+            "left": "45.4%",
+            "top": "46.9%",
+            "width": "2.9%",
+            "height": "4.6%"
+          }
+        },
+        {
+          "id": "det-195-8",
+          "track_id": 4008,
+          "class": "car",
+          "confidence": 0.364,
+          "xyxy": [
+            174.8,
+            215.4,
+            210.2,
+            238.4
+          ],
+          "css_rect": {
+            "left": "22.8%",
+            "top": "49.9%",
+            "width": "4.6%",
+            "height": "5.3%"
+          }
+        }
+      ],
+      "vacant_slots": [
+        {
+          "slot_id": "BAY-B1-03",
+          "pillar": "PILLAR A-03",
+          "css_rect": {
+            "left": "19.5%",
+            "top": "50.5%",
+            "width": "9.5%",
+            "height": "16.0%"
+          },
+          "type": "VACANT"
+        },
+        {
+          "slot_id": "BAY-B1-07",
+          "pillar": "PILLAR A-07",
+          "css_rect": {
+            "left": "44.5%",
+            "top": "50.5%",
+            "width": "8.5%",
+            "height": "14.5%"
+          },
+          "type": "VACANT"
+        },
+        {
+          "slot_id": "BAY-B1-11",
+          "pillar": "PILLAR A-11",
+          "css_rect": {
+            "left": "12.0%",
+            "top": "51.0%",
+            "width": "8.0%",
+            "height": "14.0%"
+          },
+          "type": "VACANT"
+        }
+      ],
+      "violations": [
+        {
+          "id": "viol-1",
+          "code": "C12355-6890",
+          "type": "DOUBLE_PARKING",
+          "title": "Double Parking",
+          "pillar": "PILLAR A-05",
+          "confidence": 0.714,
+          "track_id": 4002,
+          "vehicle_type": "car",
+          "css_rect": {
+            "left": "63.5%",
+            "top": "59.3%",
+            "width": "20.8%",
+            "height": "17.4%"
+          },
+          "time_ago": "2m ago",
+          "severity": "CRITICAL",
+          "description": "Vehicle double parked obstructing stall egress"
+        },
+        {
+          "id": "viol-2",
+          "code": "U2E55-8758",
+          "type": "UNAUTHORIZED_STOPPAGE",
+          "title": "Unauthorized Aisle Stoppage",
+          "pillar": "PILLAR A-08",
+          "confidence": 0.731,
+          "track_id": 4001,
+          "vehicle_type": "car",
+          "css_rect": {
+            "left": "37.9%",
+            "top": "52.5%",
+            "width": "5.9%",
+            "height": "8.9%"
+          },
+          "time_ago": "4m ago",
+          "severity": "HIGH",
+          "description": "Commercial SUV halted in main circulation thoroughfare"
+        }
+      ]
+    },
+    {
+      "frame_index": 210,
+      "timestamp_sec": 7.01,
+      "total_vehicles": 9,
+      "cars": 9,
+      "trucks": 0,
+      "motorcycles": 0,
+      "total_bays": 12,
+      "occupied_bays": 9,
+      "available_bays": 3,
+      "occupancy_percentage": 75.0,
+      "violations_count": 2,
+      "detections": [
+        {
+          "id": "det-210-0",
+          "track_id": 4000,
+          "class": "car",
+          "confidence": 0.794,
+          "xyxy": [
+            27.6,
+            215.7,
+            95.2,
+            254.1
+          ],
+          "css_rect": {
+            "left": "3.6%",
+            "top": "49.9%",
+            "width": "8.8%",
+            "height": "8.9%"
+          }
+        },
+        {
+          "id": "det-210-1",
+          "track_id": 4001,
+          "class": "car",
+          "confidence": 0.783,
+          "xyxy": [
+            154.3,
+            208.4,
+            201.8,
+            237.2
+          ],
+          "css_rect": {
+            "left": "20.1%",
+            "top": "48.2%",
+            "width": "6.2%",
+            "height": "6.7%"
+          }
+        },
+        {
+          "id": "det-210-2",
+          "track_id": 4002,
+          "class": "car",
+          "confidence": 0.734,
+          "xyxy": [
+            601.9,
+            223.3,
+            665.0,
+            268.7
+          ],
+          "css_rect": {
+            "left": "78.4%",
+            "top": "51.7%",
+            "width": "8.2%",
+            "height": "10.5%"
+          }
+        },
+        {
+          "id": "det-210-3",
+          "track_id": 4003,
+          "class": "car",
+          "confidence": 0.583,
+          "xyxy": [
+            728.5,
+            230.0,
+            767.8,
+            264.0
+          ],
+          "css_rect": {
+            "left": "94.9%",
+            "top": "53.2%",
+            "width": "5.1%",
+            "height": "7.9%"
+          }
+        },
+        {
+          "id": "det-210-4",
+          "track_id": 4004,
+          "class": "car",
+          "confidence": 0.552,
+          "xyxy": [
+            197.2,
+            209.5,
+            236.9,
+            236.3
+          ],
+          "css_rect": {
+            "left": "25.7%",
+            "top": "48.5%",
+            "width": "5.2%",
+            "height": "6.2%"
+          }
+        },
+        {
+          "id": "det-210-5",
+          "track_id": 4005,
+          "class": "car",
+          "confidence": 0.492,
+          "xyxy": [
+            308.5,
+            219.7,
+            357.8,
+            261.4
+          ],
+          "css_rect": {
+            "left": "40.2%",
+            "top": "50.9%",
+            "width": "6.4%",
+            "height": "9.7%"
+          }
+        },
+        {
+          "id": "det-210-6",
+          "track_id": 4006,
+          "class": "car",
+          "confidence": 0.412,
+          "xyxy": [
+            285.8,
+            206.9,
+            323.4,
+            238.8
+          ],
+          "css_rect": {
+            "left": "37.2%",
+            "top": "47.9%",
+            "width": "4.9%",
+            "height": "7.4%"
+          }
+        },
+        {
+          "id": "det-210-7",
+          "track_id": 4007,
+          "class": "car",
+          "confidence": 0.403,
+          "xyxy": [
+            490.7,
+            255.2,
+            555.8,
+            299.2
+          ],
+          "css_rect": {
+            "left": "63.9%",
+            "top": "59.1%",
+            "width": "8.5%",
+            "height": "10.2%"
+          }
+        },
+        {
+          "id": "det-210-8",
+          "track_id": 4008,
+          "class": "car",
+          "confidence": 0.38,
+          "xyxy": [
+            187.9,
+            350.1,
+            312.7,
+            430.0
+          ],
+          "css_rect": {
+            "left": "24.5%",
+            "top": "81.0%",
+            "width": "16.3%",
+            "height": "18.5%"
+          }
+        }
+      ],
+      "vacant_slots": [
+        {
+          "slot_id": "BAY-B1-03",
+          "pillar": "PILLAR A-03",
+          "css_rect": {
+            "left": "19.5%",
+            "top": "50.5%",
+            "width": "9.5%",
+            "height": "16.0%"
+          },
+          "type": "VACANT"
+        },
+        {
+          "slot_id": "BAY-B1-07",
+          "pillar": "PILLAR A-07",
+          "css_rect": {
+            "left": "44.5%",
+            "top": "50.5%",
+            "width": "8.5%",
+            "height": "14.5%"
+          },
+          "type": "VACANT"
+        },
+        {
+          "slot_id": "BAY-B1-11",
+          "pillar": "PILLAR A-11",
+          "css_rect": {
+            "left": "12.0%",
+            "top": "51.0%",
+            "width": "8.0%",
+            "height": "14.0%"
+          },
+          "type": "VACANT"
+        }
+      ],
+      "violations": [
+        {
+          "id": "viol-1",
+          "code": "C12355-6890",
+          "type": "DOUBLE_PARKING",
+          "title": "Double Parking",
+          "pillar": "PILLAR A-05",
+          "confidence": 0.403,
+          "track_id": 4007,
+          "vehicle_type": "car",
+          "css_rect": {
+            "left": "63.9%",
+            "top": "59.1%",
+            "width": "8.5%",
+            "height": "10.2%"
+          },
+          "time_ago": "2m ago",
+          "severity": "CRITICAL",
+          "description": "Vehicle double parked obstructing stall egress"
+        },
+        {
+          "id": "viol-2",
+          "code": "U2E55-8758",
+          "type": "UNAUTHORIZED_STOPPAGE",
+          "title": "Unauthorized Aisle Stoppage",
+          "pillar": "PILLAR A-08",
+          "confidence": 0.492,
+          "track_id": 4005,
+          "vehicle_type": "car",
+          "css_rect": {
+            "left": "40.2%",
+            "top": "50.9%",
+            "width": "6.4%",
+            "height": "9.7%"
+          },
+          "time_ago": "4m ago",
+          "severity": "HIGH",
+          "description": "Commercial SUV halted in main circulation thoroughfare"
+        }
+      ]
+    },
+    {
+      "frame_index": 225,
+      "timestamp_sec": 7.51,
+      "total_vehicles": 10,
+      "cars": 9,
+      "trucks": 1,
+      "motorcycles": 0,
+      "total_bays": 12,
+      "occupied_bays": 10,
+      "available_bays": 2,
+      "occupancy_percentage": 83.3,
+      "violations_count": 2,
+      "detections": [
+        {
+          "id": "det-225-0",
+          "track_id": 4000,
+          "class": "car",
+          "confidence": 0.813,
+          "xyxy": [
+            633.3,
+            225.7,
+            700.9,
+            273.2
+          ],
+          "css_rect": {
+            "left": "82.5%",
+            "top": "52.3%",
+            "width": "8.8%",
+            "height": "11.0%"
+          }
+        },
+        {
+          "id": "det-225-1",
+          "track_id": 4001,
+          "class": "car",
+          "confidence": 0.719,
+          "xyxy": [
+            180.6,
+            205.0,
+            228.8,
+            234.9
+          ],
+          "css_rect": {
+            "left": "23.5%",
+            "top": "47.5%",
+            "width": "6.3%",
+            "height": "6.9%"
+          }
+        },
+        {
+          "id": "det-225-2",
+          "track_id": 4002,
+          "class": "car",
+          "confidence": 0.621,
+          "xyxy": [
+            221.8,
+            207.4,
+            260.8,
+            236.3
+          ],
+          "css_rect": {
+            "left": "28.9%",
+            "top": "48.0%",
+            "width": "5.1%",
+            "height": "6.7%"
+          }
+        },
+        {
+          "id": "det-225-3",
+          "track_id": 4003,
+          "class": "car",
+          "confidence": 0.581,
+          "xyxy": [
+            66.9,
+            214.9,
+            128.4,
+            251.4
+          ],
+          "css_rect": {
+            "left": "8.7%",
+            "top": "49.7%",
+            "width": "8.0%",
+            "height": "8.5%"
+          }
+        },
+        {
+          "id": "det-225-4",
+          "track_id": 4004,
+          "class": "car",
+          "confidence": 0.576,
+          "xyxy": [
+            488.3,
+            254.0,
+            652.0,
+            333.6
+          ],
+          "css_rect": {
+            "left": "63.6%",
+            "top": "58.8%",
+            "width": "21.3%",
+            "height": "18.4%"
+          }
+        },
+        {
+          "id": "det-225-5",
+          "track_id": 4005,
+          "class": "car",
+          "confidence": 0.575,
+          "xyxy": [
+            331.9,
+            220.5,
+            378.2,
+            261.2
+          ],
+          "css_rect": {
+            "left": "43.2%",
+            "top": "51.0%",
+            "width": "6.0%",
+            "height": "9.4%"
+          }
+        },
+        {
+          "id": "det-225-6",
+          "track_id": 4006,
+          "class": "truck",
+          "confidence": 0.518,
+          "xyxy": [
+            212.4,
+            311.2,
+            518.6,
+            430.0
+          ],
+          "css_rect": {
+            "left": "27.7%",
+            "top": "72.0%",
+            "width": "39.9%",
+            "height": "27.5%"
+          }
+        },
+        {
+          "id": "det-225-7",
+          "track_id": 4007,
+          "class": "car",
+          "confidence": 0.47,
+          "xyxy": [
+            0.0,
+            273.5,
+            63.7,
+            314.3
+          ],
+          "css_rect": {
+            "left": "0.0%",
+            "top": "63.3%",
+            "width": "8.3%",
+            "height": "9.4%"
+          }
+        },
+        {
+          "id": "det-225-8",
+          "track_id": 4008,
+          "class": "car",
+          "confidence": 0.445,
+          "xyxy": [
+            489.2,
+            252.8,
+            582.2,
+            319.8
+          ],
+          "css_rect": {
+            "left": "63.7%",
+            "top": "58.5%",
+            "width": "12.1%",
+            "height": "15.5%"
+          }
+        },
+        {
+          "id": "det-225-9",
+          "track_id": 4009,
+          "class": "car",
+          "confidence": 0.382,
+          "xyxy": [
+            304.6,
+            202.3,
+            356.5,
+            239.9
+          ],
+          "css_rect": {
+            "left": "39.7%",
+            "top": "46.8%",
+            "width": "6.8%",
+            "height": "8.7%"
+          }
+        }
+      ],
+      "vacant_slots": [
+        {
+          "slot_id": "BAY-B1-03",
+          "pillar": "PILLAR A-03",
+          "css_rect": {
+            "left": "19.5%",
+            "top": "50.5%",
+            "width": "9.5%",
+            "height": "16.0%"
+          },
+          "type": "VACANT"
+        },
+        {
+          "slot_id": "BAY-B1-07",
+          "pillar": "PILLAR A-07",
+          "css_rect": {
+            "left": "44.5%",
+            "top": "50.5%",
+            "width": "8.5%",
+            "height": "14.5%"
+          },
+          "type": "VACANT"
+        },
+        {
+          "slot_id": "BAY-B1-11",
+          "pillar": "PILLAR A-11",
+          "css_rect": {
+            "left": "12.0%",
+            "top": "51.0%",
+            "width": "8.0%",
+            "height": "14.0%"
+          },
+          "type": "VACANT"
+        }
+      ],
+      "violations": [
+        {
+          "id": "viol-1",
+          "code": "C12355-6890",
+          "type": "DOUBLE_PARKING",
+          "title": "Double Parking",
+          "pillar": "PILLAR A-05",
+          "confidence": 0.576,
+          "track_id": 4004,
+          "vehicle_type": "car",
+          "css_rect": {
+            "left": "63.6%",
+            "top": "58.8%",
+            "width": "21.3%",
+            "height": "18.4%"
+          },
+          "time_ago": "2m ago",
+          "severity": "CRITICAL",
+          "description": "Vehicle double parked obstructing stall egress"
+        },
+        {
+          "id": "viol-2",
+          "code": "U2E55-8758",
+          "type": "UNAUTHORIZED_STOPPAGE",
+          "title": "Unauthorized Aisle Stoppage",
+          "pillar": "PILLAR A-08",
+          "confidence": 0.575,
+          "track_id": 4005,
+          "vehicle_type": "car",
+          "css_rect": {
+            "left": "43.2%",
+            "top": "51.0%",
+            "width": "6.0%",
+            "height": "9.4%"
+          },
+          "time_ago": "4m ago",
+          "severity": "HIGH",
+          "description": "Commercial SUV halted in main circulation thoroughfare"
+        }
+      ]
+    },
+    {
+      "frame_index": 240,
+      "timestamp_sec": 8.01,
+      "total_vehicles": 7,
+      "cars": 6,
+      "trucks": 1,
+      "motorcycles": 0,
+      "total_bays": 12,
+      "occupied_bays": 7,
+      "available_bays": 5,
+      "occupancy_percentage": 58.3,
+      "violations_count": 1,
+      "detections": [
+        {
+          "id": "det-240-0",
+          "track_id": 4000,
+          "class": "car",
+          "confidence": 0.666,
+          "xyxy": [
+            671.9,
+            230.3,
+            748.2,
+            281.7
+          ],
+          "css_rect": {
+            "left": "87.5%",
+            "top": "53.3%",
+            "width": "9.9%",
+            "height": "11.9%"
+          }
+        },
+        {
+          "id": "det-240-1",
+          "track_id": 4001,
+          "class": "car",
+          "confidence": 0.487,
+          "xyxy": [
+            105.6,
+            216.5,
+            162.1,
+            251.6
+          ],
+          "css_rect": {
+            "left": "13.8%",
+            "top": "50.1%",
+            "width": "7.4%",
+            "height": "8.1%"
+          }
+        },
+        {
+          "id": "det-240-2",
+          "track_id": 4002,
+          "class": "car",
+          "confidence": 0.452,
+          "xyxy": [
+            488.6,
+            254.2,
+            617.7,
+            333.5
+          ],
+          "css_rect": {
+            "left": "63.6%",
+            "top": "58.8%",
+            "width": "16.8%",
+            "height": "18.4%"
+          }
+        },
+        {
+          "id": "det-240-3",
+          "track_id": 4003,
+          "class": "truck",
+          "confidence": 0.411,
+          "xyxy": [
+            242.8,
+            312.8,
+            545.4,
+            429.6
+          ],
+          "css_rect": {
+            "left": "31.6%",
+            "top": "72.4%",
+            "width": "39.4%",
+            "height": "27.0%"
+          }
+        },
+        {
+          "id": "det-240-4",
+          "track_id": 4004,
+          "class": "car",
+          "confidence": 0.379,
+          "xyxy": [
+            243.5,
+            350.0,
+            362.4,
+            430.4
+          ],
+          "css_rect": {
+            "left": "31.7%",
+            "top": "81.0%",
+            "width": "15.5%",
+            "height": "18.6%"
+          }
+        },
+        {
+          "id": "det-240-5",
+          "track_id": 4005,
+          "class": "car",
+          "confidence": 0.367,
+          "xyxy": [
+            210.9,
+            209.1,
+            255.0,
+            237.4
+          ],
+          "css_rect": {
+            "left": "27.5%",
+            "top": "48.4%",
+            "width": "5.7%",
+            "height": "6.5%"
+          }
+        },
+        {
+          "id": "det-240-6",
+          "track_id": 4006,
+          "class": "car",
+          "confidence": 0.358,
+          "xyxy": [
+            0.0,
+            270.0,
+            103.1,
+            311.3
+          ],
+          "css_rect": {
+            "left": "0.0%",
+            "top": "62.5%",
+            "width": "13.4%",
+            "height": "9.6%"
+          }
+        }
+      ],
+      "vacant_slots": [
+        {
+          "slot_id": "BAY-B1-03",
+          "pillar": "PILLAR A-03",
+          "css_rect": {
+            "left": "19.5%",
+            "top": "50.5%",
+            "width": "9.5%",
+            "height": "16.0%"
+          },
+          "type": "VACANT"
+        },
+        {
+          "slot_id": "BAY-B1-07",
+          "pillar": "PILLAR A-07",
+          "css_rect": {
+            "left": "44.5%",
+            "top": "50.5%",
+            "width": "8.5%",
+            "height": "14.5%"
+          },
+          "type": "VACANT"
+        },
+        {
+          "slot_id": "BAY-B1-11",
+          "pillar": "PILLAR A-11",
+          "css_rect": {
+            "left": "12.0%",
+            "top": "51.0%",
+            "width": "8.0%",
+            "height": "14.0%"
+          },
+          "type": "VACANT"
+        }
+      ],
+      "violations": [
+        {
+          "id": "viol-1",
+          "code": "C12355-6890",
+          "type": "DOUBLE_PARKING",
+          "title": "Double Parking",
+          "pillar": "PILLAR A-05",
+          "confidence": 0.452,
+          "track_id": 4002,
+          "vehicle_type": "car",
+          "css_rect": {
+            "left": "63.6%",
+            "top": "58.8%",
+            "width": "16.8%",
+            "height": "18.4%"
+          },
+          "time_ago": "2m ago",
+          "severity": "CRITICAL",
+          "description": "Vehicle double parked obstructing stall egress"
+        }
+      ]
+    },
+    {
+      "frame_index": 255,
+      "timestamp_sec": 8.51,
+      "total_vehicles": 11,
+      "cars": 10,
+      "trucks": 1,
+      "motorcycles": 0,
+      "total_bays": 12,
+      "occupied_bays": 11,
+      "available_bays": 1,
+      "occupancy_percentage": 91.7,
+      "violations_count": 2,
+      "detections": [
+        {
+          "id": "det-255-0",
+          "track_id": 4000,
+          "class": "car",
+          "confidence": 0.785,
+          "xyxy": [
+            490.4,
+            254.5,
+            656.2,
+            333.7
+          ],
+          "css_rect": {
+            "left": "63.8%",
+            "top": "58.9%",
+            "width": "21.6%",
+            "height": "18.4%"
+          }
+        },
+        {
+          "id": "det-255-1",
+          "track_id": 4001,
+          "class": "car",
+          "confidence": 0.694,
+          "xyxy": [
+            145.6,
+            215.6,
+            199.3,
+            252.7
+          ],
+          "css_rect": {
+            "left": "19.0%",
+            "top": "49.9%",
+            "width": "7.0%",
+            "height": "8.6%"
+          }
+        },
+        {
+          "id": "det-255-2",
+          "track_id": 4002,
+          "class": "car",
+          "confidence": 0.694,
+          "xyxy": [
+            54.3,
+            204.7,
+            130.8,
+            246.6
+          ],
+          "css_rect": {
+            "left": "7.1%",
+            "top": "47.4%",
+            "width": "10.0%",
+            "height": "9.7%"
+          }
+        },
+        {
+          "id": "det-255-3",
+          "track_id": 4003,
+          "class": "car",
+          "confidence": 0.539,
+          "xyxy": [
+            726.5,
+            235.2,
+            767.7,
+            291.6
+          ],
+          "css_rect": {
+            "left": "94.6%",
+            "top": "54.4%",
+            "width": "5.4%",
+            "height": "13.1%"
+          }
+        },
+        {
+          "id": "det-255-4",
+          "track_id": 4004,
+          "class": "car",
+          "confidence": 0.522,
+          "xyxy": [
+            385.3,
+            226.7,
+            431.9,
+            269.5
+          ],
+          "css_rect": {
+            "left": "50.2%",
+            "top": "52.5%",
+            "width": "6.1%",
+            "height": "9.9%"
+          }
+        },
+        {
+          "id": "det-255-5",
+          "track_id": 4005,
+          "class": "car",
+          "confidence": 0.501,
+          "xyxy": [
+            360.7,
+            214.5,
+            396.0,
+            244.8
+          ],
+          "css_rect": {
+            "left": "47.0%",
+            "top": "49.6%",
+            "width": "4.6%",
+            "height": "7.0%"
+          }
+        },
+        {
+          "id": "det-255-6",
+          "track_id": 4006,
+          "class": "car",
+          "confidence": 0.444,
+          "xyxy": [
+            243.6,
+            216.8,
+            273.4,
+            239.1
+          ],
+          "css_rect": {
+            "left": "31.7%",
+            "top": "50.2%",
+            "width": "3.9%",
+            "height": "5.2%"
+          }
+        },
+        {
+          "id": "det-255-7",
+          "track_id": 4007,
+          "class": "truck",
+          "confidence": 0.439,
+          "xyxy": [
+            269.0,
+            317.0,
+            581.8,
+            429.4
+          ],
+          "css_rect": {
+            "left": "35.0%",
+            "top": "73.4%",
+            "width": "40.7%",
+            "height": "26.0%"
+          }
+        },
+        {
+          "id": "det-255-8",
+          "track_id": 4008,
+          "class": "car",
+          "confidence": 0.424,
+          "xyxy": [
+            603.6,
+            228.2,
+            668.2,
+            264.2
+          ],
+          "css_rect": {
+            "left": "78.6%",
+            "top": "52.8%",
+            "width": "8.4%",
+            "height": "8.3%"
+          }
+        },
+        {
+          "id": "det-255-9",
+          "track_id": 4009,
+          "class": "car",
+          "confidence": 0.401,
+          "xyxy": [
+            243.6,
+            212.9,
+            286.4,
+            239.3
+          ],
+          "css_rect": {
+            "left": "31.7%",
+            "top": "49.3%",
+            "width": "5.6%",
+            "height": "6.1%"
+          }
+        },
+        {
+          "id": "det-255-10",
+          "track_id": 4010,
+          "class": "car",
+          "confidence": 0.387,
+          "xyxy": [
+            281.9,
+            216.0,
+            316.3,
+            239.9
+          ],
+          "css_rect": {
+            "left": "36.7%",
+            "top": "50.0%",
+            "width": "4.5%",
+            "height": "5.5%"
+          }
+        }
+      ],
+      "vacant_slots": [
+        {
+          "slot_id": "BAY-B1-03",
+          "pillar": "PILLAR A-03",
+          "css_rect": {
+            "left": "19.5%",
+            "top": "50.5%",
+            "width": "9.5%",
+            "height": "16.0%"
+          },
+          "type": "VACANT"
+        },
+        {
+          "slot_id": "BAY-B1-07",
+          "pillar": "PILLAR A-07",
+          "css_rect": {
+            "left": "44.5%",
+            "top": "50.5%",
+            "width": "8.5%",
+            "height": "14.5%"
+          },
+          "type": "VACANT"
+        },
+        {
+          "slot_id": "BAY-B1-11",
+          "pillar": "PILLAR A-11",
+          "css_rect": {
+            "left": "12.0%",
+            "top": "51.0%",
+            "width": "8.0%",
+            "height": "14.0%"
+          },
+          "type": "VACANT"
+        }
+      ],
+      "violations": [
+        {
+          "id": "viol-1",
+          "code": "C12355-6890",
+          "type": "DOUBLE_PARKING",
+          "title": "Double Parking",
+          "pillar": "PILLAR A-05",
+          "confidence": 0.785,
+          "track_id": 4000,
+          "vehicle_type": "car",
+          "css_rect": {
+            "left": "63.8%",
+            "top": "58.9%",
+            "width": "21.6%",
+            "height": "18.4%"
+          },
+          "time_ago": "2m ago",
+          "severity": "CRITICAL",
+          "description": "Vehicle double parked obstructing stall egress"
+        },
+        {
+          "id": "viol-2",
+          "code": "U2E55-8758",
+          "type": "UNAUTHORIZED_STOPPAGE",
+          "title": "Unauthorized Aisle Stoppage",
+          "pillar": "PILLAR A-08",
+          "confidence": 0.522,
+          "track_id": 4004,
+          "vehicle_type": "car",
+          "css_rect": {
+            "left": "50.2%",
+            "top": "52.5%",
+            "width": "6.1%",
+            "height": "9.9%"
+          },
+          "time_ago": "4m ago",
+          "severity": "HIGH",
+          "description": "Commercial SUV halted in main circulation thoroughfare"
+        }
+      ]
+    },
+    {
+      "frame_index": 270,
+      "timestamp_sec": 9.01,
+      "total_vehicles": 9,
+      "cars": 9,
+      "trucks": 0,
+      "motorcycles": 0,
+      "total_bays": 12,
+      "occupied_bays": 9,
+      "available_bays": 3,
+      "occupancy_percentage": 75.0,
+      "violations_count": 2,
+      "detections": [
+        {
+          "id": "det-270-0",
+          "track_id": 4000,
+          "class": "car",
+          "confidence": 0.717,
+          "xyxy": [
+            491.9,
+            256.5,
+            659.9,
+            334.6
+          ],
+          "css_rect": {
+            "left": "64.1%",
+            "top": "59.4%",
+            "width": "21.9%",
+            "height": "18.1%"
+          }
+        },
+        {
+          "id": "det-270-1",
+          "track_id": 4001,
+          "class": "car",
+          "confidence": 0.66,
+          "xyxy": [
+            652.0,
+            233.4,
+            727.1,
+            271.6
+          ],
+          "css_rect": {
+            "left": "84.9%",
+            "top": "54.0%",
+            "width": "9.8%",
+            "height": "8.8%"
+          }
+        },
+        {
+          "id": "det-270-2",
+          "track_id": 4002,
+          "class": "car",
+          "confidence": 0.655,
+          "xyxy": [
+            417.7,
+            232.9,
+            466.1,
+            274.1
+          ],
+          "css_rect": {
+            "left": "54.4%",
+            "top": "53.9%",
+            "width": "6.3%",
+            "height": "9.5%"
+          }
+        },
+        {
+          "id": "det-270-3",
+          "track_id": 4003,
+          "class": "car",
+          "confidence": 0.651,
+          "xyxy": [
+            0.0,
+            260.7,
+            185.7,
+            366.4
+          ],
+          "css_rect": {
+            "left": "0.0%",
+            "top": "60.3%",
+            "width": "24.2%",
+            "height": "24.5%"
+          }
+        },
+        {
+          "id": "det-270-4",
+          "track_id": 4004,
+          "class": "car",
+          "confidence": 0.617,
+          "xyxy": [
+            186.5,
+            219.8,
+            238.0,
+            253.0
+          ],
+          "css_rect": {
+            "left": "24.3%",
+            "top": "50.9%",
+            "width": "6.7%",
+            "height": "7.7%"
+          }
+        },
+        {
+          "id": "det-270-5",
+          "track_id": 4005,
+          "class": "car",
+          "confidence": 0.583,
+          "xyxy": [
+            105.9,
+            209.1,
+            173.6,
+            245.3
+          ],
+          "css_rect": {
+            "left": "13.8%",
+            "top": "48.4%",
+            "width": "8.8%",
+            "height": "8.4%"
+          }
+        },
+        {
+          "id": "det-270-6",
+          "track_id": 4006,
+          "class": "car",
+          "confidence": 0.516,
+          "xyxy": [
+            393.1,
+            217.7,
+            429.3,
+            248.9
+          ],
+          "css_rect": {
+            "left": "51.2%",
+            "top": "50.4%",
+            "width": "4.7%",
+            "height": "7.2%"
+          }
+        },
+        {
+          "id": "det-270-7",
+          "track_id": 4007,
+          "class": "car",
+          "confidence": 0.413,
+          "xyxy": [
+            314.0,
+            217.1,
+            347.1,
+            243.6
+          ],
+          "css_rect": {
+            "left": "40.9%",
+            "top": "50.2%",
+            "width": "4.3%",
+            "height": "6.2%"
+          }
+        },
+        {
+          "id": "det-270-8",
+          "track_id": 4008,
+          "class": "car",
+          "confidence": 0.38,
+          "xyxy": [
+            277.9,
+            211.5,
+            318.3,
+            241.4
+          ],
+          "css_rect": {
+            "left": "36.2%",
+            "top": "49.0%",
+            "width": "5.3%",
+            "height": "6.9%"
+          }
+        }
+      ],
+      "vacant_slots": [
+        {
+          "slot_id": "BAY-B1-03",
+          "pillar": "PILLAR A-03",
+          "css_rect": {
+            "left": "19.5%",
+            "top": "50.5%",
+            "width": "9.5%",
+            "height": "16.0%"
+          },
+          "type": "VACANT"
+        },
+        {
+          "slot_id": "BAY-B1-07",
+          "pillar": "PILLAR A-07",
+          "css_rect": {
+            "left": "44.5%",
+            "top": "50.5%",
+            "width": "8.5%",
+            "height": "14.5%"
+          },
+          "type": "VACANT"
+        },
+        {
+          "slot_id": "BAY-B1-11",
+          "pillar": "PILLAR A-11",
+          "css_rect": {
+            "left": "12.0%",
+            "top": "51.0%",
+            "width": "8.0%",
+            "height": "14.0%"
+          },
+          "type": "VACANT"
+        }
+      ],
+      "violations": [
+        {
+          "id": "viol-1",
+          "code": "C12355-6890",
+          "type": "DOUBLE_PARKING",
+          "title": "Double Parking",
+          "pillar": "PILLAR A-05",
+          "confidence": 0.717,
+          "track_id": 4000,
+          "vehicle_type": "car",
+          "css_rect": {
+            "left": "64.1%",
+            "top": "59.4%",
+            "width": "21.9%",
+            "height": "18.1%"
+          },
+          "time_ago": "2m ago",
+          "severity": "CRITICAL",
+          "description": "Vehicle double parked obstructing stall egress"
+        },
+        {
+          "id": "viol-2",
+          "code": "U2E55-8758",
+          "type": "UNAUTHORIZED_STOPPAGE",
+          "title": "Unauthorized Aisle Stoppage",
+          "pillar": "PILLAR A-08",
+          "confidence": 0.655,
+          "track_id": 4002,
+          "vehicle_type": "car",
+          "css_rect": {
+            "left": "54.4%",
+            "top": "53.9%",
+            "width": "6.3%",
+            "height": "9.5%"
+          },
+          "time_ago": "4m ago",
+          "severity": "HIGH",
+          "description": "Commercial SUV halted in main circulation thoroughfare"
+        }
+      ]
+    },
+    {
+      "frame_index": 285,
+      "timestamp_sec": 9.51,
+      "total_vehicles": 12,
+      "cars": 12,
+      "trucks": 0,
+      "motorcycles": 0,
+      "total_bays": 12,
+      "occupied_bays": 12,
+      "available_bays": 0,
+      "occupancy_percentage": 100.0,
+      "violations_count": 2,
+      "detections": [
+        {
+          "id": "det-285-0",
+          "track_id": 4000,
+          "class": "car",
+          "confidence": 0.743,
+          "xyxy": [
+            489.9,
+            257.2,
+            659.9,
+            336.5
+          ],
+          "css_rect": {
+            "left": "63.8%",
+            "top": "59.5%",
+            "width": "22.1%",
+            "height": "18.3%"
+          }
+        },
+        {
+          "id": "det-285-1",
+          "track_id": 4001,
+          "class": "car",
+          "confidence": 0.719,
+          "xyxy": [
+            224.6,
+            219.9,
+            274.7,
+            253.7
+          ],
+          "css_rect": {
+            "left": "29.2%",
+            "top": "50.9%",
+            "width": "6.5%",
+            "height": "7.8%"
+          }
+        },
+        {
+          "id": "det-285-2",
+          "track_id": 4002,
+          "class": "car",
+          "confidence": 0.699,
+          "xyxy": [
+            707.2,
+            240.5,
+            767.6,
+            283.5
+          ],
+          "css_rect": {
+            "left": "92.1%",
+            "top": "55.7%",
+            "width": "7.9%",
+            "height": "10.0%"
+          }
+        },
+        {
+          "id": "det-285-3",
+          "track_id": 4003,
+          "class": "car",
+          "confidence": 0.688,
+          "xyxy": [
+            452.3,
+            236.4,
+            498.5,
+            278.1
+          ],
+          "css_rect": {
+            "left": "58.9%",
+            "top": "54.7%",
+            "width": "6.0%",
+            "height": "9.6%"
+          }
+        },
+        {
+          "id": "det-285-4",
+          "track_id": 4004,
+          "class": "car",
+          "confidence": 0.622,
+          "xyxy": [
+            151.2,
+            206.9,
+            211.8,
+            245.2
+          ],
+          "css_rect": {
+            "left": "19.7%",
+            "top": "47.9%",
+            "width": "7.9%",
+            "height": "8.9%"
+          }
+        },
+        {
+          "id": "det-285-5",
+          "track_id": 4005,
+          "class": "car",
+          "confidence": 0.62,
+          "xyxy": [
+            20.1,
+            258.0,
+            226.2,
+            356.9
+          ],
+          "css_rect": {
+            "left": "2.6%",
+            "top": "59.7%",
+            "width": "26.8%",
+            "height": "22.9%"
+          }
+        },
+        {
+          "id": "det-285-6",
+          "track_id": 4006,
+          "class": "car",
+          "confidence": 0.613,
+          "xyxy": [
+            425.3,
+            221.3,
+            465.7,
+            253.7
+          ],
+          "css_rect": {
+            "left": "55.4%",
+            "top": "51.2%",
+            "width": "5.3%",
+            "height": "7.5%"
+          }
+        },
+        {
+          "id": "det-285-7",
+          "track_id": 4007,
+          "class": "car",
+          "confidence": 0.594,
+          "xyxy": [
+            0.0,
+            276.5,
+            37.6,
+            336.6
+          ],
+          "css_rect": {
+            "left": "0.0%",
+            "top": "64.0%",
+            "width": "4.9%",
+            "height": "13.9%"
+          }
+        },
+        {
+          "id": "det-285-8",
+          "track_id": 4008,
+          "class": "car",
+          "confidence": 0.507,
+          "xyxy": [
+            312.4,
+            218.7,
+            343.4,
+            243.2
+          ],
+          "css_rect": {
+            "left": "40.7%",
+            "top": "50.6%",
+            "width": "4.0%",
+            "height": "5.7%"
+          }
+        },
+        {
+          "id": "det-285-9",
+          "track_id": 4009,
+          "class": "car",
+          "confidence": 0.491,
+          "xyxy": [
+            312.6,
+            216.5,
+            352.7,
+            243.1
+          ],
+          "css_rect": {
+            "left": "40.7%",
+            "top": "50.1%",
+            "width": "5.2%",
+            "height": "6.2%"
+          }
+        },
+        {
+          "id": "det-285-10",
+          "track_id": 4010,
+          "class": "car",
+          "confidence": 0.422,
+          "xyxy": [
+            336.7,
+            358.6,
+            462.6,
+            430.9
+          ],
+          "css_rect": {
+            "left": "43.8%",
+            "top": "83.0%",
+            "width": "16.4%",
+            "height": "16.7%"
+          }
+        },
+        {
+          "id": "det-285-11",
+          "track_id": 4011,
+          "class": "car",
+          "confidence": 0.405,
+          "xyxy": [
+            348.1,
+            219.3,
+            383.3,
+            244.2
+          ],
+          "css_rect": {
+            "left": "45.3%",
+            "top": "50.8%",
+            "width": "4.6%",
+            "height": "5.8%"
+          }
+        }
+      ],
+      "vacant_slots": [
+        {
+          "slot_id": "BAY-B1-03",
+          "pillar": "PILLAR A-03",
+          "css_rect": {
+            "left": "19.5%",
+            "top": "50.5%",
+            "width": "9.5%",
+            "height": "16.0%"
+          },
+          "type": "VACANT"
+        },
+        {
+          "slot_id": "BAY-B1-07",
+          "pillar": "PILLAR A-07",
+          "css_rect": {
+            "left": "44.5%",
+            "top": "50.5%",
+            "width": "8.5%",
+            "height": "14.5%"
+          },
+          "type": "VACANT"
+        },
+        {
+          "slot_id": "BAY-B1-11",
+          "pillar": "PILLAR A-11",
+          "css_rect": {
+            "left": "12.0%",
+            "top": "51.0%",
+            "width": "8.0%",
+            "height": "14.0%"
+          },
+          "type": "VACANT"
+        }
+      ],
+      "violations": [
+        {
+          "id": "viol-1",
+          "code": "C12355-6890",
+          "type": "DOUBLE_PARKING",
+          "title": "Double Parking",
+          "pillar": "PILLAR A-05",
+          "confidence": 0.743,
+          "track_id": 4000,
+          "vehicle_type": "car",
+          "css_rect": {
+            "left": "63.8%",
+            "top": "59.5%",
+            "width": "22.1%",
+            "height": "18.3%"
+          },
+          "time_ago": "2m ago",
+          "severity": "CRITICAL",
+          "description": "Vehicle double parked obstructing stall egress"
+        },
+        {
+          "id": "viol-2",
+          "code": "U2E55-8758",
+          "type": "UNAUTHORIZED_STOPPAGE",
+          "title": "Unauthorized Aisle Stoppage",
+          "pillar": "PILLAR A-08",
+          "confidence": 0.688,
+          "track_id": 4003,
+          "vehicle_type": "car",
+          "css_rect": {
+            "left": "58.9%",
+            "top": "54.7%",
+            "width": "6.0%",
+            "height": "9.6%"
+          },
+          "time_ago": "4m ago",
+          "severity": "HIGH",
+          "description": "Commercial SUV halted in main circulation thoroughfare"
+        }
+      ]
+    },
+    {
+      "frame_index": 300,
+      "timestamp_sec": 10.01,
+      "total_vehicles": 8,
+      "cars": 8,
+      "trucks": 0,
+      "motorcycles": 0,
+      "total_bays": 12,
+      "occupied_bays": 8,
+      "available_bays": 4,
+      "occupancy_percentage": 66.7,
+      "violations_count": 2,
+      "detections": [
+        {
+          "id": "det-300-0",
+          "track_id": 4000,
+          "class": "car",
+          "confidence": 0.816,
+          "xyxy": [
+            483.7,
+            261.1,
+            652.2,
+            336.9
+          ],
+          "css_rect": {
+            "left": "63.0%",
+            "top": "60.4%",
+            "width": "21.9%",
+            "height": "17.6%"
+          }
+        },
+        {
+          "id": "det-300-1",
+          "track_id": 4001,
+          "class": "car",
+          "confidence": 0.528,
+          "xyxy": [
+            345.3,
+            218.6,
+            382.5,
+            245.4
+          ],
+          "css_rect": {
+            "left": "45.0%",
+            "top": "50.6%",
+            "width": "4.8%",
+            "height": "6.2%"
+          }
+        },
+        {
+          "id": "det-300-2",
+          "track_id": 4002,
+          "class": "car",
+          "confidence": 0.456,
+          "xyxy": [
+            63.7,
+            257.4,
+            259.0,
+            350.9
+          ],
+          "css_rect": {
+            "left": "8.3%",
+            "top": "59.6%",
+            "width": "25.4%",
+            "height": "21.6%"
+          }
+        },
+        {
+          "id": "det-300-3",
+          "track_id": 4003,
+          "class": "car",
+          "confidence": 0.449,
+          "xyxy": [
+            375.5,
+            364.8,
+            496.1,
+            430.1
+          ],
+          "css_rect": {
+            "left": "48.9%",
+            "top": "84.4%",
+            "width": "15.7%",
+            "height": "15.1%"
+          }
+        },
+        {
+          "id": "det-300-4",
+          "track_id": 4004,
+          "class": "car",
+          "confidence": 0.436,
+          "xyxy": [
+            260.6,
+            223.0,
+            309.5,
+            255.2
+          ],
+          "css_rect": {
+            "left": "33.9%",
+            "top": "51.6%",
+            "width": "6.4%",
+            "height": "7.5%"
+          }
+        },
+        {
+          "id": "det-300-5",
+          "track_id": 4005,
+          "class": "car",
+          "confidence": 0.409,
+          "xyxy": [
+            192.1,
+            211.5,
+            249.9,
+            246.4
+          ],
+          "css_rect": {
+            "left": "25.0%",
+            "top": "49.0%",
+            "width": "7.5%",
+            "height": "8.1%"
+          }
+        },
+        {
+          "id": "det-300-6",
+          "track_id": 4006,
+          "class": "car",
+          "confidence": 0.397,
+          "xyxy": [
+            460.6,
+            225.8,
+            502.8,
+            257.2
+          ],
+          "css_rect": {
+            "left": "60.0%",
+            "top": "52.3%",
+            "width": "5.5%",
+            "height": "7.3%"
+          }
+        },
+        {
+          "id": "det-300-7",
+          "track_id": 4007,
+          "class": "car",
+          "confidence": 0.363,
+          "xyxy": [
+            46.9,
+            278.1,
+            89.1,
+            328.4
+          ],
+          "css_rect": {
+            "left": "6.1%",
+            "top": "64.4%",
+            "width": "5.5%",
+            "height": "11.6%"
+          }
+        }
+      ],
+      "vacant_slots": [
+        {
+          "slot_id": "BAY-B1-03",
+          "pillar": "PILLAR A-03",
+          "css_rect": {
+            "left": "19.5%",
+            "top": "50.5%",
+            "width": "9.5%",
+            "height": "16.0%"
+          },
+          "type": "VACANT"
+        },
+        {
+          "slot_id": "BAY-B1-07",
+          "pillar": "PILLAR A-07",
+          "css_rect": {
+            "left": "44.5%",
+            "top": "50.5%",
+            "width": "8.5%",
+            "height": "14.5%"
+          },
+          "type": "VACANT"
+        },
+        {
+          "slot_id": "BAY-B1-11",
+          "pillar": "PILLAR A-11",
+          "css_rect": {
+            "left": "12.0%",
+            "top": "51.0%",
+            "width": "8.0%",
+            "height": "14.0%"
+          },
+          "type": "VACANT"
+        }
+      ],
+      "violations": [
+        {
+          "id": "viol-1",
+          "code": "C12355-6890",
+          "type": "DOUBLE_PARKING",
+          "title": "Double Parking",
+          "pillar": "PILLAR A-05",
+          "confidence": 0.816,
+          "track_id": 4000,
+          "vehicle_type": "car",
+          "css_rect": {
+            "left": "63.0%",
+            "top": "60.4%",
+            "width": "21.9%",
+            "height": "17.6%"
+          },
+          "time_ago": "2m ago",
+          "severity": "CRITICAL",
+          "description": "Vehicle double parked obstructing stall egress"
+        },
+        {
+          "id": "viol-2",
+          "code": "U2E55-8758",
+          "type": "UNAUTHORIZED_STOPPAGE",
+          "title": "Unauthorized Aisle Stoppage",
+          "pillar": "PILLAR A-08",
+          "confidence": 0.528,
+          "track_id": 4001,
+          "vehicle_type": "car",
+          "css_rect": {
+            "left": "45.0%",
+            "top": "50.6%",
+            "width": "4.8%",
+            "height": "6.2%"
+          },
+          "time_ago": "4m ago",
+          "severity": "HIGH",
+          "description": "Commercial SUV halted in main circulation thoroughfare"
+        }
+      ]
+    },
+    {
+      "frame_index": 315,
+      "timestamp_sec": 10.51,
+      "total_vehicles": 7,
+      "cars": 7,
+      "trucks": 0,
+      "motorcycles": 0,
+      "total_bays": 12,
+      "occupied_bays": 7,
+      "available_bays": 5,
+      "occupancy_percentage": 58.3,
+      "violations_count": 2,
+      "detections": [
+        {
+          "id": "det-315-0",
+          "track_id": 4000,
+          "class": "car",
+          "confidence": 0.681,
+          "xyxy": [
+            470.5,
+            258.3,
+            632.3,
+            334.9
+          ],
+          "css_rect": {
+            "left": "61.3%",
+            "top": "59.8%",
+            "width": "21.1%",
+            "height": "17.7%"
+          }
+        },
+        {
+          "id": "det-315-1",
+          "track_id": 4001,
+          "class": "car",
+          "confidence": 0.595,
+          "xyxy": [
+            224.8,
+            219.6,
+            277.7,
+            247.7
+          ],
+          "css_rect": {
+            "left": "29.3%",
+            "top": "50.8%",
+            "width": "6.9%",
+            "height": "6.5%"
+          }
+        },
+        {
+          "id": "det-315-2",
+          "track_id": 4002,
+          "class": "car",
+          "confidence": 0.523,
+          "xyxy": [
+            402.5,
+            368.5,
+            524.9,
+            431.7
+          ],
+          "css_rect": {
+            "left": "52.4%",
+            "top": "85.3%",
+            "width": "15.9%",
+            "height": "14.6%"
+          }
+        },
+        {
+          "id": "det-315-3",
+          "track_id": 4003,
+          "class": "car",
+          "confidence": 0.474,
+          "xyxy": [
+            487.9,
+            228.0,
+            534.6,
+            260.2
+          ],
+          "css_rect": {
+            "left": "63.5%",
+            "top": "52.8%",
+            "width": "6.1%",
+            "height": "7.5%"
+          }
+        },
+        {
+          "id": "det-315-4",
+          "track_id": 4004,
+          "class": "car",
+          "confidence": 0.47,
+          "xyxy": [
+            289.3,
+            224.8,
+            338.8,
+            257.1
+          ],
+          "css_rect": {
+            "left": "37.7%",
+            "top": "52.0%",
+            "width": "6.4%",
+            "height": "7.5%"
+          }
+        },
+        {
+          "id": "det-315-5",
+          "track_id": 4005,
+          "class": "car",
+          "confidence": 0.437,
+          "xyxy": [
+            407.1,
+            227.4,
+            443.6,
+            252.0
+          ],
+          "css_rect": {
+            "left": "53.0%",
+            "top": "52.6%",
+            "width": "4.7%",
+            "height": "5.7%"
+          }
+        },
+        {
+          "id": "det-315-6",
+          "track_id": 4006,
+          "class": "car",
+          "confidence": 0.386,
+          "xyxy": [
+            104.5,
+            393.7,
+            282.7,
+            430.9
+          ],
+          "css_rect": {
+            "left": "13.6%",
+            "top": "91.1%",
+            "width": "23.2%",
+            "height": "8.6%"
+          }
+        }
+      ],
+      "vacant_slots": [
+        {
+          "slot_id": "BAY-B1-03",
+          "pillar": "PILLAR A-03",
+          "css_rect": {
+            "left": "19.5%",
+            "top": "50.5%",
+            "width": "9.5%",
+            "height": "16.0%"
+          },
+          "type": "VACANT"
+        },
+        {
+          "slot_id": "BAY-B1-07",
+          "pillar": "PILLAR A-07",
+          "css_rect": {
+            "left": "44.5%",
+            "top": "50.5%",
+            "width": "8.5%",
+            "height": "14.5%"
+          },
+          "type": "VACANT"
+        },
+        {
+          "slot_id": "BAY-B1-11",
+          "pillar": "PILLAR A-11",
+          "css_rect": {
+            "left": "12.0%",
+            "top": "51.0%",
+            "width": "8.0%",
+            "height": "14.0%"
+          },
+          "type": "VACANT"
+        }
+      ],
+      "violations": [
+        {
+          "id": "viol-1",
+          "code": "C12355-6890",
+          "type": "DOUBLE_PARKING",
+          "title": "Double Parking",
+          "pillar": "PILLAR A-05",
+          "confidence": 0.681,
+          "track_id": 4000,
+          "vehicle_type": "car",
+          "css_rect": {
+            "left": "61.3%",
+            "top": "59.8%",
+            "width": "21.1%",
+            "height": "17.7%"
+          },
+          "time_ago": "2m ago",
+          "severity": "CRITICAL",
+          "description": "Vehicle double parked obstructing stall egress"
+        },
+        {
+          "id": "viol-2",
+          "code": "U2E55-8758",
+          "type": "UNAUTHORIZED_STOPPAGE",
+          "title": "Unauthorized Aisle Stoppage",
+          "pillar": "PILLAR A-08",
+          "confidence": 0.47,
+          "track_id": 4004,
+          "vehicle_type": "car",
+          "css_rect": {
+            "left": "37.7%",
+            "top": "52.0%",
+            "width": "6.4%",
+            "height": "7.5%"
+          },
+          "time_ago": "4m ago",
+          "severity": "HIGH",
+          "description": "Commercial SUV halted in main circulation thoroughfare"
+        }
+      ]
+    },
+    {
+      "frame_index": 330,
+      "timestamp_sec": 11.01,
+      "total_vehicles": 6,
+      "cars": 6,
+      "trucks": 0,
+      "motorcycles": 0,
+      "total_bays": 12,
+      "occupied_bays": 6,
+      "available_bays": 6,
+      "occupancy_percentage": 50.0,
+      "violations_count": 2,
+      "detections": [
+        {
+          "id": "det-330-0",
+          "track_id": 4000,
+          "class": "car",
+          "confidence": 0.613,
+          "xyxy": [
+            458.3,
+            258.7,
+            612.1,
+            329.8
+          ],
+          "css_rect": {
+            "left": "59.7%",
+            "top": "59.9%",
+            "width": "20.0%",
+            "height": "16.5%"
+          }
+        },
+        {
+          "id": "det-330-1",
+          "track_id": 4001,
+          "class": "car",
+          "confidence": 0.539,
+          "xyxy": [
+            432.6,
+            228.1,
+            472.5,
+            253.4
+          ],
+          "css_rect": {
+            "left": "56.3%",
+            "top": "52.8%",
+            "width": "5.2%",
+            "height": "5.8%"
+          }
+        },
+        {
+          "id": "det-330-2",
+          "track_id": 4002,
+          "class": "car",
+          "confidence": 0.506,
+          "xyxy": [
+            314.9,
+            231.7,
+            364.5,
+            258.9
+          ],
+          "css_rect": {
+            "left": "41.0%",
+            "top": "53.6%",
+            "width": "6.5%",
+            "height": "6.3%"
+          }
+        },
+        {
+          "id": "det-330-3",
+          "track_id": 4003,
+          "class": "car",
+          "confidence": 0.441,
+          "xyxy": [
+            252.1,
+            218.5,
+            305.4,
+            249.2
+          ],
+          "css_rect": {
+            "left": "32.8%",
+            "top": "50.6%",
+            "width": "6.9%",
+            "height": "7.1%"
+          }
+        },
+        {
+          "id": "det-330-4",
+          "track_id": 4004,
+          "class": "car",
+          "confidence": 0.423,
+          "xyxy": [
+            619.0,
+            224.9,
+            650.6,
+            251.1
+          ],
+          "css_rect": {
+            "left": "80.6%",
+            "top": "52.0%",
+            "width": "4.1%",
+            "height": "6.1%"
+          }
+        },
+        {
+          "id": "det-330-5",
+          "track_id": 4005,
+          "class": "car",
+          "confidence": 0.377,
+          "xyxy": [
+            661.6,
+            236.4,
+            692.6,
+            254.9
+          ],
+          "css_rect": {
+            "left": "86.2%",
+            "top": "54.7%",
+            "width": "4.0%",
+            "height": "4.3%"
+          }
+        }
+      ],
+      "vacant_slots": [
+        {
+          "slot_id": "BAY-B1-03",
+          "pillar": "PILLAR A-03",
+          "css_rect": {
+            "left": "19.5%",
+            "top": "50.5%",
+            "width": "9.5%",
+            "height": "16.0%"
+          },
+          "type": "VACANT"
+        },
+        {
+          "slot_id": "BAY-B1-07",
+          "pillar": "PILLAR A-07",
+          "css_rect": {
+            "left": "44.5%",
+            "top": "50.5%",
+            "width": "8.5%",
+            "height": "14.5%"
+          },
+          "type": "VACANT"
+        },
+        {
+          "slot_id": "BAY-B1-11",
+          "pillar": "PILLAR A-11",
+          "css_rect": {
+            "left": "12.0%",
+            "top": "51.0%",
+            "width": "8.0%",
+            "height": "14.0%"
+          },
+          "type": "VACANT"
+        }
+      ],
+      "violations": [
+        {
+          "id": "viol-1",
+          "code": "C12355-6890",
+          "type": "DOUBLE_PARKING",
+          "title": "Double Parking",
+          "pillar": "PILLAR A-05",
+          "confidence": 0.613,
+          "track_id": 4000,
+          "vehicle_type": "car",
+          "css_rect": {
+            "left": "59.7%",
+            "top": "59.9%",
+            "width": "20.0%",
+            "height": "16.5%"
+          },
+          "time_ago": "2m ago",
+          "severity": "CRITICAL",
+          "description": "Vehicle double parked obstructing stall egress"
+        },
+        {
+          "id": "viol-2",
+          "code": "U2E55-8758",
+          "type": "UNAUTHORIZED_STOPPAGE",
+          "title": "Unauthorized Aisle Stoppage",
+          "pillar": "PILLAR A-08",
+          "confidence": 0.539,
+          "track_id": 4001,
+          "vehicle_type": "car",
+          "css_rect": {
+            "left": "56.3%",
+            "top": "52.8%",
+            "width": "5.2%",
+            "height": "5.8%"
+          },
+          "time_ago": "4m ago",
+          "severity": "HIGH",
+          "description": "Commercial SUV halted in main circulation thoroughfare"
+        }
+      ]
+    },
+    {
+      "frame_index": 345,
+      "timestamp_sec": 11.51,
+      "total_vehicles": 10,
+      "cars": 10,
+      "trucks": 0,
+      "motorcycles": 0,
+      "total_bays": 12,
+      "occupied_bays": 10,
+      "available_bays": 2,
+      "occupancy_percentage": 83.3,
+      "violations_count": 2,
+      "detections": [
+        {
+          "id": "det-345-0",
+          "track_id": 4000,
+          "class": "car",
+          "confidence": 0.866,
+          "xyxy": [
+            442.6,
+            257.4,
+            585.9,
+            324.2
+          ],
+          "css_rect": {
+            "left": "57.6%",
+            "top": "59.6%",
+            "width": "18.7%",
+            "height": "15.5%"
+          }
+        },
+        {
+          "id": "det-345-1",
+          "track_id": 4001,
+          "class": "car",
+          "confidence": 0.688,
+          "xyxy": [
+            580.5,
+            252.5,
+            646.1,
+            302.1
+          ],
+          "css_rect": {
+            "left": "75.6%",
+            "top": "58.4%",
+            "width": "8.5%",
+            "height": "11.5%"
+          }
+        },
+        {
+          "id": "det-345-2",
+          "track_id": 4002,
+          "class": "car",
+          "confidence": 0.605,
+          "xyxy": [
+            340.7,
+            229.7,
+            388.9,
+            261.0
+          ],
+          "css_rect": {
+            "left": "44.4%",
+            "top": "53.2%",
+            "width": "6.3%",
+            "height": "7.2%"
+          }
+        },
+        {
+          "id": "det-345-3",
+          "track_id": 4003,
+          "class": "car",
+          "confidence": 0.6,
+          "xyxy": [
+            277.7,
+            222.9,
+            329.7,
+            250.9
+          ],
+          "css_rect": {
+            "left": "36.2%",
+            "top": "51.6%",
+            "width": "6.8%",
+            "height": "6.5%"
+          }
+        },
+        {
+          "id": "det-345-4",
+          "track_id": 4004,
+          "class": "car",
+          "confidence": 0.565,
+          "xyxy": [
+            466.4,
+            378.8,
+            592.6,
+            431.9
+          ],
+          "css_rect": {
+            "left": "60.7%",
+            "top": "87.7%",
+            "width": "16.4%",
+            "height": "12.3%"
+          }
+        },
+        {
+          "id": "det-345-5",
+          "track_id": 4005,
+          "class": "car",
+          "confidence": 0.539,
+          "xyxy": [
+            549.8,
+            231.8,
+            599.7,
+            265.7
+          ],
+          "css_rect": {
+            "left": "71.6%",
+            "top": "53.7%",
+            "width": "6.5%",
+            "height": "7.8%"
+          }
+        },
+        {
+          "id": "det-345-6",
+          "track_id": 4006,
+          "class": "car",
+          "confidence": 0.529,
+          "xyxy": [
+            163.7,
+            395.3,
+            338.4,
+            431.6
+          ],
+          "css_rect": {
+            "left": "21.3%",
+            "top": "91.5%",
+            "width": "22.7%",
+            "height": "8.4%"
+          }
+        },
+        {
+          "id": "det-345-7",
+          "track_id": 4007,
+          "class": "car",
+          "confidence": 0.525,
+          "xyxy": [
+            655.3,
+            228.4,
+            690.8,
+            254.1
+          ],
+          "css_rect": {
+            "left": "85.3%",
+            "top": "52.9%",
+            "width": "4.6%",
+            "height": "5.9%"
+          }
+        },
+        {
+          "id": "det-345-8",
+          "track_id": 4008,
+          "class": "car",
+          "confidence": 0.495,
+          "xyxy": [
+            163.3,
+            279.4,
+            325.1,
+            349.4
+          ],
+          "css_rect": {
+            "left": "21.3%",
+            "top": "64.7%",
+            "width": "21.1%",
+            "height": "16.2%"
+          }
+        },
+        {
+          "id": "det-345-9",
+          "track_id": 4009,
+          "class": "car",
+          "confidence": 0.375,
+          "xyxy": [
+            226.1,
+            264.7,
+            340.7,
+            308.2
+          ],
+          "css_rect": {
+            "left": "29.4%",
+            "top": "61.3%",
+            "width": "14.9%",
+            "height": "10.1%"
+          }
+        }
+      ],
+      "vacant_slots": [
+        {
+          "slot_id": "BAY-B1-03",
+          "pillar": "PILLAR A-03",
+          "css_rect": {
+            "left": "19.5%",
+            "top": "50.5%",
+            "width": "9.5%",
+            "height": "16.0%"
+          },
+          "type": "VACANT"
+        },
+        {
+          "slot_id": "BAY-B1-07",
+          "pillar": "PILLAR A-07",
+          "css_rect": {
+            "left": "44.5%",
+            "top": "50.5%",
+            "width": "8.5%",
+            "height": "14.5%"
+          },
+          "type": "VACANT"
+        },
+        {
+          "slot_id": "BAY-B1-11",
+          "pillar": "PILLAR A-11",
+          "css_rect": {
+            "left": "12.0%",
+            "top": "51.0%",
+            "width": "8.0%",
+            "height": "14.0%"
+          },
+          "type": "VACANT"
+        }
+      ],
+      "violations": [
+        {
+          "id": "viol-1",
+          "code": "C12355-6890",
+          "type": "DOUBLE_PARKING",
+          "title": "Double Parking",
+          "pillar": "PILLAR A-05",
+          "confidence": 0.866,
+          "track_id": 4000,
+          "vehicle_type": "car",
+          "css_rect": {
+            "left": "57.6%",
+            "top": "59.6%",
+            "width": "18.7%",
+            "height": "15.5%"
+          },
+          "time_ago": "2m ago",
+          "severity": "CRITICAL",
+          "description": "Vehicle double parked obstructing stall egress"
+        },
+        {
+          "id": "viol-2",
+          "code": "U2E55-8758",
+          "type": "UNAUTHORIZED_STOPPAGE",
+          "title": "Unauthorized Aisle Stoppage",
+          "pillar": "PILLAR A-08",
+          "confidence": 0.605,
+          "track_id": 4002,
+          "vehicle_type": "car",
+          "css_rect": {
+            "left": "44.4%",
+            "top": "53.2%",
+            "width": "6.3%",
+            "height": "7.2%"
+          },
+          "time_ago": "4m ago",
+          "severity": "HIGH",
+          "description": "Commercial SUV halted in main circulation thoroughfare"
+        }
+      ]
+    },
+    {
+      "frame_index": 360,
+      "timestamp_sec": 12.01,
+      "total_vehicles": 8,
+      "cars": 8,
+      "trucks": 0,
+      "motorcycles": 0,
+      "total_bays": 12,
+      "occupied_bays": 8,
+      "available_bays": 4,
+      "occupancy_percentage": 66.7,
+      "violations_count": 2,
+      "detections": [
+        {
+          "id": "det-360-0",
+          "track_id": 4000,
+          "class": "car",
+          "confidence": 0.826,
+          "xyxy": [
+            442.2,
+            253.5,
+            554.5,
+            316.0
+          ],
+          "css_rect": {
+            "left": "57.6%",
+            "top": "58.7%",
+            "width": "14.6%",
+            "height": "14.5%"
+          }
+        },
+        {
+          "id": "det-360-1",
+          "track_id": 4001,
+          "class": "car",
+          "confidence": 0.803,
+          "xyxy": [
+            609.3,
+            255.0,
+            673.5,
+            306.8
+          ],
+          "css_rect": {
+            "left": "79.3%",
+            "top": "59.0%",
+            "width": "8.4%",
+            "height": "12.0%"
+          }
+        },
+        {
+          "id": "det-360-2",
+          "track_id": 4002,
+          "class": "car",
+          "confidence": 0.728,
+          "xyxy": [
+            573.6,
+            231.3,
+            625.6,
+            271.4
+          ],
+          "css_rect": {
+            "left": "74.7%",
+            "top": "53.5%",
+            "width": "6.8%",
+            "height": "9.3%"
+          }
+        },
+        {
+          "id": "det-360-3",
+          "track_id": 4003,
+          "class": "car",
+          "confidence": 0.586,
+          "xyxy": [
+            358.8,
+            229.6,
+            407.8,
+            263.0
+          ],
+          "css_rect": {
+            "left": "46.7%",
+            "top": "53.2%",
+            "width": "6.4%",
+            "height": "7.7%"
+          }
+        },
+        {
+          "id": "det-360-4",
+          "track_id": 4004,
+          "class": "car",
+          "confidence": 0.559,
+          "xyxy": [
+            296.8,
+            223.4,
+            347.9,
+            253.3
+          ],
+          "css_rect": {
+            "left": "38.6%",
+            "top": "51.7%",
+            "width": "6.6%",
+            "height": "6.9%"
+          }
+        },
+        {
+          "id": "det-360-5",
+          "track_id": 4005,
+          "class": "car",
+          "confidence": 0.494,
+          "xyxy": [
+            688.2,
+            229.2,
+            726.2,
+            256.0
+          ],
+          "css_rect": {
+            "left": "89.6%",
+            "top": "53.1%",
+            "width": "5.0%",
+            "height": "6.2%"
+          }
+        },
+        {
+          "id": "det-360-6",
+          "track_id": 4006,
+          "class": "car",
+          "confidence": 0.492,
+          "xyxy": [
+            633.7,
+            244.7,
+            680.0,
+            280.2
+          ],
+          "css_rect": {
+            "left": "82.5%",
+            "top": "56.6%",
+            "width": "6.0%",
+            "height": "8.2%"
+          }
+        },
+        {
+          "id": "det-360-7",
+          "track_id": 4007,
+          "class": "car",
+          "confidence": 0.409,
+          "xyxy": [
+            733.3,
+            234.4,
+            767.8,
+            258.4
+          ],
+          "css_rect": {
+            "left": "95.5%",
+            "top": "54.3%",
+            "width": "4.5%",
+            "height": "5.6%"
+          }
+        }
+      ],
+      "vacant_slots": [
+        {
+          "slot_id": "BAY-B1-03",
+          "pillar": "PILLAR A-03",
+          "css_rect": {
+            "left": "19.5%",
+            "top": "50.5%",
+            "width": "9.5%",
+            "height": "16.0%"
+          },
+          "type": "VACANT"
+        },
+        {
+          "slot_id": "BAY-B1-07",
+          "pillar": "PILLAR A-07",
+          "css_rect": {
+            "left": "44.5%",
+            "top": "50.5%",
+            "width": "8.5%",
+            "height": "14.5%"
+          },
+          "type": "VACANT"
+        },
+        {
+          "slot_id": "BAY-B1-11",
+          "pillar": "PILLAR A-11",
+          "css_rect": {
+            "left": "12.0%",
+            "top": "51.0%",
+            "width": "8.0%",
+            "height": "14.0%"
+          },
+          "type": "VACANT"
+        }
+      ],
+      "violations": [
+        {
+          "id": "viol-1",
+          "code": "C12355-6890",
+          "type": "DOUBLE_PARKING",
+          "title": "Double Parking",
+          "pillar": "PILLAR A-05",
+          "confidence": 0.803,
+          "track_id": 4001,
+          "vehicle_type": "car",
+          "css_rect": {
+            "left": "79.3%",
+            "top": "59.0%",
+            "width": "8.4%",
+            "height": "12.0%"
+          },
+          "time_ago": "2m ago",
+          "severity": "CRITICAL",
+          "description": "Vehicle double parked obstructing stall egress"
+        },
+        {
+          "id": "viol-2",
+          "code": "U2E55-8758",
+          "type": "UNAUTHORIZED_STOPPAGE",
+          "title": "Unauthorized Aisle Stoppage",
+          "pillar": "PILLAR A-08",
+          "confidence": 0.826,
+          "track_id": 4000,
+          "vehicle_type": "car",
+          "css_rect": {
+            "left": "57.6%",
+            "top": "58.7%",
+            "width": "14.6%",
+            "height": "14.5%"
+          },
+          "time_ago": "4m ago",
+          "severity": "HIGH",
+          "description": "Commercial SUV halted in main circulation thoroughfare"
+        }
+      ]
+    },
+    {
+      "frame_index": 375,
+      "timestamp_sec": 12.51,
+      "total_vehicles": 7,
+      "cars": 7,
+      "trucks": 0,
+      "motorcycles": 0,
+      "total_bays": 12,
+      "occupied_bays": 7,
+      "available_bays": 5,
+      "occupancy_percentage": 58.3,
+      "violations_count": 2,
+      "detections": [
+        {
+          "id": "det-375-0",
+          "track_id": 4000,
+          "class": "car",
+          "confidence": 0.794,
+          "xyxy": [
+            596.0,
+            232.2,
+            651.6,
+            271.8
+          ],
+          "css_rect": {
+            "left": "77.6%",
+            "top": "53.7%",
+            "width": "7.2%",
+            "height": "9.2%"
+          }
+        },
+        {
+          "id": "det-375-1",
+          "track_id": 4001,
+          "class": "car",
+          "confidence": 0.759,
+          "xyxy": [
+            631.5,
+            255.4,
+            703.7,
+            309.0
+          ],
+          "css_rect": {
+            "left": "82.2%",
+            "top": "59.1%",
+            "width": "9.4%",
+            "height": "12.4%"
+          }
+        },
+        {
+          "id": "det-375-2",
+          "track_id": 4002,
+          "class": "car",
+          "confidence": 0.587,
+          "xyxy": [
+            717.0,
+            226.9,
+            761.8,
+            255.7
+          ],
+          "css_rect": {
+            "left": "93.4%",
+            "top": "52.5%",
+            "width": "5.8%",
+            "height": "6.7%"
+          }
+        },
+        {
+          "id": "det-375-3",
+          "track_id": 4003,
+          "class": "car",
+          "confidence": 0.551,
+          "xyxy": [
+            373.6,
+            231.2,
+            424.4,
+            263.1
+          ],
+          "css_rect": {
+            "left": "48.6%",
+            "top": "53.5%",
+            "width": "6.6%",
+            "height": "7.4%"
+          }
+        },
+        {
+          "id": "det-375-4",
+          "track_id": 4004,
+          "class": "car",
+          "confidence": 0.487,
+          "xyxy": [
+            311.8,
+            222.6,
+            363.6,
+            252.1
+          ],
+          "css_rect": {
+            "left": "40.6%",
+            "top": "51.5%",
+            "width": "6.7%",
+            "height": "6.8%"
+          }
+        },
+        {
+          "id": "det-375-5",
+          "track_id": 4005,
+          "class": "car",
+          "confidence": 0.467,
+          "xyxy": [
+            659.5,
+            245.5,
+            708.4,
+            287.7
+          ],
+          "css_rect": {
+            "left": "85.9%",
+            "top": "56.8%",
+            "width": "6.4%",
+            "height": "9.8%"
+          }
+        },
+        {
+          "id": "det-375-6",
+          "track_id": 4006,
+          "class": "car",
+          "confidence": 0.356,
+          "xyxy": [
+            199.1,
+            397.2,
+            375.6,
+            431.8
+          ],
+          "css_rect": {
+            "left": "25.9%",
+            "top": "91.9%",
+            "width": "23.0%",
+            "height": "8.0%"
+          }
+        }
+      ],
+      "vacant_slots": [
+        {
+          "slot_id": "BAY-B1-03",
+          "pillar": "PILLAR A-03",
+          "css_rect": {
+            "left": "19.5%",
+            "top": "50.5%",
+            "width": "9.5%",
+            "height": "16.0%"
+          },
+          "type": "VACANT"
+        },
+        {
+          "slot_id": "BAY-B1-07",
+          "pillar": "PILLAR A-07",
+          "css_rect": {
+            "left": "44.5%",
+            "top": "50.5%",
+            "width": "8.5%",
+            "height": "14.5%"
+          },
+          "type": "VACANT"
+        },
+        {
+          "slot_id": "BAY-B1-11",
+          "pillar": "PILLAR A-11",
+          "css_rect": {
+            "left": "12.0%",
+            "top": "51.0%",
+            "width": "8.0%",
+            "height": "14.0%"
+          },
+          "type": "VACANT"
+        }
+      ],
+      "violations": [
+        {
+          "id": "viol-1",
+          "code": "C12355-6890",
+          "type": "DOUBLE_PARKING",
+          "title": "Double Parking",
+          "pillar": "PILLAR A-05",
+          "confidence": 0.759,
+          "track_id": 4001,
+          "vehicle_type": "car",
+          "css_rect": {
+            "left": "82.2%",
+            "top": "59.1%",
+            "width": "9.4%",
+            "height": "12.4%"
+          },
+          "time_ago": "2m ago",
+          "severity": "CRITICAL",
+          "description": "Vehicle double parked obstructing stall egress"
+        },
+        {
+          "id": "viol-2",
+          "code": "U2E55-8758",
+          "type": "UNAUTHORIZED_STOPPAGE",
+          "title": "Unauthorized Aisle Stoppage",
+          "pillar": "PILLAR A-08",
+          "confidence": 0.551,
+          "track_id": 4003,
+          "vehicle_type": "car",
+          "css_rect": {
+            "left": "48.6%",
+            "top": "53.5%",
+            "width": "6.6%",
+            "height": "7.4%"
+          },
+          "time_ago": "4m ago",
+          "severity": "HIGH",
+          "description": "Commercial SUV halted in main circulation thoroughfare"
+        }
+      ]
+    },
+    {
+      "frame_index": 390,
+      "timestamp_sec": 13.01,
+      "total_vehicles": 10,
+      "cars": 10,
+      "trucks": 0,
+      "motorcycles": 0,
+      "total_bays": 12,
+      "occupied_bays": 10,
+      "available_bays": 2,
+      "occupancy_percentage": 83.3,
+      "violations_count": 2,
+      "detections": [
+        {
+          "id": "det-390-0",
+          "track_id": 4000,
+          "class": "car",
+          "confidence": 0.799,
+          "xyxy": [
+            613.1,
+            230.2,
+            671.7,
+            272.4
+          ],
+          "css_rect": {
+            "left": "79.8%",
+            "top": "53.3%",
+            "width": "7.6%",
+            "height": "9.8%"
+          }
+        },
+        {
+          "id": "det-390-1",
+          "track_id": 4001,
+          "class": "car",
+          "confidence": 0.726,
+          "xyxy": [
+            651.7,
+            252.1,
+            726.4,
+            308.9
+          ],
+          "css_rect": {
+            "left": "84.9%",
+            "top": "58.4%",
+            "width": "9.7%",
+            "height": "13.1%"
+          }
+        },
+        {
+          "id": "det-390-2",
+          "track_id": 4002,
+          "class": "car",
+          "confidence": 0.519,
+          "xyxy": [
+            511.4,
+            228.6,
+            557.0,
+            257.6
+          ],
+          "css_rect": {
+            "left": "66.6%",
+            "top": "52.9%",
+            "width": "5.9%",
+            "height": "6.7%"
+          }
+        },
+        {
+          "id": "det-390-3",
+          "track_id": 4003,
+          "class": "car",
+          "confidence": 0.474,
+          "xyxy": [
+            739.5,
+            226.2,
+            767.7,
+            254.6
+          ],
+          "css_rect": {
+            "left": "96.3%",
+            "top": "52.4%",
+            "width": "3.7%",
+            "height": "6.6%"
+          }
+        },
+        {
+          "id": "det-390-4",
+          "track_id": 4004,
+          "class": "car",
+          "confidence": 0.44,
+          "xyxy": [
+            474.8,
+            224.6,
+            516.7,
+            255.2
+          ],
+          "css_rect": {
+            "left": "61.8%",
+            "top": "52.0%",
+            "width": "5.5%",
+            "height": "7.1%"
+          }
+        },
+        {
+          "id": "det-390-5",
+          "track_id": 4005,
+          "class": "car",
+          "confidence": 0.428,
+          "xyxy": [
+            379.2,
+            237.6,
+            484.3,
+            290.1
+          ],
+          "css_rect": {
+            "left": "49.4%",
+            "top": "55.0%",
+            "width": "13.7%",
+            "height": "12.1%"
+          }
+        },
+        {
+          "id": "det-390-6",
+          "track_id": 4006,
+          "class": "car",
+          "confidence": 0.416,
+          "xyxy": [
+            323.2,
+            222.0,
+            375.4,
+            250.6
+          ],
+          "css_rect": {
+            "left": "42.1%",
+            "top": "51.4%",
+            "width": "6.8%",
+            "height": "6.6%"
+          }
+        },
+        {
+          "id": "det-390-7",
+          "track_id": 4007,
+          "class": "car",
+          "confidence": 0.398,
+          "xyxy": [
+            656.9,
+            230.0,
+            686.2,
+            248.8
+          ],
+          "css_rect": {
+            "left": "85.5%",
+            "top": "53.2%",
+            "width": "3.8%",
+            "height": "4.4%"
+          }
+        },
+        {
+          "id": "det-390-8",
+          "track_id": 4008,
+          "class": "car",
+          "confidence": 0.389,
+          "xyxy": [
+            206.6,
+            396.2,
+            387.3,
+            430.7
+          ],
+          "css_rect": {
+            "left": "26.9%",
+            "top": "91.7%",
+            "width": "23.5%",
+            "height": "8.0%"
+          }
+        },
+        {
+          "id": "det-390-9",
+          "track_id": 4009,
+          "class": "car",
+          "confidence": 0.365,
+          "xyxy": [
+            378.1,
+            241.3,
+            436.0,
+            286.4
+          ],
+          "css_rect": {
+            "left": "49.2%",
+            "top": "55.9%",
+            "width": "7.5%",
+            "height": "10.4%"
+          }
+        }
+      ],
+      "vacant_slots": [
+        {
+          "slot_id": "BAY-B1-03",
+          "pillar": "PILLAR A-03",
+          "css_rect": {
+            "left": "19.5%",
+            "top": "50.5%",
+            "width": "9.5%",
+            "height": "16.0%"
+          },
+          "type": "VACANT"
+        },
+        {
+          "slot_id": "BAY-B1-07",
+          "pillar": "PILLAR A-07",
+          "css_rect": {
+            "left": "44.5%",
+            "top": "50.5%",
+            "width": "8.5%",
+            "height": "14.5%"
+          },
+          "type": "VACANT"
+        },
+        {
+          "slot_id": "BAY-B1-11",
+          "pillar": "PILLAR A-11",
+          "css_rect": {
+            "left": "12.0%",
+            "top": "51.0%",
+            "width": "8.0%",
+            "height": "14.0%"
+          },
+          "type": "VACANT"
+        }
+      ],
+      "violations": [
+        {
+          "id": "viol-1",
+          "code": "C12355-6890",
+          "type": "DOUBLE_PARKING",
+          "title": "Double Parking",
+          "pillar": "PILLAR A-05",
+          "confidence": 0.726,
+          "track_id": 4001,
+          "vehicle_type": "car",
+          "css_rect": {
+            "left": "84.9%",
+            "top": "58.4%",
+            "width": "9.7%",
+            "height": "13.1%"
+          },
+          "time_ago": "2m ago",
+          "severity": "CRITICAL",
+          "description": "Vehicle double parked obstructing stall egress"
+        },
+        {
+          "id": "viol-2",
+          "code": "U2E55-8758",
+          "type": "UNAUTHORIZED_STOPPAGE",
+          "title": "Unauthorized Aisle Stoppage",
+          "pillar": "PILLAR A-08",
+          "confidence": 0.44,
+          "track_id": 4004,
+          "vehicle_type": "car",
+          "css_rect": {
+            "left": "61.8%",
+            "top": "52.0%",
+            "width": "5.5%",
+            "height": "7.1%"
+          },
+          "time_ago": "4m ago",
+          "severity": "HIGH",
+          "description": "Commercial SUV halted in main circulation thoroughfare"
+        }
+      ]
+    },
+    {
+      "frame_index": 405,
+      "timestamp_sec": 13.51,
+      "total_vehicles": 8,
+      "cars": 8,
+      "trucks": 0,
+      "motorcycles": 0,
+      "total_bays": 12,
+      "occupied_bays": 8,
+      "available_bays": 4,
+      "occupancy_percentage": 66.7,
+      "violations_count": 1,
+      "detections": [
+        {
+          "id": "det-405-0",
+          "track_id": 4000,
+          "class": "car",
+          "confidence": 0.758,
+          "xyxy": [
+            620.7,
+            230.3,
+            683.5,
+            271.7
+          ],
+          "css_rect": {
+            "left": "80.8%",
+            "top": "53.3%",
+            "width": "8.2%",
+            "height": "9.6%"
+          }
+        },
+        {
+          "id": "det-405-1",
+          "track_id": 4001,
+          "class": "car",
+          "confidence": 0.732,
+          "xyxy": [
+            352.1,
+            236.0,
+            443.8,
+            286.5
+          ],
+          "css_rect": {
+            "left": "45.8%",
+            "top": "54.6%",
+            "width": "11.9%",
+            "height": "11.7%"
+          }
+        },
+        {
+          "id": "det-405-2",
+          "track_id": 4002,
+          "class": "car",
+          "confidence": 0.7,
+          "xyxy": [
+            663.3,
+            252.5,
+            740.0,
+            310.8
+          ],
+          "css_rect": {
+            "left": "86.4%",
+            "top": "58.4%",
+            "width": "10.0%",
+            "height": "13.5%"
+          }
+        },
+        {
+          "id": "det-405-3",
+          "track_id": 4003,
+          "class": "car",
+          "confidence": 0.51,
+          "xyxy": [
+            480.9,
+            225.7,
+            523.1,
+            253.3
+          ],
+          "css_rect": {
+            "left": "62.6%",
+            "top": "52.3%",
+            "width": "5.5%",
+            "height": "6.4%"
+          }
+        },
+        {
+          "id": "det-405-4",
+          "track_id": 4004,
+          "class": "car",
+          "confidence": 0.507,
+          "xyxy": [
+            519.3,
+            229.4,
+            566.1,
+            257.9
+          ],
+          "css_rect": {
+            "left": "67.6%",
+            "top": "53.1%",
+            "width": "6.1%",
+            "height": "6.6%"
+          }
+        },
+        {
+          "id": "det-405-5",
+          "track_id": 4005,
+          "class": "car",
+          "confidence": 0.445,
+          "xyxy": [
+            329.5,
+            224.0,
+            380.9,
+            250.0
+          ],
+          "css_rect": {
+            "left": "42.9%",
+            "top": "51.8%",
+            "width": "6.7%",
+            "height": "6.0%"
+          }
+        },
+        {
+          "id": "det-405-6",
+          "track_id": 4006,
+          "class": "car",
+          "confidence": 0.411,
+          "xyxy": [
+            665.7,
+            223.2,
+            698.9,
+            249.0
+          ],
+          "css_rect": {
+            "left": "86.7%",
+            "top": "51.7%",
+            "width": "4.3%",
+            "height": "6.0%"
+          }
+        },
+        {
+          "id": "det-405-7",
+          "track_id": 4007,
+          "class": "car",
+          "confidence": 0.363,
+          "xyxy": [
+            210.5,
+            396.6,
+            392.7,
+            431.2
+          ],
+          "css_rect": {
+            "left": "27.4%",
+            "top": "91.8%",
+            "width": "23.7%",
+            "height": "8.0%"
+          }
+        }
+      ],
+      "vacant_slots": [
+        {
+          "slot_id": "BAY-B1-03",
+          "pillar": "PILLAR A-03",
+          "css_rect": {
+            "left": "19.5%",
+            "top": "50.5%",
+            "width": "9.5%",
+            "height": "16.0%"
+          },
+          "type": "VACANT"
+        },
+        {
+          "slot_id": "BAY-B1-07",
+          "pillar": "PILLAR A-07",
+          "css_rect": {
+            "left": "44.5%",
+            "top": "50.5%",
+            "width": "8.5%",
+            "height": "14.5%"
+          },
+          "type": "VACANT"
+        },
+        {
+          "slot_id": "BAY-B1-11",
+          "pillar": "PILLAR A-11",
+          "css_rect": {
+            "left": "12.0%",
+            "top": "51.0%",
+            "width": "8.0%",
+            "height": "14.0%"
+          },
+          "type": "VACANT"
+        }
+      ],
+      "violations": [
+        {
+          "id": "viol-2",
+          "code": "U2E55-8758",
+          "type": "UNAUTHORIZED_STOPPAGE",
+          "title": "Unauthorized Aisle Stoppage",
+          "pillar": "PILLAR A-08",
+          "confidence": 0.732,
+          "track_id": 4001,
+          "vehicle_type": "car",
+          "css_rect": {
+            "left": "45.8%",
+            "top": "54.6%",
+            "width": "11.9%",
+            "height": "11.7%"
+          },
+          "time_ago": "4m ago",
+          "severity": "HIGH",
+          "description": "Commercial SUV halted in main circulation thoroughfare"
+        }
+      ]
+    },
+    {
+      "frame_index": 420,
+      "timestamp_sec": 14.01,
+      "total_vehicles": 7,
+      "cars": 7,
+      "trucks": 0,
+      "motorcycles": 0,
+      "total_bays": 12,
+      "occupied_bays": 7,
+      "available_bays": 5,
+      "occupancy_percentage": 58.3,
+      "violations_count": 1,
+      "detections": [
+        {
+          "id": "det-420-0",
+          "track_id": 4000,
+          "class": "car",
+          "confidence": 0.801,
+          "xyxy": [
+            629.7,
+            229.3,
+            692.1,
+            272.2
+          ],
+          "css_rect": {
+            "left": "82.0%",
+            "top": "53.1%",
+            "width": "8.1%",
+            "height": "9.9%"
+          }
+        },
+        {
+          "id": "det-420-1",
+          "track_id": 4001,
+          "class": "car",
+          "confidence": 0.763,
+          "xyxy": [
+            671.2,
+            251.2,
+            747.6,
+            310.6
+          ],
+          "css_rect": {
+            "left": "87.4%",
+            "top": "58.1%",
+            "width": "10.0%",
+            "height": "13.7%"
+          }
+        },
+        {
+          "id": "det-420-2",
+          "track_id": 4002,
+          "class": "car",
+          "confidence": 0.677,
+          "xyxy": [
+            485.9,
+            224.2,
+            527.5,
+            253.4
+          ],
+          "css_rect": {
+            "left": "63.3%",
+            "top": "51.9%",
+            "width": "5.4%",
+            "height": "6.8%"
+          }
+        },
+        {
+          "id": "det-420-3",
+          "track_id": 4003,
+          "class": "car",
+          "confidence": 0.671,
+          "xyxy": [
+            325.1,
+            228.9,
+            414.1,
+            275.1
+          ],
+          "css_rect": {
+            "left": "42.3%",
+            "top": "53.0%",
+            "width": "11.6%",
+            "height": "10.7%"
+          }
+        },
+        {
+          "id": "det-420-4",
+          "track_id": 4004,
+          "class": "car",
+          "confidence": 0.604,
+          "xyxy": [
+            523.1,
+            228.3,
+            571.0,
+            257.2
+          ],
+          "css_rect": {
+            "left": "68.1%",
+            "top": "52.9%",
+            "width": "6.2%",
+            "height": "6.7%"
+          }
+        },
+        {
+          "id": "det-420-5",
+          "track_id": 4005,
+          "class": "car",
+          "confidence": 0.477,
+          "xyxy": [
+            675.5,
+            223.1,
+            706.7,
+            248.8
+          ],
+          "css_rect": {
+            "left": "88.0%",
+            "top": "51.6%",
+            "width": "4.1%",
+            "height": "6.0%"
+          }
+        },
+        {
+          "id": "det-420-6",
+          "track_id": 4006,
+          "class": "car",
+          "confidence": 0.38,
+          "xyxy": [
+            701.9,
+            243.6,
+            751.8,
+            280.2
+          ],
+          "css_rect": {
+            "left": "91.4%",
+            "top": "56.4%",
+            "width": "6.5%",
+            "height": "8.5%"
+          }
+        }
+      ],
+      "vacant_slots": [
+        {
+          "slot_id": "BAY-B1-03",
+          "pillar": "PILLAR A-03",
+          "css_rect": {
+            "left": "19.5%",
+            "top": "50.5%",
+            "width": "9.5%",
+            "height": "16.0%"
+          },
+          "type": "VACANT"
+        },
+        {
+          "slot_id": "BAY-B1-07",
+          "pillar": "PILLAR A-07",
+          "css_rect": {
+            "left": "44.5%",
+            "top": "50.5%",
+            "width": "8.5%",
+            "height": "14.5%"
+          },
+          "type": "VACANT"
+        },
+        {
+          "slot_id": "BAY-B1-11",
+          "pillar": "PILLAR A-11",
+          "css_rect": {
+            "left": "12.0%",
+            "top": "51.0%",
+            "width": "8.0%",
+            "height": "14.0%"
+          },
+          "type": "VACANT"
+        }
+      ],
+      "violations": [
+        {
+          "id": "viol-2",
+          "code": "U2E55-8758",
+          "type": "UNAUTHORIZED_STOPPAGE",
+          "title": "Unauthorized Aisle Stoppage",
+          "pillar": "PILLAR A-08",
+          "confidence": 0.671,
+          "track_id": 4003,
+          "vehicle_type": "car",
+          "css_rect": {
+            "left": "42.3%",
+            "top": "53.0%",
+            "width": "11.6%",
+            "height": "10.7%"
+          },
+          "time_ago": "4m ago",
+          "severity": "HIGH",
+          "description": "Commercial SUV halted in main circulation thoroughfare"
+        }
+      ]
+    },
+    {
+      "frame_index": 435,
+      "timestamp_sec": 14.51,
+      "total_vehicles": 6,
+      "cars": 6,
+      "trucks": 0,
+      "motorcycles": 0,
+      "total_bays": 12,
+      "occupied_bays": 6,
+      "available_bays": 6,
+      "occupancy_percentage": 50.0,
+      "violations_count": 1,
+      "detections": [
+        {
+          "id": "det-435-0",
+          "track_id": 4000,
+          "class": "car",
+          "confidence": 0.747,
+          "xyxy": [
+            634.0,
+            227.9,
+            696.3,
+            270.5
+          ],
+          "css_rect": {
+            "left": "82.6%",
+            "top": "52.7%",
+            "width": "8.1%",
+            "height": "9.9%"
+          }
+        },
+        {
+          "id": "det-435-1",
+          "track_id": 4001,
+          "class": "car",
+          "confidence": 0.677,
+          "xyxy": [
+            675.2,
+            253.5,
+            750.9,
+            311.4
+          ],
+          "css_rect": {
+            "left": "87.9%",
+            "top": "58.7%",
+            "width": "9.9%",
+            "height": "13.4%"
+          }
+        },
+        {
+          "id": "det-435-2",
+          "track_id": 4002,
+          "class": "car",
+          "confidence": 0.652,
+          "xyxy": [
+            296.5,
+            225.0,
+            375.7,
+            268.4
+          ],
+          "css_rect": {
+            "left": "38.6%",
+            "top": "52.1%",
+            "width": "10.3%",
+            "height": "10.1%"
+          }
+        },
+        {
+          "id": "det-435-3",
+          "track_id": 4003,
+          "class": "car",
+          "confidence": 0.583,
+          "xyxy": [
+            487.0,
+            222.5,
+            531.1,
+            252.7
+          ],
+          "css_rect": {
+            "left": "63.4%",
+            "top": "51.5%",
+            "width": "5.7%",
+            "height": "7.0%"
+          }
+        },
+        {
+          "id": "det-435-4",
+          "track_id": 4004,
+          "class": "car",
+          "confidence": 0.583,
+          "xyxy": [
+            525.6,
+            227.1,
+            575.0,
+            257.1
+          ],
+          "css_rect": {
+            "left": "68.4%",
+            "top": "52.6%",
+            "width": "6.4%",
+            "height": "6.9%"
+          }
+        },
+        {
+          "id": "det-435-5",
+          "track_id": 4005,
+          "class": "car",
+          "confidence": 0.514,
+          "xyxy": [
+            395.4,
+            227.1,
+            448.9,
+            259.7
+          ],
+          "css_rect": {
+            "left": "51.5%",
+            "top": "52.6%",
+            "width": "7.0%",
+            "height": "7.5%"
+          }
+        }
+      ],
+      "vacant_slots": [
+        {
+          "slot_id": "BAY-B1-03",
+          "pillar": "PILLAR A-03",
+          "css_rect": {
+            "left": "19.5%",
+            "top": "50.5%",
+            "width": "9.5%",
+            "height": "16.0%"
+          },
+          "type": "VACANT"
+        },
+        {
+          "slot_id": "BAY-B1-07",
+          "pillar": "PILLAR A-07",
+          "css_rect": {
+            "left": "44.5%",
+            "top": "50.5%",
+            "width": "8.5%",
+            "height": "14.5%"
+          },
+          "type": "VACANT"
+        },
+        {
+          "slot_id": "BAY-B1-11",
+          "pillar": "PILLAR A-11",
+          "css_rect": {
+            "left": "12.0%",
+            "top": "51.0%",
+            "width": "8.0%",
+            "height": "14.0%"
+          },
+          "type": "VACANT"
+        }
+      ],
+      "violations": [
+        {
+          "id": "viol-2",
+          "code": "U2E55-8758",
+          "type": "UNAUTHORIZED_STOPPAGE",
+          "title": "Unauthorized Aisle Stoppage",
+          "pillar": "PILLAR A-08",
+          "confidence": 0.652,
+          "track_id": 4002,
+          "vehicle_type": "car",
+          "css_rect": {
+            "left": "38.6%",
+            "top": "52.1%",
+            "width": "10.3%",
+            "height": "10.1%"
+          },
+          "time_ago": "4m ago",
+          "severity": "HIGH",
+          "description": "Commercial SUV halted in main circulation thoroughfare"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+# =============================================================================
+# Backend Python Dependencies
+# AI-Powered Smart Curb & Parking Intelligence Platform
+# =============================================================================
+
+# ─── Web Framework ────────────────────────────────────────────────────────────
+fastapi==0.111.1
+uvicorn[standard]==0.30.1
+python-multipart==0.0.9          # form data / file uploads
+
+# ─── Pydantic ─────────────────────────────────────────────────────────────────
+pydantic==2.7.4
+pydantic-settings==2.3.4         # settings from .env
+
+# ─── Database ─────────────────────────────────────────────────────────────────
+sqlalchemy==2.0.31
+asyncpg==0.29.0                  # async PostgreSQL driver
+aiosqlite==0.20.0                # async SQLite driver (local dev / testing)
+alembic==1.13.2                  # database migrations
+geoalchemy2==0.15.1              # PostGIS spatial types for SQLAlchemy
+
+# ─── Authentication ───────────────────────────────────────────────────────────
+python-jose[cryptography]==3.3.0 # JWT encoding / decoding
+argon2-cffi==23.1.0              # Argon2 password hashing (preferred over bcrypt)
+passlib[argon2]==1.7.4           # password hashing utilities (uses argon2-cffi)
+
+# ─── Rate Limiting ────────────────────────────────────────────────────────────
+slowapi==0.1.9                   # rate limiting for FastAPI
+
+# ─── HTTP Client (for Nominatim / OpenRouteService) ──────────────────────────
+httpx==0.27.0
+
+# ─── Utilities ────────────────────────────────────────────────────────────────
+python-dotenv==1.0.1
+structlog==24.2.0                # structured, safe logging
+aiofiles==23.2.1                 # async file I/O for evidence storage
+
+# ─── Testing ──────────────────────────────────────────────────────────────────
+pytest==8.2.2
+pytest-asyncio==0.23.7
+httpx                            # already listed above; re-used for test client

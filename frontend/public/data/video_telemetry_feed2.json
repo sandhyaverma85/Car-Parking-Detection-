@@ -1,0 +1,3619 @@
+{
+  "feed_id": "CAM-002",
+  "floor": "L2",
+  "video_file": "data/videos/car_video_01.mp4",
+  "resolution": "768x432",
+  "fps": 25.0,
+  "total_frames": 432,
+  "total_bays": 8,
+  "peak_vehicles": 5,
+  "keyframes": [
+    {
+      "frame_index": 0,
+      "timestamp_sec": 0.0,
+      "total_vehicles": 3,
+      "cars": 3,
+      "trucks": 0,
+      "motorcycles": 0,
+      "total_bays": 8,
+      "occupied_bays": 3,
+      "available_bays": 5,
+      "occupancy_percentage": 37.5,
+      "violations_count": 1,
+      "detections": [
+        {
+          "id": "det-0-0",
+          "track_id": 4000,
+          "class": "car",
+          "confidence": 0.518,
+          "xyxy": [
+            410.1,
+            237.8,
+            498.5,
+            295.8
+          ],
+          "css_rect": {
+            "left": "53.4%",
+            "top": "55.1%",
+            "width": "11.5%",
+            "height": "13.4%"
+          }
+        },
+        {
+          "id": "det-0-1",
+          "track_id": 4001,
+          "class": "car",
+          "confidence": 0.401,
+          "xyxy": [
+            323.1,
+            265.6,
+            386.3,
+            326.3
+          ],
+          "css_rect": {
+            "left": "42.1%",
+            "top": "61.5%",
+            "width": "8.2%",
+            "height": "14.0%"
+          }
+        },
+        {
+          "id": "det-0-2",
+          "track_id": 4002,
+          "class": "car",
+          "confidence": 0.36,
+          "xyxy": [
+            316.7,
+            316.4,
+            413.0,
+            430.4
+          ],
+          "css_rect": {
+            "left": "41.2%",
+            "top": "73.2%",
+            "width": "12.5%",
+            "height": "26.4%"
+          }
+        }
+      ],
+      "vacant_slots": [
+        {
+          "slot_id": "BAY-L2-02",
+          "pillar": "PILLAR C-02",
+          "css_rect": {
+            "left": "15.0%",
+            "top": "45.0%",
+            "width": "16.0%",
+            "height": "22.0%"
+          },
+          "type": "VACANT"
+        },
+        {
+          "slot_id": "BAY-L2-05",
+          "pillar": "PILLAR C-05",
+          "css_rect": {
+            "left": "68.0%",
+            "top": "45.0%",
+            "width": "18.0%",
+            "height": "22.0%"
+          },
+          "type": "VACANT"
+        },
+        {
+          "slot_id": "BAY-L2-07",
+          "pillar": "PILLAR C-07",
+          "css_rect": {
+            "left": "42.0%",
+            "top": "38.0%",
+            "width": "14.0%",
+            "height": "20.0%"
+          },
+          "type": "VACANT"
+        }
+      ],
+      "violations": [
+        {
+          "id": "viol-3",
+          "code": "E98211-3419",
+          "type": "RESTRICTED_CURB_VIOLATION",
+          "title": "Commercial Loading Overstay",
+          "pillar": "PILLAR C-04",
+          "confidence": 0.518,
+          "track_id": 4000,
+          "vehicle_type": "car",
+          "css_rect": {
+            "left": "53.4%",
+            "top": "55.1%",
+            "width": "11.5%",
+            "height": "13.4%"
+          },
+          "time_ago": "8m ago",
+          "severity": "WARNING",
+          "description": "Loading bay stay duration exceeded 15 minute limit"
+        }
+      ]
+    },
+    {
+      "frame_index": 15,
+      "timestamp_sec": 0.6,
+      "total_vehicles": 3,
+      "cars": 2,
+      "trucks": 1,
+      "motorcycles": 0,
+      "total_bays": 8,
+      "occupied_bays": 3,
+      "available_bays": 5,
+      "occupancy_percentage": 37.5,
+      "violations_count": 1,
+      "detections": [
+        {
+          "id": "det-15-0",
+          "track_id": 4000,
+          "class": "car",
+          "confidence": 0.71,
+          "xyxy": [
+            415.8,
+            243.3,
+            514.6,
+            299.0
+          ],
+          "css_rect": {
+            "left": "54.1%",
+            "top": "56.3%",
+            "width": "12.9%",
+            "height": "12.9%"
+          }
+        },
+        {
+          "id": "det-15-1",
+          "track_id": 4001,
+          "class": "car",
+          "confidence": 0.591,
+          "xyxy": [
+            342.4,
+            268.7,
+            382.0,
+            329.4
+          ],
+          "css_rect": {
+            "left": "44.6%",
+            "top": "62.2%",
+            "width": "5.1%",
+            "height": "14.1%"
+          }
+        },
+        {
+          "id": "det-15-2",
+          "track_id": 4002,
+          "class": "truck",
+          "confidence": 0.357,
+          "xyxy": [
+            671.9,
+            185.8,
+            767.8,
+            335.7
+          ],
+          "css_rect": {
+            "left": "87.5%",
+            "top": "43.0%",
+            "width": "12.5%",
+            "height": "34.7%"
+          }
+        }
+      ],
+      "vacant_slots": [
+        {
+          "slot_id": "BAY-L2-02",
+          "pillar": "PILLAR C-02",
+          "css_rect": {
+            "left": "15.0%",
+            "top": "45.0%",
+            "width": "16.0%",
+            "height": "22.0%"
+          },
+          "type": "VACANT"
+        },
+        {
+          "slot_id": "BAY-L2-05",
+          "pillar": "PILLAR C-05",
+          "css_rect": {
+            "left": "68.0%",
+            "top": "45.0%",
+            "width": "18.0%",
+            "height": "22.0%"
+          },
+          "type": "VACANT"
+        },
+        {
+          "slot_id": "BAY-L2-07",
+          "pillar": "PILLAR C-07",
+          "css_rect": {
+            "left": "42.0%",
+            "top": "38.0%",
+            "width": "14.0%",
+            "height": "20.0%"
+          },
+          "type": "VACANT"
+        }
+      ],
+      "violations": [
+        {
+          "id": "viol-3",
+          "code": "E98211-3419",
+          "type": "RESTRICTED_CURB_VIOLATION",
+          "title": "Commercial Loading Overstay",
+          "pillar": "PILLAR C-04",
+          "confidence": 0.591,
+          "track_id": 4001,
+          "vehicle_type": "car",
+          "css_rect": {
+            "left": "44.6%",
+            "top": "62.2%",
+            "width": "5.1%",
+            "height": "14.1%"
+          },
+          "time_ago": "8m ago",
+          "severity": "WARNING",
+          "description": "Loading bay stay duration exceeded 15 minute limit"
+        }
+      ]
+    },
+    {
+      "frame_index": 30,
+      "timestamp_sec": 1.2,
+      "total_vehicles": 3,
+      "cars": 3,
+      "trucks": 0,
+      "motorcycles": 0,
+      "total_bays": 8,
+      "occupied_bays": 3,
+      "available_bays": 5,
+      "occupancy_percentage": 37.5,
+      "violations_count": 1,
+      "detections": [
+        {
+          "id": "det-30-0",
+          "track_id": 4000,
+          "class": "car",
+          "confidence": 0.836,
+          "xyxy": [
+            422.8,
+            247.0,
+            535.9,
+            303.1
+          ],
+          "css_rect": {
+            "left": "55.1%",
+            "top": "57.2%",
+            "width": "14.7%",
+            "height": "13.0%"
+          }
+        },
+        {
+          "id": "det-30-1",
+          "track_id": 4001,
+          "class": "car",
+          "confidence": 0.462,
+          "xyxy": [
+            306.7,
+            322.6,
+            401.7,
+            430.6
+          ],
+          "css_rect": {
+            "left": "39.9%",
+            "top": "74.7%",
+            "width": "12.4%",
+            "height": "25.0%"
+          }
+        },
+        {
+          "id": "det-30-2",
+          "track_id": 4002,
+          "class": "car",
+          "confidence": 0.435,
+          "xyxy": [
+            317.6,
+            273.4,
+            377.7,
+            334.6
+          ],
+          "css_rect": {
+            "left": "41.4%",
+            "top": "63.3%",
+            "width": "7.8%",
+            "height": "14.2%"
+          }
+        }
+      ],
+      "vacant_slots": [
+        {
+          "slot_id": "BAY-L2-02",
+          "pillar": "PILLAR C-02",
+          "css_rect": {
+            "left": "15.0%",
+            "top": "45.0%",
+            "width": "16.0%",
+            "height": "22.0%"
+          },
+          "type": "VACANT"
+        },
+        {
+          "slot_id": "BAY-L2-05",
+          "pillar": "PILLAR C-05",
+          "css_rect": {
+            "left": "68.0%",
+            "top": "45.0%",
+            "width": "18.0%",
+            "height": "22.0%"
+          },
+          "type": "VACANT"
+        },
+        {
+          "slot_id": "BAY-L2-07",
+          "pillar": "PILLAR C-07",
+          "css_rect": {
+            "left": "42.0%",
+            "top": "38.0%",
+            "width": "14.0%",
+            "height": "20.0%"
+          },
+          "type": "VACANT"
+        }
+      ],
+      "violations": [
+        {
+          "id": "viol-3",
+          "code": "E98211-3419",
+          "type": "RESTRICTED_CURB_VIOLATION",
+          "title": "Commercial Loading Overstay",
+          "pillar": "PILLAR C-04",
+          "confidence": 0.435,
+          "track_id": 4002,
+          "vehicle_type": "car",
+          "css_rect": {
+            "left": "41.4%",
+            "top": "63.3%",
+            "width": "7.8%",
+            "height": "14.2%"
+          },
+          "time_ago": "8m ago",
+          "severity": "WARNING",
+          "description": "Loading bay stay duration exceeded 15 minute limit"
+        }
+      ]
+    },
+    {
+      "frame_index": 45,
+      "timestamp_sec": 1.8,
+      "total_vehicles": 3,
+      "cars": 3,
+      "trucks": 0,
+      "motorcycles": 0,
+      "total_bays": 8,
+      "occupied_bays": 3,
+      "available_bays": 5,
+      "occupancy_percentage": 37.5,
+      "violations_count": 1,
+      "detections": [
+        {
+          "id": "det-45-0",
+          "track_id": 4000,
+          "class": "car",
+          "confidence": 0.691,
+          "xyxy": [
+            438.6,
+            252.5,
+            534.7,
+            306.5
+          ],
+          "css_rect": {
+            "left": "57.1%",
+            "top": "58.4%",
+            "width": "12.5%",
+            "height": "12.5%"
+          }
+        },
+        {
+          "id": "det-45-1",
+          "track_id": 4001,
+          "class": "car",
+          "confidence": 0.647,
+          "xyxy": [
+            304.9,
+            328.2,
+            398.7,
+            429.5
+          ],
+          "css_rect": {
+            "left": "39.7%",
+            "top": "76.0%",
+            "width": "12.2%",
+            "height": "23.5%"
+          }
+        },
+        {
+          "id": "det-45-2",
+          "track_id": 4002,
+          "class": "car",
+          "confidence": 0.432,
+          "xyxy": [
+            306.1,
+            276.4,
+            375.0,
+            338.1
+          ],
+          "css_rect": {
+            "left": "39.9%",
+            "top": "64.0%",
+            "width": "9.0%",
+            "height": "14.3%"
+          }
+        }
+      ],
+      "vacant_slots": [
+        {
+          "slot_id": "BAY-L2-02",
+          "pillar": "PILLAR C-02",
+          "css_rect": {
+            "left": "15.0%",
+            "top": "45.0%",
+            "width": "16.0%",
+            "height": "22.0%"
+          },
+          "type": "VACANT"
+        },
+        {
+          "slot_id": "BAY-L2-05",
+          "pillar": "PILLAR C-05",
+          "css_rect": {
+            "left": "68.0%",
+            "top": "45.0%",
+            "width": "18.0%",
+            "height": "22.0%"
+          },
+          "type": "VACANT"
+        },
+        {
+          "slot_id": "BAY-L2-07",
+          "pillar": "PILLAR C-07",
+          "css_rect": {
+            "left": "42.0%",
+            "top": "38.0%",
+            "width": "14.0%",
+            "height": "20.0%"
+          },
+          "type": "VACANT"
+        }
+      ],
+      "violations": [
+        {
+          "id": "viol-3",
+          "code": "E98211-3419",
+          "type": "RESTRICTED_CURB_VIOLATION",
+          "title": "Commercial Loading Overstay",
+          "pillar": "PILLAR C-04",
+          "confidence": 0.432,
+          "track_id": 4002,
+          "vehicle_type": "car",
+          "css_rect": {
+            "left": "39.9%",
+            "top": "64.0%",
+            "width": "9.0%",
+            "height": "14.3%"
+          },
+          "time_ago": "8m ago",
+          "severity": "WARNING",
+          "description": "Loading bay stay duration exceeded 15 minute limit"
+        }
+      ]
+    },
+    {
+      "frame_index": 60,
+      "timestamp_sec": 2.4,
+      "total_vehicles": 2,
+      "cars": 2,
+      "trucks": 0,
+      "motorcycles": 0,
+      "total_bays": 8,
+      "occupied_bays": 2,
+      "available_bays": 6,
+      "occupancy_percentage": 25.0,
+      "violations_count": 1,
+      "detections": [
+        {
+          "id": "det-60-0",
+          "track_id": 4000,
+          "class": "car",
+          "confidence": 0.564,
+          "xyxy": [
+            303.8,
+            330.0,
+            397.0,
+            430.3
+          ],
+          "css_rect": {
+            "left": "39.6%",
+            "top": "76.4%",
+            "width": "12.1%",
+            "height": "23.2%"
+          }
+        },
+        {
+          "id": "det-60-1",
+          "track_id": 4001,
+          "class": "car",
+          "confidence": 0.449,
+          "xyxy": [
+            305.2,
+            282.5,
+            374.6,
+            342.6
+          ],
+          "css_rect": {
+            "left": "39.7%",
+            "top": "65.4%",
+            "width": "9.0%",
+            "height": "13.9%"
+          }
+        }
+      ],
+      "vacant_slots": [
+        {
+          "slot_id": "BAY-L2-02",
+          "pillar": "PILLAR C-02",
+          "css_rect": {
+            "left": "15.0%",
+            "top": "45.0%",
+            "width": "16.0%",
+            "height": "22.0%"
+          },
+          "type": "VACANT"
+        },
+        {
+          "slot_id": "BAY-L2-05",
+          "pillar": "PILLAR C-05",
+          "css_rect": {
+            "left": "68.0%",
+            "top": "45.0%",
+            "width": "18.0%",
+            "height": "22.0%"
+          },
+          "type": "VACANT"
+        },
+        {
+          "slot_id": "BAY-L2-07",
+          "pillar": "PILLAR C-07",
+          "css_rect": {
+            "left": "42.0%",
+            "top": "38.0%",
+            "width": "14.0%",
+            "height": "20.0%"
+          },
+          "type": "VACANT"
+        }
+      ],
+      "violations": [
+        {
+          "id": "viol-3",
+          "code": "E98211-3419",
+          "type": "RESTRICTED_CURB_VIOLATION",
+          "title": "Commercial Loading Overstay",
+          "pillar": "PILLAR C-04",
+          "confidence": 0.449,
+          "track_id": 4001,
+          "vehicle_type": "car",
+          "css_rect": {
+            "left": "39.7%",
+            "top": "65.4%",
+            "width": "9.0%",
+            "height": "13.9%"
+          },
+          "time_ago": "8m ago",
+          "severity": "WARNING",
+          "description": "Loading bay stay duration exceeded 15 minute limit"
+        }
+      ]
+    },
+    {
+      "frame_index": 75,
+      "timestamp_sec": 3.0,
+      "total_vehicles": 2,
+      "cars": 2,
+      "trucks": 0,
+      "motorcycles": 0,
+      "total_bays": 8,
+      "occupied_bays": 2,
+      "available_bays": 6,
+      "occupancy_percentage": 25.0,
+      "violations_count": 1,
+      "detections": [
+        {
+          "id": "det-75-0",
+          "track_id": 4000,
+          "class": "car",
+          "confidence": 0.489,
+          "xyxy": [
+            304.8,
+            284.6,
+            373.1,
+            344.4
+          ],
+          "css_rect": {
+            "left": "39.7%",
+            "top": "65.9%",
+            "width": "8.9%",
+            "height": "13.8%"
+          }
+        },
+        {
+          "id": "det-75-1",
+          "track_id": 4001,
+          "class": "car",
+          "confidence": 0.368,
+          "xyxy": [
+            303.0,
+            330.8,
+            397.2,
+            430.6
+          ],
+          "css_rect": {
+            "left": "39.5%",
+            "top": "76.6%",
+            "width": "12.3%",
+            "height": "23.1%"
+          }
+        }
+      ],
+      "vacant_slots": [
+        {
+          "slot_id": "BAY-L2-02",
+          "pillar": "PILLAR C-02",
+          "css_rect": {
+            "left": "15.0%",
+            "top": "45.0%",
+            "width": "16.0%",
+            "height": "22.0%"
+          },
+          "type": "VACANT"
+        },
+        {
+          "slot_id": "BAY-L2-05",
+          "pillar": "PILLAR C-05",
+          "css_rect": {
+            "left": "68.0%",
+            "top": "45.0%",
+            "width": "18.0%",
+            "height": "22.0%"
+          },
+          "type": "VACANT"
+        },
+        {
+          "slot_id": "BAY-L2-07",
+          "pillar": "PILLAR C-07",
+          "css_rect": {
+            "left": "42.0%",
+            "top": "38.0%",
+            "width": "14.0%",
+            "height": "20.0%"
+          },
+          "type": "VACANT"
+        }
+      ],
+      "violations": [
+        {
+          "id": "viol-3",
+          "code": "E98211-3419",
+          "type": "RESTRICTED_CURB_VIOLATION",
+          "title": "Commercial Loading Overstay",
+          "pillar": "PILLAR C-04",
+          "confidence": 0.489,
+          "track_id": 4000,
+          "vehicle_type": "car",
+          "css_rect": {
+            "left": "39.7%",
+            "top": "65.9%",
+            "width": "8.9%",
+            "height": "13.8%"
+          },
+          "time_ago": "8m ago",
+          "severity": "WARNING",
+          "description": "Loading bay stay duration exceeded 15 minute limit"
+        }
+      ]
+    },
+    {
+      "frame_index": 90,
+      "timestamp_sec": 3.6,
+      "total_vehicles": 2,
+      "cars": 2,
+      "trucks": 0,
+      "motorcycles": 0,
+      "total_bays": 8,
+      "occupied_bays": 2,
+      "available_bays": 6,
+      "occupancy_percentage": 25.0,
+      "violations_count": 1,
+      "detections": [
+        {
+          "id": "det-90-0",
+          "track_id": 4000,
+          "class": "car",
+          "confidence": 0.663,
+          "xyxy": [
+            302.8,
+            335.4,
+            396.7,
+            431.2
+          ],
+          "css_rect": {
+            "left": "39.4%",
+            "top": "77.7%",
+            "width": "12.2%",
+            "height": "22.2%"
+          }
+        },
+        {
+          "id": "det-90-1",
+          "track_id": 4001,
+          "class": "car",
+          "confidence": 0.538,
+          "xyxy": [
+            304.8,
+            285.3,
+            374.4,
+            345.8
+          ],
+          "css_rect": {
+            "left": "39.7%",
+            "top": "66.0%",
+            "width": "9.1%",
+            "height": "14.0%"
+          }
+        }
+      ],
+      "vacant_slots": [
+        {
+          "slot_id": "BAY-L2-02",
+          "pillar": "PILLAR C-02",
+          "css_rect": {
+            "left": "15.0%",
+            "top": "45.0%",
+            "width": "16.0%",
+            "height": "22.0%"
+          },
+          "type": "VACANT"
+        },
+        {
+          "slot_id": "BAY-L2-05",
+          "pillar": "PILLAR C-05",
+          "css_rect": {
+            "left": "68.0%",
+            "top": "45.0%",
+            "width": "18.0%",
+            "height": "22.0%"
+          },
+          "type": "VACANT"
+        },
+        {
+          "slot_id": "BAY-L2-07",
+          "pillar": "PILLAR C-07",
+          "css_rect": {
+            "left": "42.0%",
+            "top": "38.0%",
+            "width": "14.0%",
+            "height": "20.0%"
+          },
+          "type": "VACANT"
+        }
+      ],
+      "violations": [
+        {
+          "id": "viol-3",
+          "code": "E98211-3419",
+          "type": "RESTRICTED_CURB_VIOLATION",
+          "title": "Commercial Loading Overstay",
+          "pillar": "PILLAR C-04",
+          "confidence": 0.538,
+          "track_id": 4001,
+          "vehicle_type": "car",
+          "css_rect": {
+            "left": "39.7%",
+            "top": "66.0%",
+            "width": "9.1%",
+            "height": "14.0%"
+          },
+          "time_ago": "8m ago",
+          "severity": "WARNING",
+          "description": "Loading bay stay duration exceeded 15 minute limit"
+        }
+      ]
+    },
+    {
+      "frame_index": 105,
+      "timestamp_sec": 4.2,
+      "total_vehicles": 3,
+      "cars": 3,
+      "trucks": 0,
+      "motorcycles": 0,
+      "total_bays": 8,
+      "occupied_bays": 3,
+      "available_bays": 5,
+      "occupancy_percentage": 37.5,
+      "violations_count": 1,
+      "detections": [
+        {
+          "id": "det-105-0",
+          "track_id": 4000,
+          "class": "car",
+          "confidence": 0.529,
+          "xyxy": [
+            302.3,
+            338.1,
+            397.0,
+            431.0
+          ],
+          "css_rect": {
+            "left": "39.4%",
+            "top": "78.3%",
+            "width": "12.3%",
+            "height": "21.5%"
+          }
+        },
+        {
+          "id": "det-105-1",
+          "track_id": 4001,
+          "class": "car",
+          "confidence": 0.453,
+          "xyxy": [
+            304.6,
+            286.5,
+            374.5,
+            347.4
+          ],
+          "css_rect": {
+            "left": "39.7%",
+            "top": "66.3%",
+            "width": "9.1%",
+            "height": "14.1%"
+          }
+        },
+        {
+          "id": "det-105-2",
+          "track_id": 4002,
+          "class": "car",
+          "confidence": 0.386,
+          "xyxy": [
+            475.2,
+            264.6,
+            533.7,
+            313.4
+          ],
+          "css_rect": {
+            "left": "61.9%",
+            "top": "61.3%",
+            "width": "7.6%",
+            "height": "11.3%"
+          }
+        }
+      ],
+      "vacant_slots": [
+        {
+          "slot_id": "BAY-L2-02",
+          "pillar": "PILLAR C-02",
+          "css_rect": {
+            "left": "15.0%",
+            "top": "45.0%",
+            "width": "16.0%",
+            "height": "22.0%"
+          },
+          "type": "VACANT"
+        },
+        {
+          "slot_id": "BAY-L2-05",
+          "pillar": "PILLAR C-05",
+          "css_rect": {
+            "left": "68.0%",
+            "top": "45.0%",
+            "width": "18.0%",
+            "height": "22.0%"
+          },
+          "type": "VACANT"
+        },
+        {
+          "slot_id": "BAY-L2-07",
+          "pillar": "PILLAR C-07",
+          "css_rect": {
+            "left": "42.0%",
+            "top": "38.0%",
+            "width": "14.0%",
+            "height": "20.0%"
+          },
+          "type": "VACANT"
+        }
+      ],
+      "violations": [
+        {
+          "id": "viol-3",
+          "code": "E98211-3419",
+          "type": "RESTRICTED_CURB_VIOLATION",
+          "title": "Commercial Loading Overstay",
+          "pillar": "PILLAR C-04",
+          "confidence": 0.453,
+          "track_id": 4001,
+          "vehicle_type": "car",
+          "css_rect": {
+            "left": "39.7%",
+            "top": "66.3%",
+            "width": "9.1%",
+            "height": "14.1%"
+          },
+          "time_ago": "8m ago",
+          "severity": "WARNING",
+          "description": "Loading bay stay duration exceeded 15 minute limit"
+        }
+      ]
+    },
+    {
+      "frame_index": 120,
+      "timestamp_sec": 4.8,
+      "total_vehicles": 2,
+      "cars": 2,
+      "trucks": 0,
+      "motorcycles": 0,
+      "total_bays": 8,
+      "occupied_bays": 2,
+      "available_bays": 6,
+      "occupancy_percentage": 25.0,
+      "violations_count": 1,
+      "detections": [
+        {
+          "id": "det-120-0",
+          "track_id": 4000,
+          "class": "car",
+          "confidence": 0.722,
+          "xyxy": [
+            304.5,
+            337.3,
+            398.2,
+            431.0
+          ],
+          "css_rect": {
+            "left": "39.6%",
+            "top": "78.1%",
+            "width": "12.2%",
+            "height": "21.7%"
+          }
+        },
+        {
+          "id": "det-120-1",
+          "track_id": 4001,
+          "class": "car",
+          "confidence": 0.486,
+          "xyxy": [
+            305.7,
+            288.7,
+            375.4,
+            347.5
+          ],
+          "css_rect": {
+            "left": "39.8%",
+            "top": "66.8%",
+            "width": "9.1%",
+            "height": "13.6%"
+          }
+        }
+      ],
+      "vacant_slots": [
+        {
+          "slot_id": "BAY-L2-02",
+          "pillar": "PILLAR C-02",
+          "css_rect": {
+            "left": "15.0%",
+            "top": "45.0%",
+            "width": "16.0%",
+            "height": "22.0%"
+          },
+          "type": "VACANT"
+        },
+        {
+          "slot_id": "BAY-L2-05",
+          "pillar": "PILLAR C-05",
+          "css_rect": {
+            "left": "68.0%",
+            "top": "45.0%",
+            "width": "18.0%",
+            "height": "22.0%"
+          },
+          "type": "VACANT"
+        },
+        {
+          "slot_id": "BAY-L2-07",
+          "pillar": "PILLAR C-07",
+          "css_rect": {
+            "left": "42.0%",
+            "top": "38.0%",
+            "width": "14.0%",
+            "height": "20.0%"
+          },
+          "type": "VACANT"
+        }
+      ],
+      "violations": [
+        {
+          "id": "viol-3",
+          "code": "E98211-3419",
+          "type": "RESTRICTED_CURB_VIOLATION",
+          "title": "Commercial Loading Overstay",
+          "pillar": "PILLAR C-04",
+          "confidence": 0.486,
+          "track_id": 4001,
+          "vehicle_type": "car",
+          "css_rect": {
+            "left": "39.8%",
+            "top": "66.8%",
+            "width": "9.1%",
+            "height": "13.6%"
+          },
+          "time_ago": "8m ago",
+          "severity": "WARNING",
+          "description": "Loading bay stay duration exceeded 15 minute limit"
+        }
+      ]
+    },
+    {
+      "frame_index": 135,
+      "timestamp_sec": 5.4,
+      "total_vehicles": 2,
+      "cars": 2,
+      "trucks": 0,
+      "motorcycles": 0,
+      "total_bays": 8,
+      "occupied_bays": 2,
+      "available_bays": 6,
+      "occupancy_percentage": 25.0,
+      "violations_count": 1,
+      "detections": [
+        {
+          "id": "det-135-0",
+          "track_id": 4000,
+          "class": "car",
+          "confidence": 0.655,
+          "xyxy": [
+            304.7,
+            334.7,
+            398.8,
+            431.6
+          ],
+          "css_rect": {
+            "left": "39.7%",
+            "top": "77.5%",
+            "width": "12.2%",
+            "height": "22.4%"
+          }
+        },
+        {
+          "id": "det-135-1",
+          "track_id": 4001,
+          "class": "car",
+          "confidence": 0.553,
+          "xyxy": [
+            305.6,
+            284.4,
+            375.7,
+            346.0
+          ],
+          "css_rect": {
+            "left": "39.8%",
+            "top": "65.8%",
+            "width": "9.1%",
+            "height": "14.3%"
+          }
+        }
+      ],
+      "vacant_slots": [
+        {
+          "slot_id": "BAY-L2-02",
+          "pillar": "PILLAR C-02",
+          "css_rect": {
+            "left": "15.0%",
+            "top": "45.0%",
+            "width": "16.0%",
+            "height": "22.0%"
+          },
+          "type": "VACANT"
+        },
+        {
+          "slot_id": "BAY-L2-05",
+          "pillar": "PILLAR C-05",
+          "css_rect": {
+            "left": "68.0%",
+            "top": "45.0%",
+            "width": "18.0%",
+            "height": "22.0%"
+          },
+          "type": "VACANT"
+        },
+        {
+          "slot_id": "BAY-L2-07",
+          "pillar": "PILLAR C-07",
+          "css_rect": {
+            "left": "42.0%",
+            "top": "38.0%",
+            "width": "14.0%",
+            "height": "20.0%"
+          },
+          "type": "VACANT"
+        }
+      ],
+      "violations": [
+        {
+          "id": "viol-3",
+          "code": "E98211-3419",
+          "type": "RESTRICTED_CURB_VIOLATION",
+          "title": "Commercial Loading Overstay",
+          "pillar": "PILLAR C-04",
+          "confidence": 0.553,
+          "track_id": 4001,
+          "vehicle_type": "car",
+          "css_rect": {
+            "left": "39.8%",
+            "top": "65.8%",
+            "width": "9.1%",
+            "height": "14.3%"
+          },
+          "time_ago": "8m ago",
+          "severity": "WARNING",
+          "description": "Loading bay stay duration exceeded 15 minute limit"
+        }
+      ]
+    },
+    {
+      "frame_index": 150,
+      "timestamp_sec": 6.0,
+      "total_vehicles": 2,
+      "cars": 2,
+      "trucks": 0,
+      "motorcycles": 0,
+      "total_bays": 8,
+      "occupied_bays": 2,
+      "available_bays": 6,
+      "occupancy_percentage": 25.0,
+      "violations_count": 1,
+      "detections": [
+        {
+          "id": "det-150-0",
+          "track_id": 4000,
+          "class": "car",
+          "confidence": 0.531,
+          "xyxy": [
+            305.2,
+            284.1,
+            375.8,
+            344.7
+          ],
+          "css_rect": {
+            "left": "39.7%",
+            "top": "65.8%",
+            "width": "9.2%",
+            "height": "14.0%"
+          }
+        },
+        {
+          "id": "det-150-1",
+          "track_id": 4001,
+          "class": "car",
+          "confidence": 0.513,
+          "xyxy": [
+            304.3,
+            332.7,
+            399.0,
+            431.5
+          ],
+          "css_rect": {
+            "left": "39.6%",
+            "top": "77.0%",
+            "width": "12.3%",
+            "height": "22.9%"
+          }
+        }
+      ],
+      "vacant_slots": [
+        {
+          "slot_id": "BAY-L2-02",
+          "pillar": "PILLAR C-02",
+          "css_rect": {
+            "left": "15.0%",
+            "top": "45.0%",
+            "width": "16.0%",
+            "height": "22.0%"
+          },
+          "type": "VACANT"
+        },
+        {
+          "slot_id": "BAY-L2-05",
+          "pillar": "PILLAR C-05",
+          "css_rect": {
+            "left": "68.0%",
+            "top": "45.0%",
+            "width": "18.0%",
+            "height": "22.0%"
+          },
+          "type": "VACANT"
+        },
+        {
+          "slot_id": "BAY-L2-07",
+          "pillar": "PILLAR C-07",
+          "css_rect": {
+            "left": "42.0%",
+            "top": "38.0%",
+            "width": "14.0%",
+            "height": "20.0%"
+          },
+          "type": "VACANT"
+        }
+      ],
+      "violations": [
+        {
+          "id": "viol-3",
+          "code": "E98211-3419",
+          "type": "RESTRICTED_CURB_VIOLATION",
+          "title": "Commercial Loading Overstay",
+          "pillar": "PILLAR C-04",
+          "confidence": 0.531,
+          "track_id": 4000,
+          "vehicle_type": "car",
+          "css_rect": {
+            "left": "39.7%",
+            "top": "65.8%",
+            "width": "9.2%",
+            "height": "14.0%"
+          },
+          "time_ago": "8m ago",
+          "severity": "WARNING",
+          "description": "Loading bay stay duration exceeded 15 minute limit"
+        }
+      ]
+    },
+    {
+      "frame_index": 165,
+      "timestamp_sec": 6.6,
+      "total_vehicles": 3,
+      "cars": 3,
+      "trucks": 0,
+      "motorcycles": 0,
+      "total_bays": 8,
+      "occupied_bays": 3,
+      "available_bays": 5,
+      "occupancy_percentage": 37.5,
+      "violations_count": 1,
+      "detections": [
+        {
+          "id": "det-165-0",
+          "track_id": 4000,
+          "class": "car",
+          "confidence": 0.584,
+          "xyxy": [
+            465.3,
+            256.1,
+            533.7,
+            309.8
+          ],
+          "css_rect": {
+            "left": "60.6%",
+            "top": "59.3%",
+            "width": "8.9%",
+            "height": "12.4%"
+          }
+        },
+        {
+          "id": "det-165-1",
+          "track_id": 4001,
+          "class": "car",
+          "confidence": 0.495,
+          "xyxy": [
+            304.2,
+            283.6,
+            374.8,
+            344.1
+          ],
+          "css_rect": {
+            "left": "39.6%",
+            "top": "65.7%",
+            "width": "9.2%",
+            "height": "14.0%"
+          }
+        },
+        {
+          "id": "det-165-2",
+          "track_id": 4002,
+          "class": "car",
+          "confidence": 0.395,
+          "xyxy": [
+            303.0,
+            331.4,
+            397.6,
+            429.8
+          ],
+          "css_rect": {
+            "left": "39.5%",
+            "top": "76.7%",
+            "width": "12.3%",
+            "height": "22.8%"
+          }
+        }
+      ],
+      "vacant_slots": [
+        {
+          "slot_id": "BAY-L2-02",
+          "pillar": "PILLAR C-02",
+          "css_rect": {
+            "left": "15.0%",
+            "top": "45.0%",
+            "width": "16.0%",
+            "height": "22.0%"
+          },
+          "type": "VACANT"
+        },
+        {
+          "slot_id": "BAY-L2-05",
+          "pillar": "PILLAR C-05",
+          "css_rect": {
+            "left": "68.0%",
+            "top": "45.0%",
+            "width": "18.0%",
+            "height": "22.0%"
+          },
+          "type": "VACANT"
+        },
+        {
+          "slot_id": "BAY-L2-07",
+          "pillar": "PILLAR C-07",
+          "css_rect": {
+            "left": "42.0%",
+            "top": "38.0%",
+            "width": "14.0%",
+            "height": "20.0%"
+          },
+          "type": "VACANT"
+        }
+      ],
+      "violations": [
+        {
+          "id": "viol-3",
+          "code": "E98211-3419",
+          "type": "RESTRICTED_CURB_VIOLATION",
+          "title": "Commercial Loading Overstay",
+          "pillar": "PILLAR C-04",
+          "confidence": 0.495,
+          "track_id": 4001,
+          "vehicle_type": "car",
+          "css_rect": {
+            "left": "39.6%",
+            "top": "65.7%",
+            "width": "9.2%",
+            "height": "14.0%"
+          },
+          "time_ago": "8m ago",
+          "severity": "WARNING",
+          "description": "Loading bay stay duration exceeded 15 minute limit"
+        }
+      ]
+    },
+    {
+      "frame_index": 180,
+      "timestamp_sec": 7.2,
+      "total_vehicles": 4,
+      "cars": 3,
+      "trucks": 1,
+      "motorcycles": 0,
+      "total_bays": 8,
+      "occupied_bays": 4,
+      "available_bays": 4,
+      "occupancy_percentage": 50.0,
+      "violations_count": 1,
+      "detections": [
+        {
+          "id": "det-180-0",
+          "track_id": 4000,
+          "class": "car",
+          "confidence": 0.656,
+          "xyxy": [
+            301.7,
+            334.5,
+            395.4,
+            431.1
+          ],
+          "css_rect": {
+            "left": "39.3%",
+            "top": "77.4%",
+            "width": "12.2%",
+            "height": "22.4%"
+          }
+        },
+        {
+          "id": "det-180-1",
+          "track_id": 4001,
+          "class": "car",
+          "confidence": 0.566,
+          "xyxy": [
+            303.2,
+            284.0,
+            373.8,
+            345.2
+          ],
+          "css_rect": {
+            "left": "39.5%",
+            "top": "65.7%",
+            "width": "9.2%",
+            "height": "14.2%"
+          }
+        },
+        {
+          "id": "det-180-2",
+          "track_id": 4002,
+          "class": "truck",
+          "confidence": 0.447,
+          "xyxy": [
+            661.6,
+            196.2,
+            767.5,
+            347.1
+          ],
+          "css_rect": {
+            "left": "86.1%",
+            "top": "45.4%",
+            "width": "13.8%",
+            "height": "34.9%"
+          }
+        },
+        {
+          "id": "det-180-3",
+          "track_id": 4003,
+          "class": "car",
+          "confidence": 0.442,
+          "xyxy": [
+            457.7,
+            259.6,
+            534.6,
+            311.7
+          ],
+          "css_rect": {
+            "left": "59.6%",
+            "top": "60.1%",
+            "width": "10.0%",
+            "height": "12.1%"
+          }
+        }
+      ],
+      "vacant_slots": [
+        {
+          "slot_id": "BAY-L2-02",
+          "pillar": "PILLAR C-02",
+          "css_rect": {
+            "left": "15.0%",
+            "top": "45.0%",
+            "width": "16.0%",
+            "height": "22.0%"
+          },
+          "type": "VACANT"
+        },
+        {
+          "slot_id": "BAY-L2-05",
+          "pillar": "PILLAR C-05",
+          "css_rect": {
+            "left": "68.0%",
+            "top": "45.0%",
+            "width": "18.0%",
+            "height": "22.0%"
+          },
+          "type": "VACANT"
+        },
+        {
+          "slot_id": "BAY-L2-07",
+          "pillar": "PILLAR C-07",
+          "css_rect": {
+            "left": "42.0%",
+            "top": "38.0%",
+            "width": "14.0%",
+            "height": "20.0%"
+          },
+          "type": "VACANT"
+        }
+      ],
+      "violations": [
+        {
+          "id": "viol-3",
+          "code": "E98211-3419",
+          "type": "RESTRICTED_CURB_VIOLATION",
+          "title": "Commercial Loading Overstay",
+          "pillar": "PILLAR C-04",
+          "confidence": 0.566,
+          "track_id": 4001,
+          "vehicle_type": "car",
+          "css_rect": {
+            "left": "39.5%",
+            "top": "65.7%",
+            "width": "9.2%",
+            "height": "14.2%"
+          },
+          "time_ago": "8m ago",
+          "severity": "WARNING",
+          "description": "Loading bay stay duration exceeded 15 minute limit"
+        }
+      ]
+    },
+    {
+      "frame_index": 195,
+      "timestamp_sec": 7.8,
+      "total_vehicles": 3,
+      "cars": 2,
+      "trucks": 1,
+      "motorcycles": 0,
+      "total_bays": 8,
+      "occupied_bays": 3,
+      "available_bays": 5,
+      "occupancy_percentage": 37.5,
+      "violations_count": 1,
+      "detections": [
+        {
+          "id": "det-195-0",
+          "track_id": 4000,
+          "class": "car",
+          "confidence": 0.683,
+          "xyxy": [
+            301.3,
+            340.1,
+            395.0,
+            430.5
+          ],
+          "css_rect": {
+            "left": "39.2%",
+            "top": "78.7%",
+            "width": "12.2%",
+            "height": "20.9%"
+          }
+        },
+        {
+          "id": "det-195-1",
+          "track_id": 4001,
+          "class": "truck",
+          "confidence": 0.412,
+          "xyxy": [
+            655.6,
+            203.3,
+            767.8,
+            350.9
+          ],
+          "css_rect": {
+            "left": "85.4%",
+            "top": "47.1%",
+            "width": "14.6%",
+            "height": "34.2%"
+          }
+        },
+        {
+          "id": "det-195-2",
+          "track_id": 4002,
+          "class": "car",
+          "confidence": 0.406,
+          "xyxy": [
+            302.1,
+            289.0,
+            372.3,
+            349.4
+          ],
+          "css_rect": {
+            "left": "39.3%",
+            "top": "66.9%",
+            "width": "9.2%",
+            "height": "14.0%"
+          }
+        }
+      ],
+      "vacant_slots": [
+        {
+          "slot_id": "BAY-L2-02",
+          "pillar": "PILLAR C-02",
+          "css_rect": {
+            "left": "15.0%",
+            "top": "45.0%",
+            "width": "16.0%",
+            "height": "22.0%"
+          },
+          "type": "VACANT"
+        },
+        {
+          "slot_id": "BAY-L2-05",
+          "pillar": "PILLAR C-05",
+          "css_rect": {
+            "left": "68.0%",
+            "top": "45.0%",
+            "width": "18.0%",
+            "height": "22.0%"
+          },
+          "type": "VACANT"
+        },
+        {
+          "slot_id": "BAY-L2-07",
+          "pillar": "PILLAR C-07",
+          "css_rect": {
+            "left": "42.0%",
+            "top": "38.0%",
+            "width": "14.0%",
+            "height": "20.0%"
+          },
+          "type": "VACANT"
+        }
+      ],
+      "violations": [
+        {
+          "id": "viol-3",
+          "code": "E98211-3419",
+          "type": "RESTRICTED_CURB_VIOLATION",
+          "title": "Commercial Loading Overstay",
+          "pillar": "PILLAR C-04",
+          "confidence": 0.406,
+          "track_id": 4002,
+          "vehicle_type": "car",
+          "css_rect": {
+            "left": "39.3%",
+            "top": "66.9%",
+            "width": "9.2%",
+            "height": "14.0%"
+          },
+          "time_ago": "8m ago",
+          "severity": "WARNING",
+          "description": "Loading bay stay duration exceeded 15 minute limit"
+        }
+      ]
+    },
+    {
+      "frame_index": 210,
+      "timestamp_sec": 8.4,
+      "total_vehicles": 4,
+      "cars": 3,
+      "trucks": 1,
+      "motorcycles": 0,
+      "total_bays": 8,
+      "occupied_bays": 4,
+      "available_bays": 4,
+      "occupancy_percentage": 50.0,
+      "violations_count": 1,
+      "detections": [
+        {
+          "id": "det-210-0",
+          "track_id": 4000,
+          "class": "car",
+          "confidence": 0.638,
+          "xyxy": [
+            453.4,
+            270.0,
+            533.4,
+            321.5
+          ],
+          "css_rect": {
+            "left": "59.0%",
+            "top": "62.5%",
+            "width": "10.4%",
+            "height": "11.9%"
+          }
+        },
+        {
+          "id": "det-210-1",
+          "track_id": 4001,
+          "class": "car",
+          "confidence": 0.591,
+          "xyxy": [
+            302.9,
+            293.1,
+            374.8,
+            356.7
+          ],
+          "css_rect": {
+            "left": "39.4%",
+            "top": "67.8%",
+            "width": "9.4%",
+            "height": "14.7%"
+          }
+        },
+        {
+          "id": "det-210-2",
+          "track_id": 4002,
+          "class": "car",
+          "confidence": 0.576,
+          "xyxy": [
+            302.3,
+            344.8,
+            396.8,
+            429.1
+          ],
+          "css_rect": {
+            "left": "39.4%",
+            "top": "79.8%",
+            "width": "12.3%",
+            "height": "19.5%"
+          }
+        },
+        {
+          "id": "det-210-3",
+          "track_id": 4003,
+          "class": "truck",
+          "confidence": 0.386,
+          "xyxy": [
+            662.0,
+            208.3,
+            767.7,
+            357.9
+          ],
+          "css_rect": {
+            "left": "86.2%",
+            "top": "48.2%",
+            "width": "13.8%",
+            "height": "34.6%"
+          }
+        }
+      ],
+      "vacant_slots": [
+        {
+          "slot_id": "BAY-L2-02",
+          "pillar": "PILLAR C-02",
+          "css_rect": {
+            "left": "15.0%",
+            "top": "45.0%",
+            "width": "16.0%",
+            "height": "22.0%"
+          },
+          "type": "VACANT"
+        },
+        {
+          "slot_id": "BAY-L2-05",
+          "pillar": "PILLAR C-05",
+          "css_rect": {
+            "left": "68.0%",
+            "top": "45.0%",
+            "width": "18.0%",
+            "height": "22.0%"
+          },
+          "type": "VACANT"
+        },
+        {
+          "slot_id": "BAY-L2-07",
+          "pillar": "PILLAR C-07",
+          "css_rect": {
+            "left": "42.0%",
+            "top": "38.0%",
+            "width": "14.0%",
+            "height": "20.0%"
+          },
+          "type": "VACANT"
+        }
+      ],
+      "violations": [
+        {
+          "id": "viol-3",
+          "code": "E98211-3419",
+          "type": "RESTRICTED_CURB_VIOLATION",
+          "title": "Commercial Loading Overstay",
+          "pillar": "PILLAR C-04",
+          "confidence": 0.591,
+          "track_id": 4001,
+          "vehicle_type": "car",
+          "css_rect": {
+            "left": "39.4%",
+            "top": "67.8%",
+            "width": "9.4%",
+            "height": "14.7%"
+          },
+          "time_ago": "8m ago",
+          "severity": "WARNING",
+          "description": "Loading bay stay duration exceeded 15 minute limit"
+        }
+      ]
+    },
+    {
+      "frame_index": 225,
+      "timestamp_sec": 9.0,
+      "total_vehicles": 4,
+      "cars": 4,
+      "trucks": 0,
+      "motorcycles": 0,
+      "total_bays": 8,
+      "occupied_bays": 4,
+      "available_bays": 4,
+      "occupancy_percentage": 50.0,
+      "violations_count": 1,
+      "detections": [
+        {
+          "id": "det-225-0",
+          "track_id": 4000,
+          "class": "car",
+          "confidence": 0.738,
+          "xyxy": [
+            449.1,
+            274.5,
+            536.3,
+            324.8
+          ],
+          "css_rect": {
+            "left": "58.5%",
+            "top": "63.5%",
+            "width": "11.4%",
+            "height": "11.6%"
+          }
+        },
+        {
+          "id": "det-225-1",
+          "track_id": 4001,
+          "class": "car",
+          "confidence": 0.543,
+          "xyxy": [
+            306.6,
+            299.3,
+            376.6,
+            359.5
+          ],
+          "css_rect": {
+            "left": "39.9%",
+            "top": "69.3%",
+            "width": "9.1%",
+            "height": "13.9%"
+          }
+        },
+        {
+          "id": "det-225-2",
+          "track_id": 4002,
+          "class": "car",
+          "confidence": 0.521,
+          "xyxy": [
+            306.0,
+            348.6,
+            400.7,
+            429.5
+          ],
+          "css_rect": {
+            "left": "39.8%",
+            "top": "80.7%",
+            "width": "12.3%",
+            "height": "18.7%"
+          }
+        },
+        {
+          "id": "det-225-3",
+          "track_id": 4003,
+          "class": "car",
+          "confidence": 0.361,
+          "xyxy": [
+            664.5,
+            306.3,
+            735.0,
+            358.9
+          ],
+          "css_rect": {
+            "left": "86.5%",
+            "top": "70.9%",
+            "width": "9.2%",
+            "height": "12.2%"
+          }
+        }
+      ],
+      "vacant_slots": [
+        {
+          "slot_id": "BAY-L2-02",
+          "pillar": "PILLAR C-02",
+          "css_rect": {
+            "left": "15.0%",
+            "top": "45.0%",
+            "width": "16.0%",
+            "height": "22.0%"
+          },
+          "type": "VACANT"
+        },
+        {
+          "slot_id": "BAY-L2-05",
+          "pillar": "PILLAR C-05",
+          "css_rect": {
+            "left": "68.0%",
+            "top": "45.0%",
+            "width": "18.0%",
+            "height": "22.0%"
+          },
+          "type": "VACANT"
+        },
+        {
+          "slot_id": "BAY-L2-07",
+          "pillar": "PILLAR C-07",
+          "css_rect": {
+            "left": "42.0%",
+            "top": "38.0%",
+            "width": "14.0%",
+            "height": "20.0%"
+          },
+          "type": "VACANT"
+        }
+      ],
+      "violations": [
+        {
+          "id": "viol-3",
+          "code": "E98211-3419",
+          "type": "RESTRICTED_CURB_VIOLATION",
+          "title": "Commercial Loading Overstay",
+          "pillar": "PILLAR C-04",
+          "confidence": 0.543,
+          "track_id": 4001,
+          "vehicle_type": "car",
+          "css_rect": {
+            "left": "39.9%",
+            "top": "69.3%",
+            "width": "9.1%",
+            "height": "13.9%"
+          },
+          "time_ago": "8m ago",
+          "severity": "WARNING",
+          "description": "Loading bay stay duration exceeded 15 minute limit"
+        }
+      ]
+    },
+    {
+      "frame_index": 240,
+      "timestamp_sec": 9.6,
+      "total_vehicles": 5,
+      "cars": 4,
+      "trucks": 1,
+      "motorcycles": 0,
+      "total_bays": 8,
+      "occupied_bays": 5,
+      "available_bays": 3,
+      "occupancy_percentage": 62.5,
+      "violations_count": 1,
+      "detections": [
+        {
+          "id": "det-240-0",
+          "track_id": 4000,
+          "class": "car",
+          "confidence": 0.717,
+          "xyxy": [
+            442.6,
+            274.1,
+            539.0,
+            325.2
+          ],
+          "css_rect": {
+            "left": "57.6%",
+            "top": "63.5%",
+            "width": "12.6%",
+            "height": "11.8%"
+          }
+        },
+        {
+          "id": "det-240-1",
+          "track_id": 4001,
+          "class": "car",
+          "confidence": 0.497,
+          "xyxy": [
+            308.4,
+            349.1,
+            402.8,
+            429.7
+          ],
+          "css_rect": {
+            "left": "40.2%",
+            "top": "80.8%",
+            "width": "12.3%",
+            "height": "18.6%"
+          }
+        },
+        {
+          "id": "det-240-2",
+          "track_id": 4002,
+          "class": "truck",
+          "confidence": 0.495,
+          "xyxy": [
+            442.0,
+            274.3,
+            539.4,
+            325.2
+          ],
+          "css_rect": {
+            "left": "57.6%",
+            "top": "63.5%",
+            "width": "12.7%",
+            "height": "11.8%"
+          }
+        },
+        {
+          "id": "det-240-3",
+          "track_id": 4003,
+          "class": "car",
+          "confidence": 0.41,
+          "xyxy": [
+            309.1,
+            299.7,
+            379.3,
+            360.4
+          ],
+          "css_rect": {
+            "left": "40.3%",
+            "top": "69.4%",
+            "width": "9.1%",
+            "height": "14.1%"
+          }
+        },
+        {
+          "id": "det-240-4",
+          "track_id": 4004,
+          "class": "car",
+          "confidence": 0.385,
+          "xyxy": [
+            668.5,
+            306.2,
+            737.8,
+            359.6
+          ],
+          "css_rect": {
+            "left": "87.0%",
+            "top": "70.9%",
+            "width": "9.0%",
+            "height": "12.4%"
+          }
+        }
+      ],
+      "vacant_slots": [
+        {
+          "slot_id": "BAY-L2-02",
+          "pillar": "PILLAR C-02",
+          "css_rect": {
+            "left": "15.0%",
+            "top": "45.0%",
+            "width": "16.0%",
+            "height": "22.0%"
+          },
+          "type": "VACANT"
+        },
+        {
+          "slot_id": "BAY-L2-05",
+          "pillar": "PILLAR C-05",
+          "css_rect": {
+            "left": "68.0%",
+            "top": "45.0%",
+            "width": "18.0%",
+            "height": "22.0%"
+          },
+          "type": "VACANT"
+        },
+        {
+          "slot_id": "BAY-L2-07",
+          "pillar": "PILLAR C-07",
+          "css_rect": {
+            "left": "42.0%",
+            "top": "38.0%",
+            "width": "14.0%",
+            "height": "20.0%"
+          },
+          "type": "VACANT"
+        }
+      ],
+      "violations": [
+        {
+          "id": "viol-3",
+          "code": "E98211-3419",
+          "type": "RESTRICTED_CURB_VIOLATION",
+          "title": "Commercial Loading Overstay",
+          "pillar": "PILLAR C-04",
+          "confidence": 0.41,
+          "track_id": 4003,
+          "vehicle_type": "car",
+          "css_rect": {
+            "left": "40.3%",
+            "top": "69.4%",
+            "width": "9.1%",
+            "height": "14.1%"
+          },
+          "time_ago": "8m ago",
+          "severity": "WARNING",
+          "description": "Loading bay stay duration exceeded 15 minute limit"
+        }
+      ]
+    },
+    {
+      "frame_index": 255,
+      "timestamp_sec": 10.2,
+      "total_vehicles": 4,
+      "cars": 4,
+      "trucks": 0,
+      "motorcycles": 0,
+      "total_bays": 8,
+      "occupied_bays": 4,
+      "available_bays": 4,
+      "occupancy_percentage": 50.0,
+      "violations_count": 1,
+      "detections": [
+        {
+          "id": "det-255-0",
+          "track_id": 4000,
+          "class": "car",
+          "confidence": 0.809,
+          "xyxy": [
+            432.7,
+            270.9,
+            537.4,
+            322.8
+          ],
+          "css_rect": {
+            "left": "56.3%",
+            "top": "62.7%",
+            "width": "13.6%",
+            "height": "12.0%"
+          }
+        },
+        {
+          "id": "det-255-1",
+          "track_id": 4001,
+          "class": "car",
+          "confidence": 0.581,
+          "xyxy": [
+            309.0,
+            346.9,
+            402.7,
+            428.6
+          ],
+          "css_rect": {
+            "left": "40.2%",
+            "top": "80.3%",
+            "width": "12.2%",
+            "height": "18.9%"
+          }
+        },
+        {
+          "id": "det-255-2",
+          "track_id": 4002,
+          "class": "car",
+          "confidence": 0.37,
+          "xyxy": [
+            668.7,
+            301.5,
+            737.1,
+            356.1
+          ],
+          "css_rect": {
+            "left": "87.1%",
+            "top": "69.8%",
+            "width": "8.9%",
+            "height": "12.6%"
+          }
+        },
+        {
+          "id": "det-255-3",
+          "track_id": 4003,
+          "class": "car",
+          "confidence": 0.362,
+          "xyxy": [
+            308.6,
+            296.4,
+            378.6,
+            358.4
+          ],
+          "css_rect": {
+            "left": "40.2%",
+            "top": "68.6%",
+            "width": "9.1%",
+            "height": "14.3%"
+          }
+        }
+      ],
+      "vacant_slots": [
+        {
+          "slot_id": "BAY-L2-02",
+          "pillar": "PILLAR C-02",
+          "css_rect": {
+            "left": "15.0%",
+            "top": "45.0%",
+            "width": "16.0%",
+            "height": "22.0%"
+          },
+          "type": "VACANT"
+        },
+        {
+          "slot_id": "BAY-L2-05",
+          "pillar": "PILLAR C-05",
+          "css_rect": {
+            "left": "68.0%",
+            "top": "45.0%",
+            "width": "18.0%",
+            "height": "22.0%"
+          },
+          "type": "VACANT"
+        },
+        {
+          "slot_id": "BAY-L2-07",
+          "pillar": "PILLAR C-07",
+          "css_rect": {
+            "left": "42.0%",
+            "top": "38.0%",
+            "width": "14.0%",
+            "height": "20.0%"
+          },
+          "type": "VACANT"
+        }
+      ],
+      "violations": [
+        {
+          "id": "viol-3",
+          "code": "E98211-3419",
+          "type": "RESTRICTED_CURB_VIOLATION",
+          "title": "Commercial Loading Overstay",
+          "pillar": "PILLAR C-04",
+          "confidence": 0.362,
+          "track_id": 4003,
+          "vehicle_type": "car",
+          "css_rect": {
+            "left": "40.2%",
+            "top": "68.6%",
+            "width": "9.1%",
+            "height": "14.3%"
+          },
+          "time_ago": "8m ago",
+          "severity": "WARNING",
+          "description": "Loading bay stay duration exceeded 15 minute limit"
+        }
+      ]
+    },
+    {
+      "frame_index": 270,
+      "timestamp_sec": 10.8,
+      "total_vehicles": 4,
+      "cars": 4,
+      "trucks": 0,
+      "motorcycles": 0,
+      "total_bays": 8,
+      "occupied_bays": 4,
+      "available_bays": 4,
+      "occupancy_percentage": 50.0,
+      "violations_count": 1,
+      "detections": [
+        {
+          "id": "det-270-0",
+          "track_id": 4000,
+          "class": "car",
+          "confidence": 0.806,
+          "xyxy": [
+            423.6,
+            267.3,
+            535.9,
+            319.2
+          ],
+          "css_rect": {
+            "left": "55.2%",
+            "top": "61.9%",
+            "width": "14.6%",
+            "height": "12.0%"
+          }
+        },
+        {
+          "id": "det-270-1",
+          "track_id": 4001,
+          "class": "car",
+          "confidence": 0.553,
+          "xyxy": [
+            305.4,
+            342.6,
+            400.6,
+            430.4
+          ],
+          "css_rect": {
+            "left": "39.8%",
+            "top": "79.3%",
+            "width": "12.4%",
+            "height": "20.3%"
+          }
+        },
+        {
+          "id": "det-270-2",
+          "track_id": 4002,
+          "class": "car",
+          "confidence": 0.454,
+          "xyxy": [
+            665.7,
+            296.4,
+            735.4,
+            352.7
+          ],
+          "css_rect": {
+            "left": "86.7%",
+            "top": "68.6%",
+            "width": "9.1%",
+            "height": "13.0%"
+          }
+        },
+        {
+          "id": "det-270-3",
+          "track_id": 4003,
+          "class": "car",
+          "confidence": 0.382,
+          "xyxy": [
+            306.8,
+            292.6,
+            377.3,
+            354.3
+          ],
+          "css_rect": {
+            "left": "40.0%",
+            "top": "67.7%",
+            "width": "9.2%",
+            "height": "14.3%"
+          }
+        }
+      ],
+      "vacant_slots": [
+        {
+          "slot_id": "BAY-L2-02",
+          "pillar": "PILLAR C-02",
+          "css_rect": {
+            "left": "15.0%",
+            "top": "45.0%",
+            "width": "16.0%",
+            "height": "22.0%"
+          },
+          "type": "VACANT"
+        },
+        {
+          "slot_id": "BAY-L2-05",
+          "pillar": "PILLAR C-05",
+          "css_rect": {
+            "left": "68.0%",
+            "top": "45.0%",
+            "width": "18.0%",
+            "height": "22.0%"
+          },
+          "type": "VACANT"
+        },
+        {
+          "slot_id": "BAY-L2-07",
+          "pillar": "PILLAR C-07",
+          "css_rect": {
+            "left": "42.0%",
+            "top": "38.0%",
+            "width": "14.0%",
+            "height": "20.0%"
+          },
+          "type": "VACANT"
+        }
+      ],
+      "violations": [
+        {
+          "id": "viol-3",
+          "code": "E98211-3419",
+          "type": "RESTRICTED_CURB_VIOLATION",
+          "title": "Commercial Loading Overstay",
+          "pillar": "PILLAR C-04",
+          "confidence": 0.382,
+          "track_id": 4003,
+          "vehicle_type": "car",
+          "css_rect": {
+            "left": "40.0%",
+            "top": "67.7%",
+            "width": "9.2%",
+            "height": "14.3%"
+          },
+          "time_ago": "8m ago",
+          "severity": "WARNING",
+          "description": "Loading bay stay duration exceeded 15 minute limit"
+        }
+      ]
+    },
+    {
+      "frame_index": 285,
+      "timestamp_sec": 11.4,
+      "total_vehicles": 3,
+      "cars": 3,
+      "trucks": 0,
+      "motorcycles": 0,
+      "total_bays": 8,
+      "occupied_bays": 3,
+      "available_bays": 5,
+      "occupancy_percentage": 37.5,
+      "violations_count": 1,
+      "detections": [
+        {
+          "id": "det-285-0",
+          "track_id": 4000,
+          "class": "car",
+          "confidence": 0.866,
+          "xyxy": [
+            414.6,
+            262.2,
+            533.5,
+            315.6
+          ],
+          "css_rect": {
+            "left": "54.0%",
+            "top": "60.7%",
+            "width": "15.5%",
+            "height": "12.4%"
+          }
+        },
+        {
+          "id": "det-285-1",
+          "track_id": 4001,
+          "class": "car",
+          "confidence": 0.636,
+          "xyxy": [
+            304.9,
+            338.5,
+            398.9,
+            430.3
+          ],
+          "css_rect": {
+            "left": "39.7%",
+            "top": "78.4%",
+            "width": "12.2%",
+            "height": "21.2%"
+          }
+        },
+        {
+          "id": "det-285-2",
+          "track_id": 4002,
+          "class": "car",
+          "confidence": 0.468,
+          "xyxy": [
+            305.6,
+            287.9,
+            375.2,
+            349.3
+          ],
+          "css_rect": {
+            "left": "39.8%",
+            "top": "66.7%",
+            "width": "9.1%",
+            "height": "14.2%"
+          }
+        }
+      ],
+      "vacant_slots": [
+        {
+          "slot_id": "BAY-L2-02",
+          "pillar": "PILLAR C-02",
+          "css_rect": {
+            "left": "15.0%",
+            "top": "45.0%",
+            "width": "16.0%",
+            "height": "22.0%"
+          },
+          "type": "VACANT"
+        },
+        {
+          "slot_id": "BAY-L2-05",
+          "pillar": "PILLAR C-05",
+          "css_rect": {
+            "left": "68.0%",
+            "top": "45.0%",
+            "width": "18.0%",
+            "height": "22.0%"
+          },
+          "type": "VACANT"
+        },
+        {
+          "slot_id": "BAY-L2-07",
+          "pillar": "PILLAR C-07",
+          "css_rect": {
+            "left": "42.0%",
+            "top": "38.0%",
+            "width": "14.0%",
+            "height": "20.0%"
+          },
+          "type": "VACANT"
+        }
+      ],
+      "violations": [
+        {
+          "id": "viol-3",
+          "code": "E98211-3419",
+          "type": "RESTRICTED_CURB_VIOLATION",
+          "title": "Commercial Loading Overstay",
+          "pillar": "PILLAR C-04",
+          "confidence": 0.468,
+          "track_id": 4002,
+          "vehicle_type": "car",
+          "css_rect": {
+            "left": "39.8%",
+            "top": "66.7%",
+            "width": "9.1%",
+            "height": "14.2%"
+          },
+          "time_ago": "8m ago",
+          "severity": "WARNING",
+          "description": "Loading bay stay duration exceeded 15 minute limit"
+        }
+      ]
+    },
+    {
+      "frame_index": 300,
+      "timestamp_sec": 12.0,
+      "total_vehicles": 3,
+      "cars": 3,
+      "trucks": 0,
+      "motorcycles": 0,
+      "total_bays": 8,
+      "occupied_bays": 3,
+      "available_bays": 5,
+      "occupancy_percentage": 37.5,
+      "violations_count": 1,
+      "detections": [
+        {
+          "id": "det-300-0",
+          "track_id": 4000,
+          "class": "car",
+          "confidence": 0.881,
+          "xyxy": [
+            408.7,
+            259.1,
+            534.1,
+            311.0
+          ],
+          "css_rect": {
+            "left": "53.2%",
+            "top": "60.0%",
+            "width": "16.3%",
+            "height": "12.0%"
+          }
+        },
+        {
+          "id": "det-300-1",
+          "track_id": 4001,
+          "class": "car",
+          "confidence": 0.651,
+          "xyxy": [
+            303.8,
+            334.9,
+            399.0,
+            431.4
+          ],
+          "css_rect": {
+            "left": "39.6%",
+            "top": "77.5%",
+            "width": "12.4%",
+            "height": "22.3%"
+          }
+        },
+        {
+          "id": "det-300-2",
+          "track_id": 4002,
+          "class": "car",
+          "confidence": 0.64,
+          "xyxy": [
+            304.7,
+            284.9,
+            375.2,
+            346.2
+          ],
+          "css_rect": {
+            "left": "39.7%",
+            "top": "65.9%",
+            "width": "9.2%",
+            "height": "14.2%"
+          }
+        }
+      ],
+      "vacant_slots": [
+        {
+          "slot_id": "BAY-L2-02",
+          "pillar": "PILLAR C-02",
+          "css_rect": {
+            "left": "15.0%",
+            "top": "45.0%",
+            "width": "16.0%",
+            "height": "22.0%"
+          },
+          "type": "VACANT"
+        },
+        {
+          "slot_id": "BAY-L2-05",
+          "pillar": "PILLAR C-05",
+          "css_rect": {
+            "left": "68.0%",
+            "top": "45.0%",
+            "width": "18.0%",
+            "height": "22.0%"
+          },
+          "type": "VACANT"
+        },
+        {
+          "slot_id": "BAY-L2-07",
+          "pillar": "PILLAR C-07",
+          "css_rect": {
+            "left": "42.0%",
+            "top": "38.0%",
+            "width": "14.0%",
+            "height": "20.0%"
+          },
+          "type": "VACANT"
+        }
+      ],
+      "violations": [
+        {
+          "id": "viol-3",
+          "code": "E98211-3419",
+          "type": "RESTRICTED_CURB_VIOLATION",
+          "title": "Commercial Loading Overstay",
+          "pillar": "PILLAR C-04",
+          "confidence": 0.64,
+          "track_id": 4002,
+          "vehicle_type": "car",
+          "css_rect": {
+            "left": "39.7%",
+            "top": "65.9%",
+            "width": "9.2%",
+            "height": "14.2%"
+          },
+          "time_ago": "8m ago",
+          "severity": "WARNING",
+          "description": "Loading bay stay duration exceeded 15 minute limit"
+        }
+      ]
+    },
+    {
+      "frame_index": 315,
+      "timestamp_sec": 12.6,
+      "total_vehicles": 2,
+      "cars": 2,
+      "trucks": 0,
+      "motorcycles": 0,
+      "total_bays": 8,
+      "occupied_bays": 2,
+      "available_bays": 6,
+      "occupancy_percentage": 25.0,
+      "violations_count": 1,
+      "detections": [
+        {
+          "id": "det-315-0",
+          "track_id": 4000,
+          "class": "car",
+          "confidence": 0.809,
+          "xyxy": [
+            403.1,
+            256.4,
+            533.2,
+            310.8
+          ],
+          "css_rect": {
+            "left": "52.5%",
+            "top": "59.4%",
+            "width": "16.9%",
+            "height": "12.6%"
+          }
+        },
+        {
+          "id": "det-315-1",
+          "track_id": 4001,
+          "class": "car",
+          "confidence": 0.453,
+          "xyxy": [
+            306.3,
+            284.2,
+            376.0,
+            345.3
+          ],
+          "css_rect": {
+            "left": "39.9%",
+            "top": "65.8%",
+            "width": "9.1%",
+            "height": "14.1%"
+          }
+        }
+      ],
+      "vacant_slots": [
+        {
+          "slot_id": "BAY-L2-02",
+          "pillar": "PILLAR C-02",
+          "css_rect": {
+            "left": "15.0%",
+            "top": "45.0%",
+            "width": "16.0%",
+            "height": "22.0%"
+          },
+          "type": "VACANT"
+        },
+        {
+          "slot_id": "BAY-L2-05",
+          "pillar": "PILLAR C-05",
+          "css_rect": {
+            "left": "68.0%",
+            "top": "45.0%",
+            "width": "18.0%",
+            "height": "22.0%"
+          },
+          "type": "VACANT"
+        },
+        {
+          "slot_id": "BAY-L2-07",
+          "pillar": "PILLAR C-07",
+          "css_rect": {
+            "left": "42.0%",
+            "top": "38.0%",
+            "width": "14.0%",
+            "height": "20.0%"
+          },
+          "type": "VACANT"
+        }
+      ],
+      "violations": [
+        {
+          "id": "viol-3",
+          "code": "E98211-3419",
+          "type": "RESTRICTED_CURB_VIOLATION",
+          "title": "Commercial Loading Overstay",
+          "pillar": "PILLAR C-04",
+          "confidence": 0.453,
+          "track_id": 4001,
+          "vehicle_type": "car",
+          "css_rect": {
+            "left": "39.9%",
+            "top": "65.8%",
+            "width": "9.1%",
+            "height": "14.1%"
+          },
+          "time_ago": "8m ago",
+          "severity": "WARNING",
+          "description": "Loading bay stay duration exceeded 15 minute limit"
+        }
+      ]
+    },
+    {
+      "frame_index": 330,
+      "timestamp_sec": 13.2,
+      "total_vehicles": 3,
+      "cars": 3,
+      "trucks": 0,
+      "motorcycles": 0,
+      "total_bays": 8,
+      "occupied_bays": 3,
+      "available_bays": 5,
+      "occupancy_percentage": 37.5,
+      "violations_count": 1,
+      "detections": [
+        {
+          "id": "det-330-0",
+          "track_id": 4000,
+          "class": "car",
+          "confidence": 0.776,
+          "xyxy": [
+            399.9,
+            253.5,
+            528.6,
+            309.5
+          ],
+          "css_rect": {
+            "left": "52.1%",
+            "top": "58.7%",
+            "width": "16.8%",
+            "height": "13.0%"
+          }
+        },
+        {
+          "id": "det-330-1",
+          "track_id": 4001,
+          "class": "car",
+          "confidence": 0.552,
+          "xyxy": [
+            309.1,
+            330.7,
+            404.7,
+            429.1
+          ],
+          "css_rect": {
+            "left": "40.2%",
+            "top": "76.5%",
+            "width": "12.5%",
+            "height": "22.8%"
+          }
+        },
+        {
+          "id": "det-330-2",
+          "track_id": 4002,
+          "class": "car",
+          "confidence": 0.374,
+          "xyxy": [
+            322.4,
+            282.5,
+            378.9,
+            343.4
+          ],
+          "css_rect": {
+            "left": "42.0%",
+            "top": "65.4%",
+            "width": "7.4%",
+            "height": "14.1%"
+          }
+        }
+      ],
+      "vacant_slots": [
+        {
+          "slot_id": "BAY-L2-02",
+          "pillar": "PILLAR C-02",
+          "css_rect": {
+            "left": "15.0%",
+            "top": "45.0%",
+            "width": "16.0%",
+            "height": "22.0%"
+          },
+          "type": "VACANT"
+        },
+        {
+          "slot_id": "BAY-L2-05",
+          "pillar": "PILLAR C-05",
+          "css_rect": {
+            "left": "68.0%",
+            "top": "45.0%",
+            "width": "18.0%",
+            "height": "22.0%"
+          },
+          "type": "VACANT"
+        },
+        {
+          "slot_id": "BAY-L2-07",
+          "pillar": "PILLAR C-07",
+          "css_rect": {
+            "left": "42.0%",
+            "top": "38.0%",
+            "width": "14.0%",
+            "height": "20.0%"
+          },
+          "type": "VACANT"
+        }
+      ],
+      "violations": [
+        {
+          "id": "viol-3",
+          "code": "E98211-3419",
+          "type": "RESTRICTED_CURB_VIOLATION",
+          "title": "Commercial Loading Overstay",
+          "pillar": "PILLAR C-04",
+          "confidence": 0.374,
+          "track_id": 4002,
+          "vehicle_type": "car",
+          "css_rect": {
+            "left": "42.0%",
+            "top": "65.4%",
+            "width": "7.4%",
+            "height": "14.1%"
+          },
+          "time_ago": "8m ago",
+          "severity": "WARNING",
+          "description": "Loading bay stay duration exceeded 15 minute limit"
+        }
+      ]
+    },
+    {
+      "frame_index": 345,
+      "timestamp_sec": 13.8,
+      "total_vehicles": 3,
+      "cars": 3,
+      "trucks": 0,
+      "motorcycles": 0,
+      "total_bays": 8,
+      "occupied_bays": 3,
+      "available_bays": 5,
+      "occupancy_percentage": 37.5,
+      "violations_count": 1,
+      "detections": [
+        {
+          "id": "det-345-0",
+          "track_id": 4000,
+          "class": "car",
+          "confidence": 0.772,
+          "xyxy": [
+            394.3,
+            252.7,
+            523.5,
+            307.8
+          ],
+          "css_rect": {
+            "left": "51.3%",
+            "top": "58.5%",
+            "width": "16.8%",
+            "height": "12.8%"
+          }
+        },
+        {
+          "id": "det-345-1",
+          "track_id": 4001,
+          "class": "car",
+          "confidence": 0.491,
+          "xyxy": [
+            309.5,
+            330.4,
+            404.5,
+            428.8
+          ],
+          "css_rect": {
+            "left": "40.3%",
+            "top": "76.5%",
+            "width": "12.4%",
+            "height": "22.8%"
+          }
+        },
+        {
+          "id": "det-345-2",
+          "track_id": 4002,
+          "class": "car",
+          "confidence": 0.455,
+          "xyxy": [
+            336.7,
+            280.5,
+            379.2,
+            340.9
+          ],
+          "css_rect": {
+            "left": "43.8%",
+            "top": "64.9%",
+            "width": "5.5%",
+            "height": "14.0%"
+          }
+        }
+      ],
+      "vacant_slots": [
+        {
+          "slot_id": "BAY-L2-02",
+          "pillar": "PILLAR C-02",
+          "css_rect": {
+            "left": "15.0%",
+            "top": "45.0%",
+            "width": "16.0%",
+            "height": "22.0%"
+          },
+          "type": "VACANT"
+        },
+        {
+          "slot_id": "BAY-L2-05",
+          "pillar": "PILLAR C-05",
+          "css_rect": {
+            "left": "68.0%",
+            "top": "45.0%",
+            "width": "18.0%",
+            "height": "22.0%"
+          },
+          "type": "VACANT"
+        },
+        {
+          "slot_id": "BAY-L2-07",
+          "pillar": "PILLAR C-07",
+          "css_rect": {
+            "left": "42.0%",
+            "top": "38.0%",
+            "width": "14.0%",
+            "height": "20.0%"
+          },
+          "type": "VACANT"
+        }
+      ],
+      "violations": [
+        {
+          "id": "viol-3",
+          "code": "E98211-3419",
+          "type": "RESTRICTED_CURB_VIOLATION",
+          "title": "Commercial Loading Overstay",
+          "pillar": "PILLAR C-04",
+          "confidence": 0.772,
+          "track_id": 4000,
+          "vehicle_type": "car",
+          "css_rect": {
+            "left": "51.3%",
+            "top": "58.5%",
+            "width": "16.8%",
+            "height": "12.8%"
+          },
+          "time_ago": "8m ago",
+          "severity": "WARNING",
+          "description": "Loading bay stay duration exceeded 15 minute limit"
+        }
+      ]
+    },
+    {
+      "frame_index": 360,
+      "timestamp_sec": 14.4,
+      "total_vehicles": 2,
+      "cars": 2,
+      "trucks": 0,
+      "motorcycles": 0,
+      "total_bays": 8,
+      "occupied_bays": 2,
+      "available_bays": 6,
+      "occupancy_percentage": 25.0,
+      "violations_count": 1,
+      "detections": [
+        {
+          "id": "det-360-0",
+          "track_id": 4000,
+          "class": "car",
+          "confidence": 0.807,
+          "xyxy": [
+            385.2,
+            252.3,
+            513.1,
+            306.7
+          ],
+          "css_rect": {
+            "left": "50.2%",
+            "top": "58.4%",
+            "width": "16.7%",
+            "height": "12.6%"
+          }
+        },
+        {
+          "id": "det-360-1",
+          "track_id": 4001,
+          "class": "car",
+          "confidence": 0.411,
+          "xyxy": [
+            334.1,
+            280.4,
+            377.6,
+            339.9
+          ],
+          "css_rect": {
+            "left": "43.5%",
+            "top": "64.9%",
+            "width": "5.7%",
+            "height": "13.8%"
+          }
+        }
+      ],
+      "vacant_slots": [
+        {
+          "slot_id": "BAY-L2-02",
+          "pillar": "PILLAR C-02",
+          "css_rect": {
+            "left": "15.0%",
+            "top": "45.0%",
+            "width": "16.0%",
+            "height": "22.0%"
+          },
+          "type": "VACANT"
+        },
+        {
+          "slot_id": "BAY-L2-05",
+          "pillar": "PILLAR C-05",
+          "css_rect": {
+            "left": "68.0%",
+            "top": "45.0%",
+            "width": "18.0%",
+            "height": "22.0%"
+          },
+          "type": "VACANT"
+        },
+        {
+          "slot_id": "BAY-L2-07",
+          "pillar": "PILLAR C-07",
+          "css_rect": {
+            "left": "42.0%",
+            "top": "38.0%",
+            "width": "14.0%",
+            "height": "20.0%"
+          },
+          "type": "VACANT"
+        }
+      ],
+      "violations": [
+        {
+          "id": "viol-3",
+          "code": "E98211-3419",
+          "type": "RESTRICTED_CURB_VIOLATION",
+          "title": "Commercial Loading Overstay",
+          "pillar": "PILLAR C-04",
+          "confidence": 0.807,
+          "track_id": 4000,
+          "vehicle_type": "car",
+          "css_rect": {
+            "left": "50.2%",
+            "top": "58.4%",
+            "width": "16.7%",
+            "height": "12.6%"
+          },
+          "time_ago": "8m ago",
+          "severity": "WARNING",
+          "description": "Loading bay stay duration exceeded 15 minute limit"
+        }
+      ]
+    },
+    {
+      "frame_index": 375,
+      "timestamp_sec": 15.0,
+      "total_vehicles": 3,
+      "cars": 3,
+      "trucks": 0,
+      "motorcycles": 0,
+      "total_bays": 8,
+      "occupied_bays": 3,
+      "available_bays": 5,
+      "occupancy_percentage": 37.5,
+      "violations_count": 1,
+      "detections": [
+        {
+          "id": "det-375-0",
+          "track_id": 4000,
+          "class": "car",
+          "confidence": 0.814,
+          "xyxy": [
+            378.2,
+            254.1,
+            506.2,
+            309.5
+          ],
+          "css_rect": {
+            "left": "49.2%",
+            "top": "58.8%",
+            "width": "16.7%",
+            "height": "12.8%"
+          }
+        },
+        {
+          "id": "det-375-1",
+          "track_id": 4001,
+          "class": "car",
+          "confidence": 0.726,
+          "xyxy": [
+            305.9,
+            331.0,
+            402.3,
+            430.5
+          ],
+          "css_rect": {
+            "left": "39.8%",
+            "top": "76.6%",
+            "width": "12.5%",
+            "height": "23.0%"
+          }
+        },
+        {
+          "id": "det-375-2",
+          "track_id": 4002,
+          "class": "car",
+          "confidence": 0.454,
+          "xyxy": [
+            306.3,
+            282.7,
+            377.3,
+            344.1
+          ],
+          "css_rect": {
+            "left": "39.9%",
+            "top": "65.4%",
+            "width": "9.2%",
+            "height": "14.2%"
+          }
+        }
+      ],
+      "vacant_slots": [
+        {
+          "slot_id": "BAY-L2-02",
+          "pillar": "PILLAR C-02",
+          "css_rect": {
+            "left": "15.0%",
+            "top": "45.0%",
+            "width": "16.0%",
+            "height": "22.0%"
+          },
+          "type": "VACANT"
+        },
+        {
+          "slot_id": "BAY-L2-05",
+          "pillar": "PILLAR C-05",
+          "css_rect": {
+            "left": "68.0%",
+            "top": "45.0%",
+            "width": "18.0%",
+            "height": "22.0%"
+          },
+          "type": "VACANT"
+        },
+        {
+          "slot_id": "BAY-L2-07",
+          "pillar": "PILLAR C-07",
+          "css_rect": {
+            "left": "42.0%",
+            "top": "38.0%",
+            "width": "14.0%",
+            "height": "20.0%"
+          },
+          "type": "VACANT"
+        }
+      ],
+      "violations": [
+        {
+          "id": "viol-3",
+          "code": "E98211-3419",
+          "type": "RESTRICTED_CURB_VIOLATION",
+          "title": "Commercial Loading Overstay",
+          "pillar": "PILLAR C-04",
+          "confidence": 0.814,
+          "track_id": 4000,
+          "vehicle_type": "car",
+          "css_rect": {
+            "left": "49.2%",
+            "top": "58.8%",
+            "width": "16.7%",
+            "height": "12.8%"
+          },
+          "time_ago": "8m ago",
+          "severity": "WARNING",
+          "description": "Loading bay stay duration exceeded 15 minute limit"
+        }
+      ]
+    },
+    {
+      "frame_index": 390,
+      "timestamp_sec": 15.6,
+      "total_vehicles": 4,
+      "cars": 4,
+      "trucks": 0,
+      "motorcycles": 0,
+      "total_bays": 8,
+      "occupied_bays": 4,
+      "available_bays": 4,
+      "occupancy_percentage": 50.0,
+      "violations_count": 1,
+      "detections": [
+        {
+          "id": "det-390-0",
+          "track_id": 4000,
+          "class": "car",
+          "confidence": 0.863,
+          "xyxy": [
+            374.2,
+            258.3,
+            503.0,
+            313.4
+          ],
+          "css_rect": {
+            "left": "48.7%",
+            "top": "59.8%",
+            "width": "16.8%",
+            "height": "12.8%"
+          }
+        },
+        {
+          "id": "det-390-1",
+          "track_id": 4001,
+          "class": "car",
+          "confidence": 0.572,
+          "xyxy": [
+            305.9,
+            334.9,
+            402.3,
+            431.6
+          ],
+          "css_rect": {
+            "left": "39.8%",
+            "top": "77.5%",
+            "width": "12.5%",
+            "height": "22.4%"
+          }
+        },
+        {
+          "id": "det-390-2",
+          "track_id": 4002,
+          "class": "car",
+          "confidence": 0.474,
+          "xyxy": [
+            658.3,
+            287.1,
+            734.6,
+            344.5
+          ],
+          "css_rect": {
+            "left": "85.7%",
+            "top": "66.5%",
+            "width": "9.9%",
+            "height": "13.3%"
+          }
+        },
+        {
+          "id": "det-390-3",
+          "track_id": 4003,
+          "class": "car",
+          "confidence": 0.42,
+          "xyxy": [
+            307.6,
+            286.2,
+            375.8,
+            347.2
+          ],
+          "css_rect": {
+            "left": "40.0%",
+            "top": "66.3%",
+            "width": "8.9%",
+            "height": "14.1%"
+          }
+        }
+      ],
+      "vacant_slots": [
+        {
+          "slot_id": "BAY-L2-02",
+          "pillar": "PILLAR C-02",
+          "css_rect": {
+            "left": "15.0%",
+            "top": "45.0%",
+            "width": "16.0%",
+            "height": "22.0%"
+          },
+          "type": "VACANT"
+        },
+        {
+          "slot_id": "BAY-L2-05",
+          "pillar": "PILLAR C-05",
+          "css_rect": {
+            "left": "68.0%",
+            "top": "45.0%",
+            "width": "18.0%",
+            "height": "22.0%"
+          },
+          "type": "VACANT"
+        },
+        {
+          "slot_id": "BAY-L2-07",
+          "pillar": "PILLAR C-07",
+          "css_rect": {
+            "left": "42.0%",
+            "top": "38.0%",
+            "width": "14.0%",
+            "height": "20.0%"
+          },
+          "type": "VACANT"
+        }
+      ],
+      "violations": [
+        {
+          "id": "viol-3",
+          "code": "E98211-3419",
+          "type": "RESTRICTED_CURB_VIOLATION",
+          "title": "Commercial Loading Overstay",
+          "pillar": "PILLAR C-04",
+          "confidence": 0.863,
+          "track_id": 4000,
+          "vehicle_type": "car",
+          "css_rect": {
+            "left": "48.7%",
+            "top": "59.8%",
+            "width": "16.8%",
+            "height": "12.8%"
+          },
+          "time_ago": "8m ago",
+          "severity": "WARNING",
+          "description": "Loading bay stay duration exceeded 15 minute limit"
+        }
+      ]
+    },
+    {
+      "frame_index": 405,
+      "timestamp_sec": 16.2,
+      "total_vehicles": 2,
+      "cars": 2,
+      "trucks": 0,
+      "motorcycles": 0,
+      "total_bays": 8,
+      "occupied_bays": 2,
+      "available_bays": 6,
+      "occupancy_percentage": 25.0,
+      "violations_count": 1,
+      "detections": [
+        {
+          "id": "det-405-0",
+          "track_id": 4000,
+          "class": "car",
+          "confidence": 0.829,
+          "xyxy": [
+            371.0,
+            264.4,
+            497.4,
+            319.1
+          ],
+          "css_rect": {
+            "left": "48.3%",
+            "top": "61.2%",
+            "width": "16.5%",
+            "height": "12.7%"
+          }
+        },
+        {
+          "id": "det-405-1",
+          "track_id": 4001,
+          "class": "car",
+          "confidence": 0.562,
+          "xyxy": [
+            306.0,
+            339.3,
+            402.5,
+            432.0
+          ],
+          "css_rect": {
+            "left": "39.8%",
+            "top": "78.5%",
+            "width": "12.6%",
+            "height": "21.5%"
+          }
+        }
+      ],
+      "vacant_slots": [
+        {
+          "slot_id": "BAY-L2-02",
+          "pillar": "PILLAR C-02",
+          "css_rect": {
+            "left": "15.0%",
+            "top": "45.0%",
+            "width": "16.0%",
+            "height": "22.0%"
+          },
+          "type": "VACANT"
+        },
+        {
+          "slot_id": "BAY-L2-05",
+          "pillar": "PILLAR C-05",
+          "css_rect": {
+            "left": "68.0%",
+            "top": "45.0%",
+            "width": "18.0%",
+            "height": "22.0%"
+          },
+          "type": "VACANT"
+        },
+        {
+          "slot_id": "BAY-L2-07",
+          "pillar": "PILLAR C-07",
+          "css_rect": {
+            "left": "42.0%",
+            "top": "38.0%",
+            "width": "14.0%",
+            "height": "20.0%"
+          },
+          "type": "VACANT"
+        }
+      ],
+      "violations": [
+        {
+          "id": "viol-3",
+          "code": "E98211-3419",
+          "type": "RESTRICTED_CURB_VIOLATION",
+          "title": "Commercial Loading Overstay",
+          "pillar": "PILLAR C-04",
+          "confidence": 0.829,
+          "track_id": 4000,
+          "vehicle_type": "car",
+          "css_rect": {
+            "left": "48.3%",
+            "top": "61.2%",
+            "width": "16.5%",
+            "height": "12.7%"
+          },
+          "time_ago": "8m ago",
+          "severity": "WARNING",
+          "description": "Loading bay stay duration exceeded 15 minute limit"
+        }
+      ]
+    },
+    {
+      "frame_index": 420,
+      "timestamp_sec": 16.8,
+      "total_vehicles": 3,
+      "cars": 3,
+      "trucks": 0,
+      "motorcycles": 0,
+      "total_bays": 8,
+      "occupied_bays": 3,
+      "available_bays": 5,
+      "occupancy_percentage": 37.5,
+      "violations_count": 1,
+      "detections": [
+        {
+          "id": "det-420-0",
+          "track_id": 4000,
+          "class": "car",
+          "confidence": 0.808,
+          "xyxy": [
+            366.5,
+            269.1,
+            493.4,
+            323.3
+          ],
+          "css_rect": {
+            "left": "47.7%",
+            "top": "62.3%",
+            "width": "16.5%",
+            "height": "12.6%"
+          }
+        },
+        {
+          "id": "det-420-1",
+          "track_id": 4001,
+          "class": "car",
+          "confidence": 0.558,
+          "xyxy": [
+            304.9,
+            344.4,
+            401.2,
+            430.0
+          ],
+          "css_rect": {
+            "left": "39.7%",
+            "top": "79.7%",
+            "width": "12.5%",
+            "height": "19.8%"
+          }
+        },
+        {
+          "id": "det-420-2",
+          "track_id": 4002,
+          "class": "car",
+          "confidence": 0.423,
+          "xyxy": [
+            304.4,
+            297.7,
+            375.6,
+            356.4
+          ],
+          "css_rect": {
+            "left": "39.6%",
+            "top": "68.9%",
+            "width": "9.3%",
+            "height": "13.6%"
+          }
+        }
+      ],
+      "vacant_slots": [
+        {
+          "slot_id": "BAY-L2-02",
+          "pillar": "PILLAR C-02",
+          "css_rect": {
+            "left": "15.0%",
+            "top": "45.0%",
+            "width": "16.0%",
+            "height": "22.0%"
+          },
+          "type": "VACANT"
+        },
+        {
+          "slot_id": "BAY-L2-05",
+          "pillar": "PILLAR C-05",
+          "css_rect": {
+            "left": "68.0%",
+            "top": "45.0%",
+            "width": "18.0%",
+            "height": "22.0%"
+          },
+          "type": "VACANT"
+        },
+        {
+          "slot_id": "BAY-L2-07",
+          "pillar": "PILLAR C-07",
+          "css_rect": {
+            "left": "42.0%",
+            "top": "38.0%",
+            "width": "14.0%",
+            "height": "20.0%"
+          },
+          "type": "VACANT"
+        }
+      ],
+      "violations": [
+        {
+          "id": "viol-3",
+          "code": "E98211-3419",
+          "type": "RESTRICTED_CURB_VIOLATION",
+          "title": "Commercial Loading Overstay",
+          "pillar": "PILLAR C-04",
+          "confidence": 0.808,
+          "track_id": 4000,
+          "vehicle_type": "car",
+          "css_rect": {
+            "left": "47.7%",
+            "top": "62.3%",
+            "width": "16.5%",
+            "height": "12.6%"
+          },
+          "time_ago": "8m ago",
+          "severity": "WARNING",
+          "description": "Loading bay stay duration exceeded 15 minute limit"
+        }
+      ]
+    }
+  ]
+}

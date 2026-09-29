@@ -1,0 +1,70 @@
+# =============================================================================
+# Docker Compose — Smart Curb & Parking Intelligence Platform
+#
+# Services:
+#   db       – PostgreSQL 15 + PostGIS 3
+#   backend  – FastAPI application
+#   frontend – React app (Nginx) [Phase 11]
+#
+# All secrets are read from .env (never hard-coded here).
+# Copy .env.example → .env and fill in real values before running.
+# =============================================================================
+
+services:
+
+  # ── PostgreSQL + PostGIS ────────────────────────────────────────────────────
+  db:
+    image: postgis/postgis:15-3.4-alpine
+    restart: unless-stopped
+    environment:
+      POSTGRES_USER: ${POSTGRES_USER}
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD}
+      POSTGRES_DB: ${POSTGRES_DB}
+    volumes:
+      - pgdata:/var/lib/postgresql/data
+    ports:
+      # Expose only to localhost — do not expose to 0.0.0.0 in production.
+      - "127.0.0.1:5432:5432"
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U ${POSTGRES_USER} -d ${POSTGRES_DB}"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+
+  # ── FastAPI Backend ──────────────────────────────────────────────────────────
+  backend:
+    build:
+      context: ./backend
+      dockerfile: Dockerfile
+    restart: unless-stopped
+    env_file:
+      - .env
+    environment:
+      # Override DATABASE_URL to point at the db service inside Docker network.
+      DATABASE_URL: postgresql+asyncpg://${POSTGRES_USER}:${POSTGRES_PASSWORD}@db:5432/${POSTGRES_DB}
+    ports:
+      - "127.0.0.1:8000:8000"
+    volumes:
+      # Evidence frames are written by the AI engine and read by the backend.
+      - evidence_data:/evidence
+      - log_data:/logs
+    depends_on:
+      db:
+        condition: service_healthy
+
+  # ── React Frontend (added in Phase 11) ────────────────────────────────────
+  # frontend:
+  #   build:
+  #     context: ./frontend
+  #     dockerfile: Dockerfile
+  #   restart: unless-stopped
+  #   ports:
+  #     - "80:80"
+  #     - "443:443"
+  #   depends_on:
+  #     - backend
+
+volumes:
+  pgdata:
+  evidence_data:
+  log_data:

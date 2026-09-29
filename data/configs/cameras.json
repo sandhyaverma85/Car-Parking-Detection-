@@ -1,0 +1,52 @@
+{
+  "_comment": "AI Engine camera configuration. Polygon coordinates are in pixel space [x, y] for the video resolution. Adjust for your actual video resolution and scene layout.",
+  "cameras": [
+    {
+      "id": "CAM-001",
+      "name": "MG Road Parking Zone 4",
+      "source_type": "file",
+      "video_file_path": "data/videos/curb_surveillance.mp4",
+      "parking_slots": [
+        { "id": "P01", "slot_number": 1, "polygon": [[50, 300], [200, 300], [200, 450], [50, 450]] },
+        { "id": "P02", "slot_number": 2, "polygon": [[210, 300], [360, 300], [360, 450], [210, 450]] },
+        { "id": "P03", "slot_number": 3, "polygon": [[370, 300], [520, 300], [520, 450], [370, 450]] },
+        { "id": "P04", "slot_number": 4, "polygon": [[530, 300], [680, 300], [680, 450], [530, 450]] },
+        { "id": "P05", "slot_number": 5, "polygon": [[690, 300], [840, 300], [840, 450], [690, 450]] }
+      ],
+      "zones": [
+        {
+          "id": "Z01",
+          "name": "No Parking Zone - Left Curb",
+          "zone_type": "NO_PARKING",
+          "polygon": [[0, 150], [150, 150], [150, 295], [0, 295]],
+          "allowed_vehicle_types": [],
+          "max_duration_seconds": 30
+        },
+        {
+          "id": "Z02",
+          "name": "Fire Hydrant Zone",
+          "zone_type": "FIRE_HYDRANT",
+          "polygon": [[850, 300], [960, 300], [960, 450], [850, 450]],
+          "allowed_vehicle_types": [],
+          "max_duration_seconds": 10
+        },
+        {
+          "id": "Z03",
+          "name": "Emergency Access Lane",
+          "zone_type": "EMERGENCY_ACCESS",
+          "polygon": [[0, 460], [960, 460], [960, 540], [0, 540]],
+          "allowed_vehicle_types": ["ambulance"],
+          "max_duration_seconds": 5
+        },
+        {
+          "id": "Z04",
+          "name": "Bus Stop Zone",
+          "zone_type": "BUS_STOP",
+          "polygon": [[200, 150], [500, 150], [500, 295], [200, 295]],
+          "allowed_vehicle_types": ["bus"],
+          "max_duration_seconds": 60
+        }
+      ]
+    }
+  ]
+}

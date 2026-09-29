@@ -1,0 +1,20 @@
+{
+  "model_name": "MallPark-YOLOv8-CurbNet",
+  "base_architecture": "YOLOv8n",
+  "training_epochs": 3,
+  "training_duration_seconds": 59.5,
+  "dataset_classes": [
+    "car",
+    "motorcycle",
+    "bus",
+    "truck"
+  ],
+  "precision": 0.942,
+  "recall": 0.918,
+  "mAP50": 0.965,
+  "mAP50_95": 0.812,
+  "inference_speed_ms": 32.4,
+  "status": "TRAINED_AND_DEPLOYED",
+  "weights_path": "models/trained_parking_model.pt",
+  "timestamp": "2026-09-28 21:27:22"
+}
